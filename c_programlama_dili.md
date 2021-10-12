@@ -30,11 +30,11 @@
 		+ en uzun atom kuralı (maximum munch)
 	+ sayı sistemleri
 		+ işaretli ve işaretsiz ikilik sayı sistemi
-		+ dönüşümler
-		+ bire tümleme işlemi
-		+ ikiye tümleme işlemi
-		+ onaltılık sayı sistemi
-		+ sekizlik sayı sistemi
+		+ dönüşümler _(conversions)_
+		+ bire tümleme işlemi _(one's complement)_
+		+ ikiye tümleme işlemi _(two's complement)_
+		+ onaltılık sayı sistemi _(hexadecimal system)_
+		+ sekizlik sayı sistemi _(octal system)_
 	+ nesneler (objects)
 		+ tür (type) kavramı
 		+ nesnelerin bellek alanları (storage)
@@ -98,17 +98,17 @@
 	+ return deyimi _(return statement)_
 		+ ifadeli ve ifadesiz return deyimleri _(return statements with/without expression)
 _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
-	+ işlevlerin çağrılması (function calls)
+	+ işlevlerin çağrılması _(function calls)_
 		+ işlev çağrılarından elde edilen değerlerin kullanılması
-	+ inline işlevler (inline functions)
-	+ işlevlerin bildirilmesi (function declarations)
+	+ inline işlevler _(inline functions)_
+	+ işlevlerin bildirilmesi _(function declarations)_
 	
 + __Standart Kütüphane (Standard Library)__
 	+ standart kütüphanenin varlık nedenleri
-		+ ortak arayüz (common interface) ilkesi
-		+ taşınabilirlik (portability)
-		+ kodların tekrar kullanımı (code reuse)
-	+ standart formatlı giriş çıkış işlevleri
+		+ ortak arayüz ilkesi _(common interface principle)_ 
+		+ taşınabilirlik _(portability)_
+		+ kodların tekrar kullanımı _(code reuse)_
+	+ standart formatlı giriş çıkış işlevleri _(standard formatted input/output functions)_
 		+ standart giriş akımı _(standard input stream)_
 		+ standart çıkış akımları _(standard output stream)_
 		+ standart hata akımı _(standard error stream)_
@@ -119,7 +119,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ getchar
 		+ putchar
 	+ standart başlık dosyaları _(standard headers)_
-	+ standart math kütüphanesi
+	+ standart math kütüphanesi _(standard math library)_
 
 + __Operatörler (Operators)__
 	+ temel kavramlar
@@ -209,7 +209,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ stdbool başlık dosyası
 	
 + __Rastgele Sayı Üretimi ve Programlamadaki Önemi__
-	+ gerçek ve sözde rastgele sayı üretimi
+	+ gerçek ve sözde rastgele sayı üretimi _(truly and pseudo random number generation)_
 	+ rastgele sayı üretim algoritmaları
 	+ tohum değeri _(seed value)_
 	+ standart rand ve srand işlevleri
@@ -263,32 +263,32 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 + __Gösterici Dizileri (Pointer Arrays)__
 + __Gösterici Gösteren Gösterici (Pointer to pointer)__
 + __void Göstericiler (void Pointers)__
-	+ türden bağımsız işlevler (generic functions)
+	+ türden bağımsız işlevler _(generic functions)_
 	+ standart memset, memcpy, memmove, memchr, memcmp işlevleri
 	+ void ** türü
 + __İşlev Göstericileri (Function Pointers)__
 	+ genel sentaks
-	+ işlevden adrese dönüşüm (function to pointer conversion)
-	+ işlev göstericileri ve typedef bildirimleri
-	+ geri çağrı (call-back) işlev yapısı
+	+ işlevden adrese dönüşüm _(function to pointer conversion)_
+	+ işlev göstericileri ve typedef bildirimleri _(function pointers and typedef declarations)_
+	+ geri çağrı işlev yapısı _(call-back functions)_
 	+ standart qsort ve bsearch işlevleri
-	+ işlev gösterici dizileri (function pointer arrays)
+	+ işlev gösterici dizileri _(function pointer arrays)_
 + __Çok Boyutlu Diziler (Multi-dimensional Arrays)__
 + __Programların Sonlandırılması__
 	+ normal ve anormal sonlanma (normal & abnormal termination)
 	+ standart exit, atexit ve abort işlevleri
 + __Dinamik Bellek Yönetimi (Dynamic Memory Management)__
 	+ dinamik bellek ihtiyacı ve dinamik ömür kavramı
-	+ heap alanı ve yönetimi
+	+ heap alanı ve yönetimi _(heap and heap management)_
 	+ heap’in parçalara ayrılması _(heap fragmentation)_
 	+ standart dinamik bellek yönetimi işlevleri _(standard memory management functions)_
 		+ malloc
 		+ calloc
 		+ realloc
 		+ free
-		+ bellek sızıntısı (memory leak)
-		+ boşa düşen göstericiler (dangling pointers)
-		+ dinamik dizi (dynamic array) veri yapısı
+		+ bellek sızıntısı _(memory leak)___
+		+ boşa düşen göstericiler _(dangling pointers)_
+		+ dinamik diziveri yapısı _(dynamic array data structure)_
 		
 + __Yer Belirleyiciler (Storage Class Specifiers) ve Tür Niteleyiciler (Type Modifiers)__
 	+ yer belirleyiciler _(storage  class specifiers)_
@@ -297,13 +297,13 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ extern anahtar sözcüğü
 		+ static anahtar sözcüğü
 		+ modül ve bağlantı kategorileri
-			+ iç bağlantı (internal linkage)
-			+ dış bağlantı (external linkage)
-		+ global isim alanının kirlenmesi problemi
+			+ iç bağlantı _(internal linkage)_
+			+ dış bağlantı _(external linkage)_
+		+ global isim alanının kirlenmesi problemi _(global namespace pollution problem)_
 	+ tür niteleyicileri _(type modifiers)_
 		+ const anahtar sözcüğü ve const semantiği
-		+ volatile anahtar sözcüğü
-		+ restrict anahtar sözcüğü
+		+ volatile anahtar sözcüğü _(volatile keyword)_
+		+ restrict anahtar sözcüğü _(restrict keyword)_
 + __Programların sonlandırılması__
 	+ Normal sonlanma ve standart exit işlevi _(normal termination & std. exit function)_
 		+ standart atexit işlevi _(std. atexit function)_
@@ -311,15 +311,15 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 	
 + Yapılar _(Structures)_
 	+ genel sentaks
-		+ yapı öğeleri
+		+ yapı öğeleri _(structure members)_
 		+ nokta operatörü _(member selection - dot operator)_
 		+ ok operatörü _(member selection - arrow operator)_
-		+ yapı nesnelerine ilk değer verilmesi
-	+ yapı nesneleri ve işlevler
-	+ tamamlanmış ve eksik türler (complete / incomplete types)
-	+ içsel türler (nested types)
+		+ yapı nesnelerine ilk değer verilmesi _(initialization of structure variables)_
+	+ yapı nesneleri ve işlevler _(functions with structure parameters)_
+	+ tamamlanmış ve eksik türler _(complete / incomplete types)_
+	+ içsel türler _(nested types)_
 	+ yapı öğesinin kendi türünden gösterici olması
-	+ düğüm (node) kavramı
+	+ düğüm kavramı _(nodes)_ 
 	+ bağlı liste (linked list) veri yapısı
 		+ tekli bağlı listeler _(singly linked lists)_
 		+ çifte bağlı listeler _(double linked lists)_
@@ -383,11 +383,11 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 + __Standart signal kütüphanesi__
 
 + __Önişlemci Komutları – 2__
-	+ önişlemci operatörleri
-		+ `#` dizge yapma (stringification) operatörü
-		+ `##` atom yapıştırma (token-pasting) operatörü
-		+ defined operatörü
-	+ öntanımlı sembolik sabitler (predefined symbolic constants)
+	+ önişlemci operatörleri _(preprocessor operators)_
+		+ `#` dizge yapma operatörü _(stringification operator)_ 
+		+ `##` atom yapıştırma operatörü _(token-pasting operator)_ 
+		+ defined operatörü _(defined operator)_
+	+ öntanımlı sembolik sabitler _(predefined symbolic constants)_
 	+ #line komutu
 	+ #error komutu
 	+ #pragma komutu
@@ -396,15 +396,15 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 + __Değişken Sayıda Argümanla Çağrılabilen İşlevler (Variadic Functions)__
 
 + __C99 Standartları ile Eklenen Önemli Öğeler__
-	+ long long veri türü 
+	+ long long veri türü _(long long data type)_
 	+ for döngü deyiminde yapılan bildirimler
-	+ _Bool anahtar sözcüğü ve <stdbool.h> başlık dosaysı
+	+ \_Bool anahtar sözcüğü ve _<stdbool.h>_ başlık dosaysı
 	+ <stdint.h> başlık dosyası ve standart tür eş isimleri
-	+ inline fonksiyonlar (inline functions)
-	+ değişken boyutlu diziler (variable length arrays)
-	+ yapıların esnek dizi öğeleri (flexible array members)
-	+ restrict belirteci
-	+ bileşik sabitler (compound literals)
-	+ variadic makrolar (variadic macros)
+	+ inline fonksiyonlar _(inline functions)_
+	+ değişken boyutlu diziler _(variable length arrays)_
+	+ yapıların esnek dizi öğeleri _(flexible array members)_
+	+ restrict belirteci _(restrict qualifier)_
+	+ bileşik sabitler _(compound literals)_
+	+ variadic makrolar _(variadic macros)_
 	+ C99 standartları ile eklenen diğer standart kütüphane öğeleri
  
