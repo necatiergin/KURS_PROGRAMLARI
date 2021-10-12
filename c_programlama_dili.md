@@ -51,37 +51,37 @@
 	+ kaynak dosya ve çeviri birimi
 	+ derleyici program ve derleme süreci
 		+ derleyici bulgu iletileri
-		+ tanımsız davranış (undefined behavior)
-		+ derleyiciye bağlı durumlar (implementation defined behavior)
+		+ tanımsız davranış _(undefined behavior)_
+		+ derleyiciye bağlı durumlar _(implementation defined behavior)_
 		+ derleyici programların lojik kontrolleri
 		+ derleyiciler ve kod optimizasyonu
-		+ derleyici eklentileri (compiler extensions)
-	+ önişlemci program (preprocessor)
-	+ bağlayıcı program (linker) bağlama zamanı
+		+ derleyici eklentileri _(compiler extensions)_
+	+ önişlemci program _(preprocessor)_
+	+ bağlayıcı program bağlama zamanı _(linker program & link time)_ 
 	+ ide’ler ve yardımcı programlar
 		+ statik kod analizi yapan programlar
 		+ hata ayıklayıcı programlar
 		
 + __Veri Türleri (Data Types)__
-	+ varsayılan türler (fundemental types)
-		+ tamsayı türleri (integer types)
-		+ gerçek sayı türleri (floating types)
-	+ programcı tarafından oluşturulan türler (user defined types)
+	+ varsayılan türler _(fundemental/basic types)_
+		+ tamsayı türleri _(integer types)_
+		+ gerçek sayı türleri _(floating types)_
+	+ programcı tarafından oluşturulan türler _(user defined types)_
 	
 + __Bildirim ve Tanımlama (Declarations & Definitions)__
-	+ bildirimler ve deyimler (declarations and statements)
-	+ ilk değer verme (initialization)
-	+ bildirim listesi
-	+ tanımlama (definition)
+	+ bildirimler ve deyimler _(declarations and statements)_
+	+ ilk değer verme _(initialization)_
+	+ bildirim listesi _(declarations as comma-separated lists)_ 
+	+ tanımlama _(definition)_
 + __Kapsam ve İsim arama (Scope & Name Lookup)__
 	+ kapsam (scope)
-		+ kapsam kategorileri
-			+ block scope
-			+ file scope
+		+ kapsam kategorileri _(scope categories)_
+			+ blok kapsamı (block scope
+			+ dosya kapsamıo _(file scope)_
 			+ function prototype scope
-			+ function scope
-	+ isim arama (name lookup)
-	+ isim çakışmaları (name collision)
+			+ işlev kapsamı _(function scope)_
+	+ isim arama _(name lookup)_
+	+ isim çakışmaları _(name collision)_
 	
 + __Ömür Kavramı (Storage Duration)__
 	+ otomatik ömür _(automatic storage class)_
