@@ -35,21 +35,21 @@
 		+ ikiye tümleme işlemi _(two's complement)_
 		+ onaltılık sayı sistemi _(hexadecimal system)_
 		+ sekizlik sayı sistemi _(octal system)_
-	+ nesneler (objects)
-		+ tür (type) kavramı
-		+ nesnelerin bellek alanları (storage)
-		+ temel türler (fundemantal types)
-		+ programcı tarafından tanımlanan türler (user defined types)
+	+ nesneler _(objects)_
+		+ tür kavramı _(data types)_
+		+ nesnelerin bellek alanları _(storage)_
+		+ temel türler _(fundemantal types)_
+		+ programcı tarafından tanımlanan türler _(user-defined types)_
 	+ ifadeler (expressions)
-		+ ifade kategorileri (value categories)
-			+ sol taraf değeri ifadesi (L value expression)
-			+ sağ taraf değeri ifadesi (R value expression)
-		+ sabit ifadesi (constant expression)
+		+ ifade kategorileri _(value categories)_
+			+ sol taraf değeri ifadesi _(L value expression)_
+			+ sağ taraf değeri ifadesi _(R value expression)_
+		+ sabit ifadesi _(constant expression)_
 		
 + __Bir C Programı Oluşturmak__
 	+ metin düzenleyici programlar ve text dosyaları
-	+ kaynak dosya ve çeviri birimi
-	+ derleyici program ve derleme süreci
+	+ kaynak dosya ve çeviri birimi _(source file & translation unit)_
+	+ derleyici program ve derleme süreci 
 		+ derleyici bulgu iletileri
 		+ tanımsız davranış _(undefined behavior)_
 		+ derleyiciye bağlı durumlar _(implementation defined behavior)_
@@ -76,8 +76,8 @@
 + __Kapsam ve İsim arama (Scope & Name Lookup)__
 	+ kapsam (scope)
 		+ kapsam kategorileri _(scope categories)_
-			+ blok kapsamı (block scope
-			+ dosya kapsamıo _(file scope)_
+			+ blok kapsamı _(block scope)_
+			+ dosya kapsamı _(file scope)_
 			+ function prototype scope
 			+ işlev kapsamı _(function scope)_
 	+ isim arama _(name lookup)_
@@ -157,19 +157,19 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 			+ kaçış sekansları _(escape sequences)_
 			
 + __Kontrol Deyimleri__
-	+ if deyimi
+	+ if deyimi _(if statement)_
 		+ genel sentaks
 		+ else if merdiveni
 		+ tipik yapılan hatalar
 		+ test işlevleri
 	+ döngü deyimleri
-		+ while döngü deyimi
-		+ do while döngü deyimi
-		+ for döngü deyimi
-		+ break deyimi
-		+ continue deyimi
-		+ iç içe döngüler
-		+ döngü idiyomları
+		+ while döngü deyimi _(while statement)_
+		+ do while döngü deyimi _(do-while statement)_
+		+ for döngü deyimi _(for statement)_
+		+ break deyimi _(break statement)_
+		+ continue deyimi _(continue statement)_
+		+ iç içe döngüler _(nested loops)_
+		+ döngü idiyomları _(loop idioms)_ 
 	+ switch deyimi
 	+ goto deyimi
 + __Koşul Operatörü (Ternary Operator)__
