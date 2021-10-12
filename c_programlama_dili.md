@@ -149,7 +149,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ virgül operatörü _(comma operator)_
 	+ öncelik operatörü
 + __Sabitler (Constants)__
-	+ sabitlerin türleri
+	+ sabitlerin türleri _(types of constants)_
 		+ tamsayı sabitleri _(integer constants)_
 		+ gerçek sayı sabitleri _(floating constants)_
 			+ üstel notasyon _(scientific notation)_ 
@@ -216,9 +216,9 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 + __sizeof Operatörü__
 + __Diziler (arrays)__
 	+ veri yapıları ve algoritmalara giriş
-		+ veri yapıları
+		+ veri yapıları _(data structures)_
 		+ algoritmanın karmaşıklığı (complexity of algorithms)
-		+ big O notasyonu
+		+ big O notasyonu _(big O notation)_
 	+ tamsayı ve gerçek sayı dizileri
 	+ dizilere ilk değer verme
 		+ designated initializer (C99)
@@ -235,11 +235,11 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ diziden adrese dönüşüm _(array to pointer conversion)_
 	+ geçerli ve geçersiz göstericiler _(valid & invalid pointers)_
 	+ göstericiler ve const semantiği _(pointers & const semantics)_
-		+ kendisi const göstericiler
-		+ okuma amaçlı const göstericiler
-		+ const semantiği ve tür dönüşümleri
+		+ kendisi const göstericiler _(const pointers)_
+		+ okuma amaçlı const göstericiler 
+		+ const semantiği ve tür dönüşümleri _(const semantics & type conversions)_
 	+ gösterici aritmetiği
-	+ indeks operatörü
+	+ indeks operatörü _(index/subscript operators)_
 	+ diziler üstünde işlem yapan işlevler
 	+ göstericiler ve karşılaştırma işlemleri
 	+ adres döndüren işlevler (function returning pointers)
