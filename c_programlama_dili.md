@@ -130,8 +130,8 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ yan etki noktası _(sequence point)_
 	+ aritmetik operatörler
 		+ toplama, çıkarma, çarpma, bölme ve kalan operatörleri
-		+ işaret operatörleri (sign operators)
-		+ artırma ve eksiltme operatörleri (increment & decrement operators)
+		+ işaret operatörleri _(sign operators)_
+		+ artırma ve eksiltme operatörleri _(increment & decrement operators)_
 	+ karşılaştırma operatörleri _(relational operators)_
 		+ karşılaştırma idiyomları
 		+ tipik hatalar _(typical mistakes)_ 
@@ -144,7 +144,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ atama operatörleri _(assignment operators)_
 		+ atama operatörlerinin değer üretmesi
 		+ yalın atama operatörü
-		+ işlemli atama (compound assignment) operatörleri
+		+ işlemli atama operatörleri _(compound assignment operators)_
 		+ idiyomlar
 	+ virgül operatörü _(comma operator)_
 	+ öncelik operatörü
@@ -159,9 +159,9 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 + __Kontrol Deyimleri__
 	+ if deyimi _(if statement)_
 		+ genel sentaks
-		+ else if merdiveni
-		+ tipik yapılan hatalar
-		+ test işlevleri
+		+ else if merdiveni _(else if ladders)_
+		+ tipik yapılan hatalar _(typical mistakes)_
+		+ test işlevleri _(test functions)_
 	+ döngü deyimleri
 		+ while döngü deyimi _(while statement)_
 		+ do while döngü deyimi _(do-while statement)_
@@ -195,9 +195,9 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ standart limits kütüphanesi
 	
 + __Tür Dönüşümleri (Type Conversions)__
-	+ otomatik tür dönüşümleri (implicit type conversions)
-	+ tür dönüştürme operatörü (type-cast operator)
-	+ tür dönüşümleri ve veri kaybı
+	+ otomatik tür dönüşümleri _(implicit type conversions)_
+	+ tür dönüştürme operatörü _(type-cast operator)_
+	+ tür dönüşümleri ve veri kaybı _(narrowing conversions)_
 	
 + __typedef bildirimleri – 1__
 	+ tür eş isimleri ve taşınabilirlik _(type alias & portability)_  
@@ -205,8 +205,8 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ size_t tür eş ismi
 		+ ptrdiff_t tür ismi
 		+ time_t ve clock_t tür isimleri
-	+ stdint başlık dosyası
-	+ stdbool başlık dosyası
+	+ \<stdint> başlık dosyası
+	+ \<stdbool> başlık dosyası
 	
 + __Rastgele Sayı Üretimi ve Programlamadaki Önemi__
 	+ gerçek ve sözde rastgele sayı üretimi _(truly and pseudo random number generation)_
@@ -255,10 +255,10 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ örnek bazı Posix işlevleri
 + __Standart stddef Kütüphanesi__
 + __String Sabitleri (String Literals)__
-	+ string sabitleri ve const doğruluğu (string literals and const correctness)
-	+ string sabitleri ve ömür
-	+ özdeş string sabitleri
-	+ string sabitleri ve kaçış ekansları
+	+ string sabitleri ve const doğruluğu _(string literals and const correctness)_
+	+ string sabitleri ve ömür _(lifespan of string literals)_
+	+ özdeş string sabitleri 
+	+ string sabitleri ve kaçış sekansları
 	+ string sabitlerinin birden fazla satıra yayılması
 + __Gösterici Dizileri (Pointer Arrays)__
 + __Gösterici Gösteren Gösterici (Pointer to pointer)__
@@ -301,7 +301,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 			+ dış bağlantı _(external linkage)_
 		+ global isim alanının kirlenmesi problemi _(global namespace pollution problem)_
 	+ tür niteleyicileri _(type modifiers)_
-		+ const anahtar sözcüğü ve const semantiği
+		+ const anahtar sözcüğü ve const semantiği _(const keyword & const semantics)_
 		+ volatile anahtar sözcüğü _(volatile keyword)_
 		+ restrict anahtar sözcüğü _(restrict keyword)_
 + __Programların sonlandırılması__
