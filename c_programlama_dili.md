@@ -146,15 +146,15 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ yalın atama operatörü
 		+ işlemli atama (compound assignment) operatörleri
 		+ idiyomlar
-	+ virgül operatörü
+	+ virgül operatörü _(comma operator)_
 	+ öncelik operatörü
 + __Sabitler (Constants)__
 	+ sabitlerin türleri
-		+ tamsayı sabitleri (integer constants)
-		+ gerçek sayı sabitleri (floating constants)
-			+ üstel (scientific) notasyon
-		+ karakter sabitleri
-			+ kaçış sekansları (escape sequences)
+		+ tamsayı sabitleri _(integer constants)_
+		+ gerçek sayı sabitleri _(floating constants)_
+			+ üstel notasyon _(scientific notation)_ 
+		+ karakter sabitleri _(character constants)_
+			+ kaçış sekansları _(escape sequences)_
 			
 + __Kontrol Deyimleri__
 	+ if deyimi
@@ -200,7 +200,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ tür dönüşümleri ve veri kaybı
 	
 + __typedef bildirimleri – 1__
-	+ tür eş isimleri (type alias) ve taşınabilirlik
+	+ tür eş isimleri ve taşınabilirlik _(type alias & portability)_  
 	+ standart typedef türleri
 		+ size_t tür eş ismi
 		+ ptrdiff_t tür ismi
@@ -211,7 +211,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 + __Rastgele Sayı Üretimi ve Programlamadaki Önemi__
 	+ gerçek ve sözde rastgele sayı üretimi
 	+ rastgele sayı üretim algoritmaları
-	+ tohum değeri (seed value)
+	+ tohum değeri _(seed value)_
 	+ standart rand ve srand işlevleri
 + __sizeof Operatörü__
 + __Diziler (arrays)__
@@ -223,14 +223,14 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ dizilere ilk değer verme
 		+ designated initializer (C99)
 	+ yazılar ve yazı tutan char diziler
-		+ null karakter
+		+ null karakter _(null character)_
 		+ yazılara ilişkin temel algoritmalar
 + __Göstericiler (pointers)__
 	+ temel kavramlar
 		+ adres ifadeleri
 		+ gösterici değişkenler
 		+ göstericiler ve storage
-	+ adres operatörü
+	+ adres operatörü _(address of operator)_
 	+ içerik (dereferencing) operatörü 
 	+ diziden adrese dönüşüm (aray to pointer conversion)
 	+ geçerli (valid) ve geçersiz (invalid) göstericiler
@@ -280,8 +280,8 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 + __Dinamik Bellek Yönetimi (Dynamic Memory Management)__
 	+ dinamik bellek ihtiyacı ve dinamik ömür kavramı
 	+ heap alanı ve yönetimi
-	+ heap’in parçalara ayrılması (fragmentation)
-	+ standart dinamik bellek yönetimi işlevleri
+	+ heap’in parçalara ayrılması _(heap fragmentation)_
+	+ standart dinamik bellek yönetimi işlevleri _(standard memory management functions)_
 		+ malloc
 		+ calloc
 		+ realloc
@@ -300,16 +300,16 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 			+ iç bağlantı (internal linkage)
 			+ dış bağlantı (external linkage)
 		+ global isim alanının kirlenmesi problemi
-	+ tür niteleyiciler (type modifiers)
+	+ tür niteleyicileri _(type modifiers)_
 		+ const anahtar sözcüğü ve const semantiği
-		+ volatile anahtar sözcükleri
+		+ volatile anahtar sözcüğü
 		+ restrict anahtar sözcüğü
 + __Programların sonlandırılması__
 	+ Normal sonlanma ve standart exit işlevi (normal termination)
 		+ standart atexit işlevi
 	+ Anormal sonlanma ve standart abort işlevi (abnormal termination)
 	
-+ Yapılar (Structures)
++ Yapılar _(Structures)_
 	+ genel sentaks
 		+ yapı öğeleri
 		+ nokta operatörü
@@ -325,7 +325,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ çifte bağlı listeler (double linked lists)
 		+ döner bağlı isteler (rotating lists)
 	+ ikili arama ağacı (binary search tree) veri yapısı
-	+ yapı türlerinden sabitler (compound literals)
+	+ yapı türlerinden sabitler _(compound literals)_
 	+ handle kavramı ve nesne yönelimli C kütüphaneleri
 	+ Hizalama ve yapı türleri
 		+ hizalama ile ilgili kodlama hataları
@@ -343,14 +343,14 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ birliklerin kullanım temaları
 	+ tagged unions
 + __Numaralandırmalar (Enumarations)__
-	+ numaralandırma sabitleri
+	+ numaralandırma sabitleri _(enumaration constants)_
 	+ enum idiyomları
 + __Bitsel İşlemler (Bitwise Operations)__
-	+ bitsel operatörler
-	+ bitsel manipülasyon işlemleri
-	+ yapıların bit alanı öğeleri
-	+ bitsel işlemler ve birlikler
-	+ bit vektör kullanımı
+	+ bitsel operatörler _(bitwise operators)_
+	+ bitsel manipülasyon işlemleri _(bitwise manipulations)_
+	+ yapıların bit alanı öğeleri _(bitfield members of structures)_
+	+ bitsel işlemler ve birlikler _(bitwise operations & unions)_
+	+ bit vektör kullanımı _(bit vectors)_
 	+ bitsel düzeyde oluşturulan arama (lookup) tabloları
 + __Komut Satırı Argümanları (Command Line Arguments)__
 + __Dosya İşlemleri (File Operations)__
