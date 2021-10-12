@@ -201,7 +201,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	
 + __typedef bildirimleri – 1__
 	+ tür eş isimleri ve taşınabilirlik _(type alias & portability)_  
-	+ standart typedef türleri
+	+ standart typedef isimleri _(standard typedef names)_
 		+ size_t tür eş ismi
 		+ ptrdiff_t tür ismi
 		+ time_t ve clock_t tür isimleri
@@ -227,14 +227,14 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ yazılara ilişkin temel algoritmalar
 + __Göstericiler (pointers)__
 	+ temel kavramlar
-		+ adres ifadeleri
-		+ gösterici değişkenler
-		+ göstericiler ve storage
+		+ adres ifadeleri _(pointer expressions)_
+		+ gösterici değişkenler _(pointer variables)_
+		+ göstericiler ve storage _(pointers & storage duration)_
 	+ adres operatörü _(address of operator)_
-	+ içerik (dereferencing) operatörü 
-	+ diziden adrese dönüşüm (aray to pointer conversion)
-	+ geçerli (valid) ve geçersiz (invalid) göstericiler
-	+ göstericiler ve const semantiği
+	+ içerik operatörü _(dereferencing operator)_  
+	+ diziden adrese dönüşüm _(array to pointer conversion)_
+	+ geçerli ve geçersiz göstericiler _(valid & invalid pointers)_
+	+ göstericiler ve const semantiği _(pointers & const semantics)_
 		+ kendisi const göstericiler
 		+ okuma amaçlı const göstericiler
 		+ const semantiği ve tür dönüşümleri
@@ -243,9 +243,9 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ diziler üstünde işlem yapan işlevler
 	+ göstericiler ve karşılaştırma işlemleri
 	+ adres döndüren işlevler (function returning pointers)
-	+ NULL gösterici
-	+ endianness, little endian, big endian kavramları
-	+ gösterici hataları
+	+ NULL gösterici _(NULL pointer)_
+	+ endianness, little endian, big endian kavramları _(endianness, litlle & big endian)_
+	+ gösterici hataları _(pointer mistakes)_
 + __Standart string Kütüphanesi (string library)__
 	+ strlen, strcpy, strcat, strncpy, strncat işlevleri
 	+ arama işlevleri: strchr, strnchr, strstr, strpbrk, strspn, strcspn
@@ -291,7 +291,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ dinamik dizi (dynamic array) veri yapısı
 		
 + __Yer Belirleyiciler (Storage Class Specifiers) ve Tür Niteleyiciler (Type Modifiers)__
-	+ yer belirleyiciler (storage  class specifiers)
+	+ yer belirleyiciler _(storage  class specifiers)_
 		+ auto anahtar sözcüğü
 		+ register anahtar sözcüğü
 		+ extern anahtar sözcüğü
@@ -305,15 +305,15 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ volatile anahtar sözcüğü
 		+ restrict anahtar sözcüğü
 + __Programların sonlandırılması__
-	+ Normal sonlanma ve standart exit işlevi (normal termination)
-		+ standart atexit işlevi
-	+ Anormal sonlanma ve standart abort işlevi (abnormal termination)
+	+ Normal sonlanma ve standart exit işlevi _(normal termination & std. exit function)_
+		+ standart atexit işlevi _(std. atexit function)_
+_	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 	
 + Yapılar _(Structures)_
 	+ genel sentaks
 		+ yapı öğeleri
-		+ nokta operatörü
-		+ ok operatörü
+		+ nokta operatörü _(member selection - dot operator)_
+		+ ok operatörü _(member selection - arrow operator)_
 		+ yapı nesnelerine ilk değer verilmesi
 	+ yapı nesneleri ve işlevler
 	+ tamamlanmış ve eksik türler (complete / incomplete types)
@@ -321,17 +321,17 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ yapı öğesinin kendi türünden gösterici olması
 	+ düğüm (node) kavramı
 	+ bağlı liste (linked list) veri yapısı
-		+ tekli bağlı listeler (singly linked lists)
-		+ çifte bağlı listeler (double linked lists)
-		+ döner bağlı isteler (rotating lists)
-	+ ikili arama ağacı (binary search tree) veri yapısı
+		+ tekli bağlı listeler _(singly linked lists)_
+		+ çifte bağlı listeler _(double linked lists)_
+		+ döner bağlı isteler _(rotating lists)_
+	+ ikili arama ağacı veri yapısı _(binary search tree data structure)_ 
 	+ yapı türlerinden sabitler _(compound literals)_
 	+ handle kavramı ve nesne yönelimli C kütüphaneleri
 	+ Hizalama ve yapı türleri
 		+ hizalama ile ilgili kodlama hataları
 		+ offsetof makrosu		
 	+ Anonim yapılar
-	+ Yapıların içsel türleri (nested types)
+	+ Yapıların içsel türleri _(nested types of structures)_
 + __Standart time Kütüphanesi (time Library)__
 	+ takvim zamanı ve ayrıştırılmış zaman
 		+ time_t türü
