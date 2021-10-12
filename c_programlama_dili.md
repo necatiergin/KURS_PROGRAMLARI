@@ -5,8 +5,8 @@
 	+ programlama dillerini birbirinden ayıran kriterler
 		+ declarative ve imperative diller _(declarative & imperative languages)_
 		+ programlama paradigmaları _(programming paradigms)_
-		+ seviye (level)
-		+ mülkiyet
+		+ seviye _(level)_
+		+ mülkiyet _(proprietary languages)_
 		+ statik ve dinamik tür kavramları _(static typing vs. dynamic typing)_
 		+ prosedürel programlama ve C dili _(procedural programming & C language)_
 	+ C dilinin kullanım alanları 
@@ -49,16 +49,16 @@
 + __Bir C Programı Oluşturmak__
 	+ metin düzenleyici programlar ve text dosyaları
 	+ kaynak dosya ve çeviri birimi _(source file & translation unit)_
-	+ derleyici program ve derleme süreci 
-		+ derleyici bulgu iletileri
+	+ derleyici program ve derleme süreci _(compilers & compile-time)_
+		+ derleyici bulgu iletileri _(diagnostic messages of compilers)_
 		+ tanımsız davranış _(undefined behavior)_
 		+ derleyiciye bağlı durumlar _(implementation defined behavior)_
 		+ derleyici programların lojik kontrolleri
-		+ derleyiciler ve kod optimizasyonu
+		+ derleyiciler ve kod optimizasyonu _(compilers & cod optimization)_
 		+ derleyici eklentileri _(compiler extensions)_
 	+ önişlemci program _(preprocessor)_
 	+ bağlayıcı program bağlama zamanı _(linker program & link time)_ 
-	+ ide’ler ve yardımcı programlar
+	+ ide’ler ve yardımcı programlar 
 		+ statik kod analizi yapan programlar
 		+ hata ayıklayıcı programlar
 		
@@ -74,11 +74,11 @@
 	+ bildirim listesi _(declarations as comma-separated lists)_ 
 	+ tanımlama _(definition)_
 + __Kapsam ve İsim arama (Scope & Name Lookup)__
-	+ kapsam (scope)
+	+ kapsam _(scope)_
 		+ kapsam kategorileri _(scope categories)_
 			+ blok kapsamı _(block scope)_
 			+ dosya kapsamı _(file scope)_
-			+ function prototype scope
+			+ fonksiyon kapsamı _(function prototype scope)_
 			+ işlev kapsamı _(function scope)_
 	+ isim arama _(name lookup)_
 	+ isim çakışmaları _(name collision)_
@@ -170,8 +170,8 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ continue deyimi _(continue statement)_
 		+ iç içe döngüler _(nested loops)_
 		+ döngü idiyomları _(loop idioms)_ 
-	+ switch deyimi
-	+ goto deyimi
+	+ switch deyimi _(switch statement)_
+	+ goto deyimi _(goto statement)_
 + __Koşul Operatörü (Ternary Operator)__
 + __Standart ctype Kütüphanesi__
 	+ karakter test işlevleri
@@ -180,19 +180,19 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ toupper ve tolower işlevleri
 + __İşlev Bildirimleri (Function Declarations)__
 + __Önişlemci Komutları – 1__
-	+ #include komutu
-	+ #define komutu ve makrolar
-		+ sembolik sabitler
-		+ işlevsel makrolar
-	+ #undef komutu
-	+ koşullu derleme işlemleri ve koşullu derleme komutları
+	+ #include komutu _(include directive)_
+	+ #define komutu ve makrolar _(define directive & macros)_
+		+ sembolik sabitler _(symbolic constants)_
+		+ işlevsel makrolar _(functional macros)_
+	+ #undef komutu _(undef directive)_
+	+ koşullu derleme işlemleri ve koşullu derleme komutları _(conditional compiling directives)_
 		+ #if
 		+ #endif
 		+ #else
 		+ #elif
 		+ #ifdef
 		+ #ifndef
-	+ standart limits kütüphanesi
+	+ standart limits kütüphanesi _(standard \<limits> header)_
 	
 + __Tür Dönüşümleri (Type Conversions)__
 	+ otomatik tür dönüşümleri _(implicit type conversions)_
@@ -327,13 +327,13 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 	+ ikili arama ağacı veri yapısı _(binary search tree data structure)_ 
 	+ yapı türlerinden sabitler _(compound literals)_
 	+ handle kavramı ve nesne yönelimli C kütüphaneleri
-	+ Hizalama ve yapı türleri
+	+ hizalama ve yapı türleri
 		+ hizalama ile ilgili kodlama hataları
 		+ offsetof makrosu		
-	+ Anonim yapılar
-	+ Yapıların içsel türleri _(nested types of structures)_
+	+ anonim yapılar _(anonymous structures)_
+	+ yapıların içsel türleri _(nested types of structures)_
 + __Standart time Kütüphanesi (time Library)__
-	+ takvim zamanı ve ayrıştırılmış zaman
+	+ takvim zamanı ve ayrıştırılmış zaman _(calender time & broken-down time)_
 		+ time_t türü
 		+ clock_t türü
 	+ struct tm yapısı
@@ -384,13 +384,13 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 
 + __Önişlemci Komutları – 2__
 	+ önişlemci operatörleri _(preprocessor operators)_
-		+ `#` dizge yapma operatörü _(stringification operator)_ 
-		+ `##` atom yapıştırma operatörü _(token-pasting operator)_ 
+		+ # dizge yapma operatörü _(stringification operator)_ 
+		+ ## atom yapıştırma operatörü _(token-pasting operator)_ 
 		+ defined operatörü _(defined operator)_
 	+ öntanımlı sembolik sabitler _(predefined symbolic constants)_
-	+ #line komutu
-	+ #error komutu
-	+ #pragma komutu
+	+ #line komutu _(line directive)_
+	+ #error komutu _(error directive)_
+	+ #pragma komutu _pragma directive)_
 + __assert Makrosu__
 
 + __Değişken Sayıda Argümanla Çağrılabilen İşlevler (Variadic Functions)__
