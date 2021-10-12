@@ -3,7 +3,7 @@
 + __Kursun Tanıtımı__
 + __C Programlama Dilinin Genel Tanıtımı__
 	+ programlama dillerini birbirinden ayıran kriterler
-		+ declarative ve imperative diller
+		+ declarative ve imperative diller _(declarative & imperative languages)_
 		+ programlama paradigmaları
 		+ seviye (level)
 		+ mülkiyet
@@ -20,14 +20,14 @@
 
 + __Temel Kavramlar__
 	+ atom (token) kavramı
-		+ atom kategorileri
-			+ anahtar sözcükler (keywords)
-			+ isimler (identifiers)
-			+ sabitler (constants - literals)
-			+ string literalleri (string literals)
-			+ operatörler (operators)
-		+ atomlarına ayırma (tokenizing)
-		+ en uzun atom kuralı (maximum munch)
+		+ atom kategorileri _(token categories)_
+			+ anahtar sözcükler _(keywords)_
+			+ isimler _(identifiers)_
+			+ sabitler _(constants - literals)_
+			+ string literalleri _(string literals)_
+			+ operatörler _(operators)_
+		+ atomlarına ayırma _(tokenizing)_
+		+ en uzun atom kuralı _(maximum munch)_
 	+ sayı sistemleri
 		+ işaretli ve işaretsiz ikilik sayı sistemi
 		+ dönüşümler _(conversions)_
@@ -132,16 +132,16 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ toplama, çıkarma, çarpma, bölme ve kalan operatörleri
 		+ işaret operatörleri (sign operators)
 		+ artırma ve eksiltme operatörleri (increment & decrement operators)
-	+ karşılaştırma operatörleri
+	+ karşılaştırma operatörleri _(relational operators)_
 		+ karşılaştırma idiyomları
-		+ tipik hatalar
-	+ lojik operatörler
+		+ tipik hatalar _(typical mistakes)_ 
+	+ lojik operatörler _(logical operators)_
 		+ lojik yorumlama
-		+ kısa devre davranışı
+		+ kısa devre davranışı _(short-circuit behavior)_
 		+ tipik hatalar
 		+ lojik ifadeler
-		+ idiyomlar
-	+ atama operatörleri
+		+ idiyomlar _(idioms)_
+	+ atama operatörleri _(assignment operators)_
 		+ atama operatörlerinin değer üretmesi
 		+ yalın atama operatörü
 		+ işlemli atama (compound assignment) operatörleri
