@@ -231,16 +231,15 @@
 ## coroutines C++20
 
 ## std::ranges kütüphanesi C++20
-+ fonksiyonel programlama paradigması (functional programming paradigm)
-  + imperative & declarative programming
-  + pure functions
-  + mutable states
-  + higher order functions
-  + filtering
-  + currying
 + ranges
++ standard range algorithms
++ sentinels
++ projections
++ range concepts
 + views
++ range adaptors
 + standard views
++ range type meta functions
 
 ## std::format C++20
 + std::format
