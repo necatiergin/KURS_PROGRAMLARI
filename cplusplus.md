@@ -265,9 +265,9 @@ sınıflar ve isim arama `(name lookup)`
 + arama işlevleri
 + set işlemleri
 + erişim işlemleri
-+ karşılaştırma işlevleri
-+ sayısal dönüşüm işlevleri
-+ small string optimization
++ karşılaştırma işlevleri `(comparision functions)`
++ sayısal dönüşüm işlevleri `(numeric conversions)`
++ küçük string optimizasyonu `(small string optimization)`
 
 ## Bileşik Nesneler _(Composition)_
 + öğe olan nesneler ve özel işlevler, kopyalama kontrolü.
@@ -277,7 +277,8 @@ sınıflar ve isim arama `(name lookup)`
 ## İçsel türler _(Type Members)_
 + sınıf içinde yapılan eş isim bildirimleri
 + içsel sınıflar `(nested classes)`
-+ `pimpl` idiyomu
+  + erişim kontrolü `(access control)`
+  + `pimpl` idiyomu `(pimpl idiom)`
 
 ## Şablonlar _(Templates)_
 + şablon tür parametreleri `(template type parameters)`
@@ -427,7 +428,7 @@ sınıflar ve isim arama `(name lookup)`
 ## Tamamlayıcı Araçlar ve Sentaks Öğeleri
 + static_assert 
 + decltype(auto)
-+ declval
++ std::declval
 + üye fonksiyon göstericileri `(member function pointers)`
 + ham string sabitleri `(raw string literals)`
 + ikilik sayı sisteminde yazılan sabitler `(binary literals)`
@@ -437,7 +438,7 @@ sınıflar ve isim arama `(name lookup)`
 + alignas belirteci `(alignas specifier)`
 + alignof operatörü `(alignof operator)`
 + yapısal bağlama `(structural binding) (C++17)`
-+ attribute’lar
++ attribute’lar `(attributes)`
 
 ## Concurrency
 + memory model
