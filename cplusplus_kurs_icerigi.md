@@ -1,4 +1,4 @@
-# Online C++ Kursu İçeriği
+# Online C++ Programlama Dili Kursu İçeriği
 
 ## C++ Dilinin Genel Tanıtımı
 + C++ dilinin tarihçesi
