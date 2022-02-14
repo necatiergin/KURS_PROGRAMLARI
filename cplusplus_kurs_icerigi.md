@@ -45,17 +45,18 @@
 + sonradan gelen geri dönüş türü `(trailing  return type)`
 + auto geri dönüş değeri türü `(auto return type)`
 
-## enum Sınıfları _(enum Classes)_
+## kapsamlandırılmış enum türleri _(scoped enums)_
 + geleneksel enum türleri `(conventional enum types)`
 + baz tür seçimi `(underlying type)'
 + tür dönüşümleri `(type conversions)`
-+ enum sınıfları ve kapsam `(enum classes & scope)`
++ enum türleri kapsam `(enum classes & scope)`
 
 ## Sabit İfadeleri _(Constant Expressions)_
 + const anahtar sözcüğü ve const semantiği
 + const nesneler
 + constexpr anahtar sözcüğü
-+ constexpr işlevler
++ constexpr işlevler `(constexpr functions)`
++ consteval işlevler - C++20 `(consteval functions - C++20)`
 
 ## İşlevlerin Varsayılan Argüman Alması _(Default Arguments)_
 
@@ -71,7 +72,7 @@
 + genel kurallar
 + yüklenmiş işlev çözümlenmesi `(function overload resolution)`
 + const yüklemesi `(const overloading)`
-+ extern “C” bildirimi
++ extern "C" bildirimi `(extern C declarations)`
 + işlev yüklemesinde dikkat edilmesi gereken durumlar
 
 ## Tür Dönüştürme Operatörleri _(Type-cast Operators)_
@@ -136,8 +137,8 @@ sınıflar ve isim arama `(name lookup)`
 
 ## Operatör Yüklemesi _(Operator Overloading)_
 + operatör yüklemesine ilişkin genel kurallar
-+ üye operatör fonksiyonları
-+ global operatör fonksiyonları
++ üye operatör fonksiyonları `(member operator functions)`
++ global operatör fonksiyonları `(global operator functions)`
 + aritmetik operatörlerin yüklenmesi
 + karşılaştırma operatörlerinin yüklenmesi
 + "++" ve "--" operatörlerinin yüklenmesi
