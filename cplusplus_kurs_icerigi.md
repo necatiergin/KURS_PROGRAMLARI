@@ -47,7 +47,7 @@
 
 ## kapsamlandırılmış enum türleri _(scoped enums)_
 + geleneksel enum türleri `(conventional enum types)`
-+ baz tür seçimi `(underlying type)'
++ baz tür seçimi `(underlying type)`
 + tür dönüşümleri `(type conversions)`
 + enum türleri kapsam `(enum classes & scope)`
 + using enum declarations (C++20)
