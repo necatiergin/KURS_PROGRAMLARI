@@ -50,11 +50,12 @@
 + baz tür seçimi `(underlying type)'
 + tür dönüşümleri `(type conversions)`
 + enum türleri kapsam `(enum classes & scope)`
++ using enum declarations (C++20)
 
 ## Sabit İfadeleri _(Constant Expressions)_
-+ const anahtar sözcüğü ve const semantiği
-+ const nesneler
-+ constexpr anahtar sözcüğü
++ const anahtar sözcüğü ve const semantiği `(const keyword & const semantics)`
++ const nesneler `(const objects)`
++ constexpr anahtar sözcüğü `(constexpr keyword)`
 + constexpr işlevler `(constexpr functions)`
 + consteval işlevler - C++20 `(consteval functions - C++20)`
 + constinit anahtar sözcüğü - C++20
@@ -202,6 +203,8 @@ sınıflar ve isim arama `(name lookup)`
   + çoklu kalıtım ve kalıtımla alınan kurucu işlevler
   + çoklu kalıtımda kopyalama ve taşıma işlemleri
 + private kalıtımı `(private inheritance)`
+  + implementaion inheritance
+  + empty base optimization
 + protected kalıtımı `(protected inheritance)`
 + sınıf içi using bildirimi 
 + kalıtımla alınan kurucu işlevler `(inherited constructors)`
@@ -291,6 +294,8 @@ sınıflar ve isim arama `(name lookup)`
 + şablon sabit parametreleri `(template non-type parameters)`
 + şablon şablon parametreleri `(template template parameters)`
 + şablon argümanları `(template arguments)`
+  + belirtilmiş template argümanları `(explicit template arguments)`
+  + varsayılan template argümanları `(default template arguments)`
 + şablonlardan kod üretimi `(template instantiation)`
 + fonksiyon şablonları `(function templates)`
   + fonksiyon şablonlarında tür çıkarımı `(function template argument deduction)`
@@ -388,7 +393,7 @@ sınıflar ve isim arama `(name lookup)`
 + genelleştirilmiş lambda ifadeleri `(generalized lambda expressions)`
 + algoritmalarda lambda ifadelerinin kullanımı
 + lambda ifadeleri C++11/14/17/20
-+ lambda idiyomları
++ lambda idiyomları `(lambda idioms)`
 
 ## Akıllı Gösterici Sınıfları _(Standard Smart Pointer Classes)_
 + unique_ptr sınıfı
@@ -402,7 +407,7 @@ sınıflar ve isim arama `(name lookup)`
 
 ## Standart Giriş Çıkış Kütüphanesi _(iostream Library)_
 + giriş çıkış akımlarına ilişkin standart sınıflar `(standard stream classes)`
-+ global akım nesneleri 
++ global akım nesneleri `(global stream objects)`
 + formatlı giriş çıkış işlemleri `(formatted input output)`
 + << ve >> operatörlerinin yüklenmesi `(inserter & extractors)`
 + formatlama ve formatlama işlemleri `(formatting)`
@@ -411,7 +416,7 @@ sınıflar ve isim arama `(name lookup)`
 + string akımları `(stringstreams)`
 + dosya işlemleri `(file operations)`
 + formatsız giriş ve çıkış işlemleri `(unformatted input output)`
-+ bellek üstünde yapılan giriş çıkış işlemleri
++ bellek üstünde yapılan giriş çıkış işlemleri `(in-memory input output operations)`
 
 ## Bazı önemli STL Öğelerinin Tanıtımı
 + std::pair
