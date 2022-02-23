@@ -57,6 +57,7 @@
 + constexpr anahtar sözcüğü
 + constexpr işlevler `(constexpr functions)`
 + consteval işlevler - C++20 `(consteval functions - C++20)`
++ constinit anahtar sözcüğü - C++20
 
 ## İşlevlerin Varsayılan Argüman Alması _(Default Arguments)_
 
@@ -133,6 +134,9 @@ sınıflar ve isim arama `(name lookup)`
 + `rule of five`
 + kopyala takas et idiyomu `(copy & swap idiom)`
 + kopyalamanın eliminasyonu `(copy elision)`
+  + geçici nesneler yoluyla kopyalama eliminasyonu `(copy elision by temporaries)`
+  + RVO (return value optimization)
+  + NRVO (names return value optimization)
   + zorunlu kopyalama eliminasyonu `(mandatory copy elision)`
 
 ## Operatör Yüklemesi _(Operator Overloading)_
@@ -244,11 +248,11 @@ sınıflar ve isim arama `(name lookup)`
   + std::bad_exception
   + std::bad_weak_ptr
   + std::bad_function_call
-+ kendi hata sınıflarımızı oluşturmak
++ kendi hata sınıflarımızı oluşturmak `(custom exception classes)`
 + exception garantileri `(eception guarantees)`
   + `basic exception guarantee`
-  + `strong exception gurantee`
-  + `no throw gurantee`
+  + `strong exception guarantee`
+  + `no throw guarantee`
 + std::current_exception
 + std::exception_ptr
 + std::rethrow_exception
@@ -269,6 +273,7 @@ sınıflar ve isim arama `(name lookup)`
 + karşılaştırma işlevleri `(comparision functions)`
 + sayısal dönüşüm işlevleri `(numeric conversions)`
 + küçük string optimizasyonu `(small string optimization)`
++ bir STL kabı olaral string sınıfı `(string class as STL container)` 
 
 ## Bileşik Nesneler _(Composition)_
 + öğe olan nesneler ve özel işlevler, kopyalama kontrolü.
@@ -357,9 +362,9 @@ sınıflar ve isim arama `(name lookup)`
 + kapların emplace işlevleri
 
 ## Kap Uyumlandırıcıları _(Container Adaptors)_
-+ stack
-+ queue
-+ priority_queue
++ std::stack
++ std::queue
++ std::priority_queue
 
 ## Algoritmalar _(Algorithms)_
 + algoritmaların temel özellikleri ve genel ilkeler
@@ -383,14 +388,14 @@ sınıflar ve isim arama `(name lookup)`
 + genelleştirilmiş lambda ifadeleri `(generalized lambda expressions)`
 + algoritmalarda lambda ifadelerinin kullanımı
 + lambda ifadeleri C++11/14/17/20
-+ lambda isiyomları
++ lambda idiyomları
 
 ## Akıllı Gösterici Sınıfları _(Standard Smart Pointer Classes)_
 + unique_ptr sınıfı
   + std::make_unique işlev şablonu
   + std::default_delete ve custom deleters
   + tipik hatalar
-+ shared_ptr sınıfı
++ std::shared_ptr sınıfı
   + referans sayımı `(reference counting)`
   + std::make_shared işlev şablonu
   + weak_ptr sınıfı
@@ -428,7 +433,7 @@ sınıflar ve isim arama `(name lookup)`
 
 ## Tamamlayıcı Araçlar ve Sentaks Öğeleri
 + static_assert 
-+ decltype(auto)
++ decltype(auto) tür çıkarımı
 + std::declval
 + üye fonksiyon göstericileri `(member function pointers)`
 + ham string sabitleri `(raw string literals)`
