@@ -146,6 +146,7 @@ sınıflar ve isim arama `(name lookup)`
 + global operatör fonksiyonları `(global operator functions)`
 + aritmetik operatörlerin yüklenmesi
 + karşılaştırma operatörlerinin yüklenmesi
++ 3 yollu karşılaştırma operatörü `(3-way comparision operator)` C++20
 + "++" ve "--" operatörlerinin yüklenmesi
 + ok operatörü ve içerik operatörlerinin yüklenmesi
 + [] operatörünün yüklenmesi
@@ -185,11 +186,13 @@ sınıflar ve isim arama `(name lookup)`
 + nesne yönelimli programlama ve kalıtım `(OOP & inheritance)`
 + public kalıtımı `(public inheritance)`
 + çalışma zamanı çok biçimliliği `(runtime polymorphism)`
+  + dinamik ve statik tür bilgisi `(static & dynamic type)`
   + sanal işlevler `(virtual function)`
   + saf sanal işlevler `(pure virtual function)`
   + sanal sonlandırıcı işlev `(virtual destructor)`
   + sanal kurucu işlev idiyomu `(virtual constructor idiom)`
   + override bağlamsal anahtar sözcüğü
+  + sanal gönderim mekanizmasının implementasyonu `(implementation of virtual dispatch mechanism)`
   + nesne dilimlenmesi `(object slicing)`
   + sanal olmayan arayüz idiyomu `(non-virtual interface idiom)`
 + final bağlamsal anahtar sözcüğü `(final contextual keyword)` 
@@ -208,6 +211,7 @@ sınıflar ve isim arama `(name lookup)`
 + protected kalıtımı `(protected inheritance)`
 + sınıf içi using bildirimi 
 + kalıtımla alınan kurucu işlevler `(inherited constructors)`
++ mixin sınıflar `(mixin classes)`
 
 ## Olağan Dışı Durumların İşlenmesi _(Exception Handling)_
 + exception güvenliği `(exception safety) `
