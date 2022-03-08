@@ -286,7 +286,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 		+ calloc
 		+ realloc
 		+ free
-		+ bellek sızıntısı _(memory leak)___
+		+ bellek sızıntısı _(memory leak)_
 		+ boşa düşen göstericiler _(dangling pointers)_
 		+ dinamik diziveri yapısı _(dynamic array data structure)_
 		
@@ -407,4 +407,7 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 	+ bileşik sabitler _(compound literals)_
 	+ variadic makrolar _(variadic macros)_
 	+ C99 standartları ile eklenen diğer standart kütüphane öğeleri
+	+ C11 standartları
+
++ __C++ içindeki C__
  
