@@ -384,8 +384,8 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 
 + __Önişlemci Komutları – 2__
 	+ önişlemci operatörleri _(preprocessor operators)_
-		+ # dizge yapma operatörü _(stringification operator)_ 
-		+ ## atom yapıştırma operatörü _(token-pasting operator)_ 
+		+ \# dizge yapma operatörü _(stringification operator)_ 
+		+ \## atom yapıştırma operatörü _(token-pasting operator)_ 
 		+ defined operatörü _(defined operator)_
 	+ öntanımlı sembolik sabitler _(predefined symbolic constants)_
 	+ #line komutu _(line directive)_
