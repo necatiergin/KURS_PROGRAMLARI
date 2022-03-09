@@ -274,6 +274,7 @@ _	+ saf ve saf olmayan işlevler _(pure and impure functions)_
 	+ standart qsort ve bsearch işlevleri
 	+ işlev gösterici dizileri _(function pointer arrays)_
 + __Çok Boyutlu Diziler (Multi-dimensional Arrays)__
+	+ çok boyutlu dizileri gösteren göstericiler (pointer to multi-dimensional arrays)
 + __Programların Sonlandırılması__
 	+ normal ve anormal sonlanma (normal & abnormal termination)
 	+ standart exit, atexit ve abort işlevleri
@@ -342,6 +343,7 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 + __Birlikler (Unions)__
 	+ birliklerin kullanım temaları
 	+ tagged unions
+	+ birliklerin bit alanı öğeler ile kullanımı
 + __Numaralandırmalar (Enumarations)__
 	+ numaralandırma sabitleri _(enumaration constants)_
 	+ enum idiyomları _(enum idioms)_
@@ -380,6 +382,9 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 		+ fsetbuf işlevi
 		+ ungetc işlevi
 	+ Diğer dosya işlevleri ve örnek uygulamalar
++ __errno.h başlık dosyası__
+    + errno değişkeni
+	+ strerror ve perror fonksionları
 + __Standart signal kütüphanesi__
 
 + __Önişlemci Komutları – 2__
@@ -392,13 +397,13 @@ _	+ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
 	+ #error komutu _(error directive)_
 	+ #pragma komutu _pragma directive)_
 + __assert Makrosu__
-
++ __\_Static\_assert__ (C11)
 + __Değişken Sayıda Argümanla Çağrılabilen İşlevler (Variadic Functions)__
 
 + __C99 Standartları ile Eklenen Önemli Öğeler__
 	+ long long veri türü _(long long data type)_
 	+ for döngü deyiminde yapılan bildirimler
-	+ \_Bool anahtar sözcüğü ve _<stdbool.h>_ başlık dosaysı
+	+ \_Bool anahtar sözcüğü ve _<stdbool.h>_ başlık dosyası
 	+ <stdint.h> başlık dosyası ve standart tür eş isimleri
 	+ inline fonksiyonlar _(inline functions)_
 	+ değişken boyutlu diziler _(variable length arrays)_
