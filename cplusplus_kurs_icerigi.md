@@ -220,7 +220,7 @@
 &emsp;&emsp;rethrow deyimi `(rethrow statement)`<br>
 ✅ try blokları<br>
 ✅ catch blokları<br>
-&emsp;&emsp; catch all
+&emsp;&emsp; catch all <br>
 ✅ yakalanamayan hata nesnesi `(uncaught exception)`<br>
 ✅ std::terminate<br>
 ✅ std::set_terminate<br>
