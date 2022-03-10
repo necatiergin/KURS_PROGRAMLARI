@@ -214,55 +214,55 @@
 ✅ mixin sınıflar `(mixin classes)`<br>
 
 ## Olağan Dışı Durumların İşlenmesi _(Exception Handling)_
-+ exception güvenliği `(exception safety) `
-+ hata nesnelerinin gönderilmesi `(throwing exception objects)`
-  + throw deyimi `(throw statement)`
-  + rethrow deyimi `(rethrow statement)`
-+ try blokları
-+ catch blokları
+✅ exception güvenliği `(exception safety) `<br>
+✅ hata nesnelerinin gönderilmesi `(throwing exception objects)`<br>
+  + throw deyimi `(throw statement)`<br>
+  + rethrow deyimi `(rethrow statement)`<br>
+✅ try blokları<br>
+✅ catch blokları<br>
   + catch all
-+ yakalanamayan hata nesnesi `(uncaught exception)`
-+ std::terminate
-+ std::set_terminate
-+ hata nesnesinin yeniden gönderilmesi `(rethrow statement)`
-+ yığının geri sarımı `(stack unwinding)`
-+ kurucu işlevlerden exception gönderimi
-+ sonlandırıcı işlevler ve hata gönderimi
-+ exception handling ve kalıtım `(eception handling & inheritance)`
-+ exception handling ve dinamik ömürlü sınıf nesneleri `(eception handling & dynamic objects)`
-+ exception  güvenliği için akıllı göstericilerin kullanımı `(eception handling & smart pointers)`
-+ işlev try blokları `(function try block)`
-+ noexcept belirleyicisi `(noexcept specifier)`
-+ beklenmeyen hata nesnesi `(unexpected excetion)`
-+ std::unexpected_exception
-+ std::exception sınıfı ve hiyerarşisi
-  + std::exception sınıfı ve what sanal fonksiyonu
-  + std::logic_error
-    + std::invalid_argument
-    + std::domain_error
-    + std::length_error
-    + std::out_of_range
-    + std::future_error
-  + std::runtime_error
-    + std::range_error
-    + std::overflow_error
-    + std::underflow_error
-  + std::system_error
-  + std::regex_error
-  + std::bad_alloc
-  + std::bad_typeid
-  + std::bad_cast
-  + std::bad_exception
-  + std::bad_weak_ptr
-  + std::bad_function_call
-+ kendi hata sınıflarımızı oluşturmak `(custom exception classes)`
-+ exception garantileri `(eception guarantees)`
-  + `basic exception guarantee`
-  + `strong exception guarantee`
-  + `no throw guarantee`
-+ std::current_exception
-+ std::exception_ptr
-+ std::rethrow_exception
+✅ yakalanamayan hata nesnesi `(uncaught exception)`<br>
+✅ std::terminate<br>
+✅ std::set_terminate<br>
+✅ hata nesnesinin yeniden gönderilmesi `(rethrow statement)`<br>
+✅ yığının geri sarımı `(stack unwinding)`<br>
+✅ kurucu işlevlerden exception gönderimi<br>
+✅ sonlandırıcı işlevler ve hata gönderimi<br>
+✅ exception handling ve kalıtım `(eception handling & inheritance)`<br>
+✅ exception handling ve dinamik ömürlü sınıf nesneleri `(eception handling & dynamic objects)`<br>
+✅ exception  güvenliği için akıllı göstericilerin kullanımı `(eception handling & smart pointers)`<br>
+✅ işlev try blokları `(function try block)`<br>
+✅ noexcept belirleyicisi `(noexcept specifier)`<br>
+✅ beklenmeyen hata nesnesi `(unexpected excetion)`<br>
+✅ std::unexpected_exception<br>
+✅ std::exception sınıfı ve hiyerarşisi<br>
+&emsp;&emsp;❇️ std::exception sınıfı ve what sanal fonksiyonu<br>
+&emsp;&emsp;❇️ std::logic_error<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::invalid_argument<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::domain_error<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::length_error<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::out_of_range<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::future_error<br>
+&emsp;&emsp;❇️ std::runtime_error<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::range_error<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::overflow_error<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::underflow_error<br>
+&emsp;&emsp;❇️ std::system_error<br>
+&emsp;&emsp;❇️ std::regex_error<br>
+&emsp;&emsp;❇️ std::bad_alloc<br>
+&emsp;&emsp;❇️ std::bad_typeid<br>
+&emsp;&emsp;❇️ std::bad_cast<br>
+&emsp;&emsp;❇️ std::bad_exception<br>
+&emsp;&emsp;❇️ std::bad_weak_ptr<br>
+&emsp;&emsp;❇️ std::bad_function_call<br>
+✅ kendi hata sınıflarımızı oluşturmak `(custom exception classes)`<br>
+✅ exception garantileri `(eception guarantees)`<br>
+&emsp;&emsp;❇️ `basic exception guarantee`<br>
+&emsp;&emsp;❇️ `strong exception guarantee`<br>
+&emsp;&emsp;❇️ `no throw guarantee`<br>
+✅ std::current_exception<br>
+✅ std::exception_ptr<br>
+✅ std::rethrow_exception<br>
 
 ## Çalışma Zamanında Tür Belirlenmesi _(RTTI)_
 ✅ dynamic_cast operatörü<br>
@@ -283,9 +283,9 @@
 ✅ bir STL kabı olaral string sınıfı `(string class as STL container)` <br>
 
 ## Bileşik Nesneler _(Composition)_
-+ öğe olan nesneler ve özel işlevler, kopyalama kontrolü.
-+ öğe olan nesneler ve erişim kontrolü
-+ bileşik nesnelerin kullanıldığı temalar
++ öğe olan nesneler ve özel işlevler, kopyalama kontrolü.<br>
++ öğe olan nesneler ve erişim kontrolü<br>
++ bileşik nesnelerin kullanıldığı temalar<br>
 
 ## İçsel türler _(Type Members)_
 ✅ sınıf içinde yapılan eş isim bildirimleri<br>
@@ -294,29 +294,29 @@
 &emsp;&emsp;❇️ `pimpl` idiyomu `(pimpl idiom)`
 
 ## Şablonlar _(Templates)_
-+ şablon tür parametreleri `(template type parameters)`
-+ şablon sabit parametreleri `(template non-type parameters)`
-+ şablon şablon parametreleri `(template template parameters)`
-+ şablon argümanları `(template arguments)`
-  + belirtilmiş template argümanları `(explicit template arguments)`
-  + varsayılan template argümanları `(default template arguments)`
-+ şablonlardan kod üretimi `(template instantiation)`
-+ fonksiyon şablonları `(function templates)`
-  + fonksiyon şablonlarında tür çıkarımı `(function template argument deduction)`
-  + fonksiyon şablonlarının yüklenmesi `(function template overloading)`
-+ sınıf şablonları `(class templates)`
-+ kurucu işlev ile tür çıkarımı `(CTAD)`
-+ üye şablonlar `(member templates)`
-+ şablonların özelleştirilmesi `(template specialization)`
-  + tam özelleştirme `(explicit/full specialization)`
-  + kısmi özelleştirme `(partial specialization)`
-+ `sfinae`
-+ değişken sayıda parametreli şablonlar `(variadic templates)`
-+ mükemmel gönderim `(perfect forwarding)`
-+ katlama ifadeleri `(fold expressions)`
-+ `if constexpr`
-+ değişken şablonları `(variable templates)`
-+ eş isim şablonları `(alias templates)`
+✅ şablon tür parametreleri `(template type parameters)` <br>
+✅ şablon sabit parametreleri `(template non-type parameters)`<br>
+✅ şablon şablon parametreleri `(template template parameters)`<br>
+✅ şablon argümanları `(template arguments)`<br>
+emsp;&emsp;❇️ belirtilmiş template argümanları `(explicit template arguments)`<br>
+emsp;&emsp;❇️ varsayılan template argümanları `(default template arguments)`<br>
+✅ şablonlardan kod üretimi `(template instantiation)`<br>
+✅ fonksiyon şablonları `(function templates)`<br>
+emsp;&emsp;❇️ fonksiyon şablonlarında tür çıkarımı `(function template argument deduction)`<br>
+emsp;&emsp;❇️ fonksiyon şablonlarının yüklenmesi `(function template overloading)`<br>
+✅ sınıf şablonları `(class templates)`<br>
+✅ kurucu işlev ile tür çıkarımı `(CTAD)`<br>
+✅ üye şablonlar `(member templates)`<br>
+✅ şablonların özelleştirilmesi `(template specialization)`<br>
+emsp;&emsp;❇️ tam özelleştirme `(explicit/full specialization)`<br>
+emsp;&emsp;❇️ kısmi özelleştirme `(partial specialization)`<br>
+✅ `sfinae`<br>
+✅ değişken sayıda parametreli şablonlar `(variadic templates)`<br>
+✅ mükemmel gönderim `(perfect forwarding)`<br>
+✅ katlama ifadeleri `(fold expressions)`<br>
+✅ `if constexpr`<br>
+✅ değişken şablonları `(variable templates)`<br>
+✅ eş isim şablonları `(alias templates)`<br>
 
 ## İteratörler _(Iterators)_
 + aralık kavramı `(ranges)`
