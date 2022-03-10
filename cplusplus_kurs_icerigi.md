@@ -1,22 +1,22 @@
 # Online C++ Programlama Dili Kursu İçeriği
 
 ## C++ Dilinin Genel Tanıtımı
-+ C++ dilinin tarihçesi
-+ C++ dili ve programlama paradigmaları
-+ C++ dili standartları
-+ C++98 – 03
-+ C++11
-+ C++14
-+ C++17
-+ C++20
-+ eski C++ ve modern C++
+✅ C++ dilinin tarihçesi<br>
+✅ C++ dili ve programlama paradigmaları<br>
+✅ C++ dili standartları<br>
+✅ C++98 – 03<br>
+✅ C++11<br>
+✅ C++14<br>
+✅ C++17<br>
+✅ C++20<br>
+✅ eski C++ ve modern C++<br>
 
 ## C Dili ve C++ İçindeki C Dili _(C in C++)_
-+ C dilinden C++ diline geçiş
-+ işlev bildirimleri ve tanımlamalarına ilişkin farklılıklar
-+ türlere ve tür dönüşümlerine ilişkin farklılıklar
-+ C’de geçerli C++’da geçersiz durumlar
-+ C99 ve C++
+✅ C dilinden C++ diline geçiş<br>
+✅ işlev bildirimleri ve tanımlamalarına ilişkin farklılıklar<br>
+✅ türlere ve tür dönüşümlerine ilişkin farklılıklar<br>
+✅ C’de geçerli C++’da geçersiz durumlar<br>
+✅ C99 ve C++<br>
 
 ## Temel Kavramlar _(Basic Concepts)_
 + tamamlanmış ve eksik türler `(complete & incomplete types)`
