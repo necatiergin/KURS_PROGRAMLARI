@@ -168,16 +168,16 @@
 ✅ for döngü deyimi _(for statement)_<br>
 ✅ break deyimi _(break statement)_<br>
 ✅ continue deyimi _(continue statement)_<br>
-✅ iç içe döngüler _(nested loops)_ 
-✅ döngü idiyomları _(loop idioms)_ 
-✅ switch deyimi _(switch statement)_
-✅ goto deyimi _(goto statement)_
+✅ iç içe döngüler _(nested loops)_ <br>
+✅ döngü idiyomları _(loop idioms)_ <br>
+✅ switch deyimi _(switch statement)_<br>
+✅ goto deyimi _(goto statement)_<br>
 ##  __Koşul Operatörü (Ternary Operator)__
 ##  __Standart ctype Kütüphanesi__
-✅ karakter test işlevleri
-✅ isupper, islower, isalpha, isdigit, isalnum, isxdigit, isspace, isblank, ispunct, isprint, isgraph, iscntrl
-✅ karakter dönüşüm işlevleri
-✅ toupper ve tolower işlevleri
+✅ karakter test işlevleri<br>
+✅ isupper, islower, isalpha, isdigit, isalnum, isxdigit, isspace, isblank, ispunct, isprint, isgraph, iscntrl<br>
+✅ karakter dönüşüm işlevleri<br>
+✅ toupper ve tolower işlevleri<br>
 ##  __İşlev Bildirimleri (Function Declarations)__
 ##  __Önişlemci Komutları – 1__
 ✅ #include komutu _(include directive)_ <br>
@@ -351,9 +351,9 @@
 ✅ bitsel operatörler _(bitwise operators)_<br>
 ✅ bitsel manipülasyon işlemleri _(bitwise manipulations)_<br>
 ✅ yapıların bit alanı öğeleri _(bitfield members of structures)_<br>
-✅ bitsel işlemler ve birlikler _(bitwise operations & unions)_
-✅ bit vektör kullanımı _(bit vectors)_
-✅ bitsel düzeyde oluşturulan arama (lookup) tabloları
+✅ bitsel işlemler ve birlikler _(bitwise operations & unions)_<br>
+✅ bit vektör kullanımı _(bit vectors)_<br>
+✅ bitsel düzeyde oluşturulan arama (lookup) tabloları<br>
 ##  __Komut Satırı Argümanları (Command Line Arguments)__
 ##  __Dosya İşlemleri (File Operations)__
 ✅ dosyaların açılması ve kapatılması<br>
