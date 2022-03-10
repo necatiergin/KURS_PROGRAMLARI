@@ -85,7 +85,7 @@
 
 ## Sınıflara giriş _(Introduction to Classes)_
 + sınıf kapsamı `(class scope)`
-sınıflar ve isim arama `(name lookup)`
++ sınıflar ve isim arama `(name lookup)`
 + erişim kontrolü `(access control)` ve veri gizleme `(data hiding)`
   + public öğeler `(public members)`
   + private öğeler `(private members)`
@@ -288,10 +288,9 @@ sınıflar ve isim arama `(name lookup)`
 + bileşik nesnelerin kullanıldığı temalar
 
 ## İçsel türler _(Type Members)_
-+ sınıf içinde yapılan eş isim bildirimleri
-+ içsel sınıflar `(nested classes)`
-  + erişim kontrolü `(access control)`
-  + `pimpl` idiyomu `(pimpl idiom)`
+✅ sınıf içinde yapılan eş isim bildirimleri<br>
+✅ içsel sınıflar `(nested classes)`<br<
+  ❇️ erişim kontrolü `(access control)` ❇️ `pimpl` idiyomu `(pimpl idiom)`
 
 ## Şablonlar _(Templates)_
 + şablon tür parametreleri `(template type parameters)`
