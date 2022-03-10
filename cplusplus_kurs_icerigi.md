@@ -283,9 +283,9 @@
 ✅ bir STL kabı olaral string sınıfı `(string class as STL container)` <br>
 
 ## Bileşik Nesneler _(Composition)_
-+ öğe olan nesneler ve özel işlevler, kopyalama kontrolü.<br>
-+ öğe olan nesneler ve erişim kontrolü<br>
-+ bileşik nesnelerin kullanıldığı temalar<br>
+✅ öğe olan nesneler ve özel işlevler, kopyalama kontrolü.<br>
+✅ öğe olan nesneler ve erişim kontrolü<br>
+✅ bileşik nesnelerin kullanıldığı temalar<br>
 
 ## İçsel türler _(Type Members)_
 ✅ sınıf içinde yapılan eş isim bildirimleri<br>
@@ -319,34 +319,34 @@
 ✅ eş isim şablonları `(alias templates)`<br>
 
 ## İteratörler _(Iterators)_
-+ aralık kavramı `(ranges)`
-+ iteratörlerin kategorileri `(iterator categories)`
-  + input iterator
-  + output iterator
-  + forward iterator
-  + bidirectional iterator
-  random access iterator
-+ kapların begin ve end işlevleri
-+ global begin ve end işlevleri
-+ iterator işlevleri
-  + std::next
-  + std::prev
-  + std::iter_swap
-  + std::advance
-  + std::distance
-+ iterator uyumlandırıcıları `(iterator adaptors)`
-  + akım iteratörleri `(stream iterators)`
-    + istream_iterator
-    + ostream_iterator
-    + istreambuf_iterator
-    + ostreambuf_iterator
-  + reverse iterators
-  + move iterators
-  + insert iterators
-    + back_insert_iterator
-    + front_insert_iterator
-    + insert_iterator
-+ iterator traits
+✅ aralık kavramı `(ranges)`<br>
+✅ iteratörlerin kategorileri `(iterator categories)`<br>
+&emsp;&emsp;❇️ input iterator<br>
+&emsp;&emsp;❇️ output iterator<br>
+&emsp;&emsp;❇️ forward iterator<br>
+&emsp;&emsp;❇️ bidirectional iterator<br>
+&emsp;&emsp;❇️ random access iterator<br>
+✅ kapların begin ve end işlevleri<br>
+✅ global begin ve end işlevleri<br>
+✅ iterator işlevleri<br>
+&emsp;&emsp;❇️ std::next <br>
+&emsp;&emsp;❇️ std::prev <br>
+&emsp;&emsp;❇️ std::iter_swap<br>
+&emsp;&emsp;❇️ std::advance <br>
+&emsp;&emsp;❇️ std::distance<br>
+✅ iterator uyumlandırıcıları `(iterator adaptors)`<br>
+&emsp;&emsp;❇️ akım iteratörleri `(stream iterators)`<br>
+&emsp;&emsp;&emsp;&emsp;⦿ istream_iterator<br>
+&emsp;&emsp;&emsp;&emsp;⦿ ostream_iterator<br>
+&emsp;&emsp;&emsp;&emsp;⦿ istreambuf_iterator<br>
+&emsp;&emsp;&emsp;&emsp;⦿ ostreambuf_iterator<br>
+&emsp;&emsp;❇️ reverse iterators<br>
+&emsp;&emsp;❇️ move iterators<br>
+&emsp;&emsp;❇️ insert iterators<br>
+&emsp;&emsp;&emsp;&emsp;⦿ back_insert_iterator<br>
+&emsp;&emsp;&emsp;&emsp;⦿ front_insert_iterator<br>
+&emsp;&emsp;&emsp;&emsp;⦿ insert_iterator<br>
+✅ iterator traits
 
 ## Kaplar _(Containers)_
 ✅ STL kapları ve veri yapıları `(STL containers & data structures) ` <br>
