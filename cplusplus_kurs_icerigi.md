@@ -141,46 +141,46 @@ sınıflar ve isim arama `(name lookup)`
   + zorunlu kopyalama eliminasyonu `(mandatory copy elision)`
 
 ## Operatör Yüklemesi _(Operator Overloading)_
-+ operatör yüklemesine ilişkin genel kurallar
-+ üye operatör fonksiyonları `(member operator functions)`
-+ global operatör fonksiyonları `(global operator functions)`
-+ aritmetik operatörlerin yüklenmesi
-+ karşılaştırma operatörlerinin yüklenmesi
-+ 3 yollu karşılaştırma operatörü `(3-way comparision operator)` C++20
-+ "++" ve "--" operatörlerinin yüklenmesi
-+ ok operatörü ve içerik operatörlerinin yüklenmesi
-+ [] operatörünün yüklenmesi
-+ fonksiyon çağrı operatörünün yüklenmesi
-+ tür dönüştürme operatör fonksiyonları `(type-cast operator functions)`
-+ programcının tanımladığı sabitler `(user-defined literals)`
+✅ operatör yüklemesine ilişkin genel kurallar<br>
+✅ üye operatör fonksiyonları `(member operator functions)`<br>
+✅ global operatör fonksiyonları `(global operator functions)`<br>
+✅ aritmetik operatörlerin yüklenmesi<br>
+✅ karşılaştırma operatörlerinin yüklenmesi<br>
+✅ 3 yollu karşılaştırma operatörü `(3-way comparision operator)` C++20<br>
+✅ "++" ve "--" operatörlerinin yüklenmesi<br>
+✅ ok operatörü ve içerik operatörlerinin yüklenmesi<br>
+✅ [] operatörünün yüklenmesi<br>
+✅ fonksiyon çağrı operatörünün yüklenmesi<br>
+✅ tür dönüştürme operatör fonksiyonları `(type-cast operator functions)`<br>
+✅ programcının tanımladığı sabitler `(user-defined literals)`<br>
 
 ## Dinamik Ömürlü Nesneler _(Dynamic Objects)_
-✅ new ve delete ifadeleri `(new & delete expressions)` 
-✅ new[] ve delete [] ifadeleri
-✅ operator new işlevleri
-✅ operator delete işlevleri
-✅ operator new ve operator delete işlevlerinin yüklenmesi
-✅ std::bad_alloc
-✅ std::set_new_handler ve std::get_new_handler
-✅ placement new operatörleri
-✅ nothrow new
+✅ new ve delete ifadeleri `(new & delete expressions)` <br>
+✅ new[] ve delete [] ifadeleri<br>
+✅ operator new işlevleri<br>
+✅ operator delete işlevleri<br>
+✅ operator new ve operator delete işlevlerinin yüklenmesi<br>
+✅ std::bad_alloc<br>
+✅ std::set_new_handler ve std::get_new_handler<br>
+✅ placement new operatörleri<br>
+✅ nothrow new<br>
 
 ## Tür Eş İsimleri _(Type Alias)_
-+ typedef bildirimleri
-+ using bildirimleri
+✅ typedef bildirimleri<br>
+✅ using bildirimleri<br>
 
 ## İsim Alanları _(Namespaces)_
-+ isim alanlarının oluşturulması
-+ isim alanları ve isim arama `(namespaces & name lookup)` 
-+ çözünürlük operatörü ve isim alanları `(scope resoşution operator & namespaces)` 
-+ using bildirimi `(using declaration)`
-+ using namespace direktifi `(using namespace directive)` 
-+ argümana bağlı isim arama `(argument dependent lookup)`
-+ isimsiz isim alanı `(unnamed namespace)`
-+ içsel isim alanları `(nested namespaces)`
-+ inline isim alanları `(inline namespaces)`
-+ isim alanı eş ismi `(namespace alias)`
-+ işlev yüklemesi ve isim alanları `(function overloading & namespaces)` 
+✅ isim alanlarının oluşturulması <br>
+✅ isim alanları ve isim arama `(namespaces & name lookup)` <br>
+✅ çözünürlük operatörü ve isim alanları `(scope resoşution operator & namespaces)` <br>
+✅ using bildirimi `(using declaration)`<br>
+✅ using namespace direktifi `(using namespace directive)` <br>
+✅ argümana bağlı isim arama `(argument dependent lookup)`<br>
+✅ isimsiz isim alanı `(unnamed namespace)`<br>
+✅ içsel isim alanları `(nested namespaces)`<br>
+✅ inline isim alanları `(inline namespaces)`<br>
+✅ isim alanı eş ismi `(namespace alias)`<br>
+✅ işlev yüklemesi ve isim alanları `(function overloading & namespaces)` <br>
 
 ## Sınıflar ve Kalıtım _(Classes & Inheritance)_
 + nesne yönelimli programlama ve kalıtım `(OOP & inheritance)`
@@ -265,22 +265,22 @@ sınıflar ve isim arama `(name lookup)`
 + std::rethrow_exception
 
 ## Çalışma Zamanında Tür Belirlenmesi _(RTTI)_
-+ dynamic_cast operatörü
-+ typeid operatörü
-+ std::typeinfo sınıfı
-+ std::bad_typeid
+✅ dynamic_cast operatörü<br>
+✅ typeid operatörü<br>
+✅ std::typeinfo sınıfı<br>
+✅ std::bad_typeid<br>
 
 ## std::string sınıfı
-+ genel kavramlar
-+ string::size_type
-+ string::npos
-+ arama işlevleri
-+ set işlemleri
-+ erişim işlemleri
-+ karşılaştırma işlevleri `(comparision functions)`
-+ sayısal dönüşüm işlevleri `(numeric conversions)`
-+ küçük string optimizasyonu `(small string optimization)`
-+ bir STL kabı olaral string sınıfı `(string class as STL container)` 
+✅ genel kavramlar <br>
+✅ string::size_type<br>
+✅ string::npos<br>
+✅ arama işlevleri<br>
+✅ set işlemleri<br>
+✅ erişim işlemleri<br>
+✅ karşılaştırma işlevleri `(comparision functions)`<br>
+✅ sayısal dönüşüm işlevleri `(numeric conversions)`<br>
+✅ küçük string optimizasyonu `(small string optimization)`<br>
+✅ bir STL kabı olaral string sınıfı `(string class as STL container)` <br>
 
 ## Bileşik Nesneler _(Composition)_
 + öğe olan nesneler ve özel işlevler, kopyalama kontrolü.
@@ -371,19 +371,19 @@ sınıflar ve isim arama `(name lookup)`
 + kapların emplace işlevleri
 
 ## Kap Uyumlandırıcıları _(Container Adaptors)_
-+ std::stack
-+ std::queue
-+ std::priority_queue
+✅ std::stack<br>
+✅ std::queue<br>
+✅ std::priority_queue<br>
 
 ## Algoritmalar _(Algorithms)_
-+ algoritmaların temel özellikleri ve genel ilkeler
-+ salt okuyan algoritmalar `non-modifying algorithms)`
-+ kap öğelerini değiştiren algoritmalar `(modifying algorithms)`
-+ kap öğelerini konumlandıran algoritmalar `(mutating algorithms)`
-+ sıralama ile ilgili algoritmalar `(sorting algorithms)`
-+ sıralanmış aralıklar üzerinde koşturulan algoritmalar `(sorted range algorithms)`
-+ nümerik algoritmalar `(numeric algorithms)`
-+ algoritmaların lambda ifadelerini kullanması
+✅ algoritmaların temel özellikleri ve genel ilkeler <br>
+✅ salt okuyan algoritmalar `non-modifying algorithms)`<br>
+✅ kap öğelerini değiştiren algoritmalar `(modifying algorithms)`<br>
+✅ kap öğelerini konumlandıran algoritmalar `(mutating algorithms)`<br>
+✅ sıralama ile ilgili algoritmalar `(sorting algorithms)`<br>
+✅ sıralanmış aralıklar üzerinde koşturulan algoritmalar `(sorted range algorithms)`<br>
+✅ nümerik algoritmalar `(numeric algorithms)`<br>
+✅ algoritmaların lambda ifadelerini kullanması<br>
 
 ## Lambda İfadeleri _(Lambda Expressions)_
 ✅ kapanış türleri ve kapanış nesneleri `(closure types and closure objects)`<br>
