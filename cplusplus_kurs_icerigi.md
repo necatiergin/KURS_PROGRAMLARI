@@ -19,15 +19,15 @@
 ✅ C99 ve C++<br>
 
 ## Temel Kavramlar _(Basic Concepts)_
-+ tamamlanmış ve eksik türler `(complete & incomplete types)`
-+ tek tanımlama kuralı `(one definition rule)`
-+ ifadelerin değer kategorileri `(value categories)`
-+ tanımsız davranış `(undefined behavior)`
-+ derleyiciye bağlı davranışlar. `(implementation defined & implementaion specified)`
-+ derleyici eklentileri `(compiler extensions)`
-+ kapsam `(scope)` ve isim arama `(name lookup)`
-+ erişim kontrolü `(access control)`
-+ çift anlamlılık hatası `(ambiguity)`
+✅ tamamlanmış ve eksik türler `(complete & incomplete types)`<br>
+✅ tek tanımlama kuralı `(one definition rule)`<br>
+✅ ifadelerin değer kategorileri `(value categories)`<br>
+✅ tanımsız davranış `(undefined behavior)` <br>
+✅ derleyiciye bağlı davranışlar. `(implementation defined & implementaion specified)`<br>
+✅ derleyici eklentileri `(compiler extensions)` <br>
+✅ kapsam `(scope)` ve isim arama `(name lookup)` <br>
+✅ erişim kontrolü `(access control)` <br>
+✅ çift anlamlılık hatası `(ambiguity)` <br>
 
 ## İlk Değer Verme _(Initialization)_
 + eş biçimli ilk değer verme `(uniform initialization)`
