@@ -441,19 +441,19 @@ sınıflar ve isim arama `(name lookup)`
 + std::invoke
 
 ## Tamamlayıcı Araçlar ve Sentaks Öğeleri
-✅ static_assert 
-✅ decltype(auto) tür çıkarımı
-✅ std::declval
-✅ üye fonksiyon göstericileri `(member function pointers)`
-✅ ham string sabitleri `(raw string literals)`
-✅ ikilik sayı sisteminde yazılan sabitler `(binary literals)`
-✅ basamak ayırıcısı `(digit seperator)`
-✅ ilk değer vermeli if deyimi `(if with initializer)`
-✅ ilk değer vermeli switch  deyimi `(if with initializer)`
-✅ alignas belirteci `(alignas specifier)`
-✅ alignof operatörü `(alignof operator)`
-✅ yapısal bağlama `(structural binding) (C++17)`
-✅ attribute’lar `(attributes)`
+✅ static_assert <br>
+✅ decltype(auto) tür çıkarımı<br>
+✅ std::declval<br>
+✅ üye fonksiyon göstericileri `(member function pointers)`<br>
+✅ ham string sabitleri `(raw string literals)`<br>
+✅ ikilik sayı sisteminde yazılan sabitler `(binary literals)`<br>
+✅ basamak ayırıcısı `(digit seperator)`<br>
+✅ ilk değer vermeli if deyimi `(if with initializer)`<br>
+✅ ilk değer vermeli switch  deyimi `(if with initializer)`<br>
+✅ alignas belirteci `(alignas specifier)`<br>
+✅ alignof operatörü `(alignof operator)`<br>
+✅ yapısal bağlama `(structural binding) (C++17)`<br>
+✅ attribute’lar `(attributes)`<br>
 
 ## Concurrency
 ✅ memory model <br>
