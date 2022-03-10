@@ -456,16 +456,16 @@ sınıflar ve isim arama `(name lookup)`
 + attribute’lar `(attributes)`
 
 ## Concurrency
-+ memory model
-+ thread’ler ve thread yönetimi
-+ std::this_thread isim alanı
-+ data race kavramı ve data_race’den kaçınma
-+ standart mutex sınıfları ve mutex işlemleri
-+ lock_guard ve unique_lock sınıfları
-+ std::condition_variable sınıfı
-+ std::future ve std::promise sınıfları
-+ std::async işlevi
-+ atomik türler `(atomic types)`
-+ görev tabanlı `(task based)` programlama
-+ std::packaged_task sınıfı
-+ paralel STL algoritmaları
+✅ memory model <br>
+✅ thread’ler ve thread yönetimi<br>
+✅ std::this_thread isim alanı<br>
+✅ data race kavramı ve data_race’den kaçınma<br>
+✅ standart mutex sınıfları ve mutex işlemleri<br>
+✅ lock_guard ve unique_lock sınıfları<br>
+✅ std::condition_variable sınıfı<br>
+✅ std::future ve std::promise sınıfları<br>
+✅ std::async işlevi<br>
+✅ atomik türler `(atomic types)`<br>
+✅ görev tabanlı `(task based)` programlama<br>
+✅ std::packaged_task sınıfı<br>
+✅ paralel STL algoritmaları<br>
