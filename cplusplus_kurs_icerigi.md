@@ -31,8 +31,8 @@
 
 ## İlk Değer Verme _(Initialization)_
 ✅ eş biçimli ilk değer verme `(uniform initialization)`<br>
-+ daraltıcı dönüşümler `(narrowing conversions)`
-+ `most vexing parse`
++ daraltıcı dönüşümler `(narrowing conversions)` <br>
++ `most vexing parse` <br>
 ✅ doğrudan ilk değer verme `(direct intialization)`<br>
 ✅ değerle başlatma `value initialization`<br>
 ✅ kopyalama ile ilk değer verme `(copy initialization)`<br>
