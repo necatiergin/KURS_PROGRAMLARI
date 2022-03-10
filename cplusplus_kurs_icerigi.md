@@ -30,10 +30,10 @@
 ✅ çift anlamlılık hatası `(ambiguity)` <br>
 
 ## İlk Değer Verme _(Initialization)_
-✅ eş biçimli ilk değer verme `(uniform initialization)`<br>
-&#32;&#32;&#32;&#32;➼ daraltıcı dönüşümler `(narrowing conversions)` <br>
-&#32;➼`most vexing parse` <br>
-✅ doğrudan ilk değer verme `(direct intialization)`<br>
++ ✅ eş biçimli ilk değer verme `(uniform initialization)`<br>
+  + daraltıcı dönüşümler `(narrowing conversions)` <br>
+  + most vexing parse` <br>
++ ✅ doğrudan ilk değer verme `(direct intialization)`<br>
 ✅ değerle başlatma `value initialization`<br>
 ✅ kopyalama ile ilk değer verme `(copy initialization)`<br>
 ✅ varsayılan ilk değer verme `(default initialization)`<br>
