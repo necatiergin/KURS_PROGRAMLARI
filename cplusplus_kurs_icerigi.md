@@ -121,24 +121,24 @@
   + attorney client idiyomu
 
 ## Sınıfların Özel Üye İşlevleri ve Kopyalama İşlemleri _(Special Member Functions & Copy Control)_
-+ sınıfların özel işlevleri
-  + default constructor `(varsayılan kurucu işlev)`
-  + destructor `(sonlandırıcı işlev)`
-  + copy constructor `(kopyalayan kurucu işlev)`
-  + move constructor `(taşıyan kurucu işlev)`
-  + copy assignment `(kopyalayan atama işlevi)`
-  + move assignment `(taşıyan atama işlevi)`
-+ özel işlevlerin default edilmesi
-+ özel işlevlerin delete edilmesi
-+ sınıflar ve taşıma semantiği `(move semantics)`
-+ `rule of zero`
-+ `rule of five`
-+ kopyala takas et idiyomu `(copy & swap idiom)`
-+ kopyalamanın eliminasyonu `(copy elision)`
-  + geçici nesneler yoluyla kopyalama eliminasyonu `(copy elision by temporaries)`
-  + RVO (return value optimization)
-  + NRVO (names return value optimization)
-  + zorunlu kopyalama eliminasyonu `(mandatory copy elision)`
+✅ sınıfların özel işlevleri <br>
+&emsp;&emsp;❇️ default constructor `(varsayılan kurucu işlev)`<br>
+&emsp;&emsp;❇️ destructor `(sonlandırıcı işlev)`<br>
+&emsp;&emsp;❇️ copy constructor `(kopyalayan kurucu işlev)`<br>
+&emsp;&emsp;❇️ move constructor `(taşıyan kurucu işlev)`<br>
+&emsp;&emsp;❇️ copy assignment `(kopyalayan atama işlevi)`<br>
+&emsp;&emsp;❇️ move assignment `(taşıyan atama işlevi)`<br>
+✅ özel işlevlerin default edilmesi<br>
+✅ özel işlevlerin delete edilmesi<br>
+✅ sınıflar ve taşıma semantiği `(move semantics)`<br>
+✅ `rule of zero`<br>
+✅ `rule of five`<br>
+✅ kopyala takas et idiyomu `(copy & swap idiom)`<br>
+✅ kopyalamanın eliminasyonu `(copy elision)`<br>
+&emsp;&emsp;❇️ geçici nesneler yoluyla kopyalama eliminasyonu `(copy elision by temporaries)`<br>
+&emsp;&emsp;❇️ RVO (return value optimization)<br>
+&emsp;&emsp;❇️ NRVO (names return value optimization)<br>
+&emsp;&emsp;❇️ zorunlu kopyalama eliminasyonu `(mandatory copy elision)`<br>
 
 ## Operatör Yüklemesi _(Operator Overloading)_
 ✅ operatör yüklemesine ilişkin genel kurallar<br>
@@ -183,35 +183,35 @@
 ✅ işlev yüklemesi ve isim alanları `(function overloading & namespaces)` <br>
 
 ## Sınıflar ve Kalıtım _(Classes & Inheritance)_
-+ nesne yönelimli programlama ve kalıtım `(OOP & inheritance)`
-+ public kalıtımı `(public inheritance)`
-+ çalışma zamanı çok biçimliliği `(runtime polymorphism)`
-  + dinamik ve statik tür bilgisi `(static & dynamic type)`
-  + sanal işlevler `(virtual function)`
-  + saf sanal işlevler `(pure virtual function)`
-  + sanal sonlandırıcı işlev `(virtual destructor)`
-  + sanal kurucu işlev idiyomu `(virtual constructor idiom)`
-  + override bağlamsal anahtar sözcüğü
-  + sanal gönderim mekanizmasının implementasyonu `(implementation of virtual dispatch mechanism)`
-  + nesne dilimlenmesi `(object slicing)`
-  + sanal olmayan arayüz idiyomu `(non-virtual interface idiom)`
-+ final bağlamsal anahtar sözcüğü `(final contextual keyword)` 
-  + final sınıflar `(final classes)`
-  + `final override`
-+ çoklu kalıtım `multiple inheritance)`
-  + çoklu kalıtımda kapsam ve isim arama`(multiple inheritance & name lookup)` 
-  + çoklu kalıtımda sınıfın özel işlevleri
-  + elmas formasyonu `(diamond formation)`
-  + sanal kalıtım `(virtual inheritance)`
-  + çoklu kalıtım ve kalıtımla alınan kurucu işlevler
-  + çoklu kalıtımda kopyalama ve taşıma işlemleri
-+ private kalıtımı `(private inheritance)`
-  + implementaion inheritance
-  + empty base optimization
-+ protected kalıtımı `(protected inheritance)`
-+ sınıf içi using bildirimi 
-+ kalıtımla alınan kurucu işlevler `(inherited constructors)`
-+ mixin sınıflar `(mixin classes)`
+✅ nesne yönelimli programlama ve kalıtım `(OOP & inheritance)` <br>
+✅ public kalıtımı `(public inheritance)`<br>
+✅ çalışma zamanı çok biçimliliği `(runtime polymorphism)`<br>
+&emsp;&emsp;❇️ dinamik ve statik tür bilgisi `(static & dynamic type)`<br>
+&emsp;&emsp;❇️ sanal işlevler `(virtual function)`<br>
+&emsp;&emsp;❇️ saf sanal işlevler `(pure virtual function)`<br>
+&emsp;&emsp;❇️ sanal sonlandırıcı işlev `(virtual destructor)`<br>
+&emsp;&emsp;❇️ sanal kurucu işlev idiyomu `(virtual constructor idiom)`<br>
+&emsp;&emsp;❇️ override bağlamsal anahtar sözcüğü<br>
+&emsp;&emsp;❇️ sanal gönderim mekanizmasının implementasyonu `(implementation of virtual dispatch mechanism)`<br>
+&emsp;&emsp;❇️ nesne dilimlenmesi `(object slicing)`<br>
+&emsp;&emsp;❇️ sanal olmayan arayüz idiyomu `(non-virtual interface idiom)`<br>
+✅ final bağlamsal anahtar sözcüğü `(final contextual keyword)` <br>
+&emsp;&emsp;❇️ final sınıflar `(final classes)`<br>
+&emsp;&emsp;❇️ `final override`<br>
+✅ çoklu kalıtım `multiple inheritance)`<br>
+&emsp;&emsp;❇️ çoklu kalıtımda kapsam ve isim arama`(multiple inheritance & name lookup)` <br>
+&emsp;&emsp;❇️ çoklu kalıtımda sınıfın özel işlevleri<br>
+&emsp;&emsp;❇️ elmas formasyonu `(diamond formation)`<br>
+&emsp;&emsp;❇️ sanal kalıtım `(virtual inheritance)`<br>
+&emsp;&emsp;❇️ çoklu kalıtım ve kalıtımla alınan kurucu işlevler<br>
+&emsp;&emsp;❇️ çoklu kalıtımda kopyalama ve taşıma işlemleri<br>
+✅ private kalıtımı `(private inheritance)`<br>
+&emsp;&emsp;❇️ implementaion inheritance<br>
+&emsp;&emsp;❇️ empty base optimization<br>
+✅ protected kalıtımı `(protected inheritance)`<br>
+✅ sınıf içi using bildirimi <br>
+✅ kalıtımla alınan kurucu işlevler `(inherited constructors)`<br>
+✅ mixin sınıflar `(mixin classes)`<br>
 
 ## Olağan Dışı Durumların İşlenmesi _(Exception Handling)_
 + exception güvenliği `(exception safety) `
