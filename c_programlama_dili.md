@@ -76,10 +76,10 @@
 ## __Kapsam ve İsim arama (Scope & Name Lookup)__
 ✅ kapsam _(scope)_<br>
 ✅ kapsam kategorileri _(scope categories)_<br>
-✅ blok kapsamı _(block scope)_<br>
-✅ dosya kapsamı _(file scope)_<br>
-✅ fonksiyon kapsamı _(function prototype scope)_<br>
-✅ işlev kapsamı _(function scope)_<br>
+&emsp;&emsp;❇️ blok kapsamı _(block scope)_<br>
+&emsp;&emsp;❇️ dosya kapsamı _(file scope)_<br>
+&emsp;&emsp;❇️ fonksiyon kapsamı _(function prototype scope)_<br>
+&emsp;&emsp;❇️ işlev kapsamı _(function scope)_<br>
 ✅ isim arama _(name lookup)_<br>
 ✅ isim çakışmaları _(name collision)_<br>
 	
@@ -150,9 +150,9 @@
 ✅ öncelik operatörü<br>
 ##  __Sabitler (Constants)__
 ✅ sabitlerin türleri _(types of constants)_<br>
-✅ tamsayı sabitleri _(integer constants)_<br>
-✅ gerçek sayı sabitleri _(floating constants)_<br>
-✅ üstel notasyon _(scientific notation)_ <br>
+&emsp;&emsp;❇️ tamsayı sabitleri _(integer constants)_<br>
+&emsp;&emsp;❇️ gerçek sayı sabitleri _(floating constants)_<br>
+&emsp;&emsp;&emsp;&emsp;❇️ üstel notasyon _(scientific notation)_ <br>
 ✅ karakter sabitleri _(character constants)_<br>
 ✅ kaçış sekansları _(escape sequences)_<br>
 			
@@ -267,8 +267,8 @@
 ✅ standart memset, memcpy, memmove, memchr, memcmp işlevleri<br>
 ✅ void ** türü<br>
 ##  __İşlev Göstericileri (Function Pointers)__
-✅ genel sentaks
-✅ işlevden adrese dönüşüm _(function to pointer conversion)_
+✅ genel sentaks<br>
+✅ işlevden adrese dönüşüm _(function to pointer conversion)_<br>
 ✅ işlev göstericileri ve typedef bildirimleri _(function pointers and typedef declarations)_<br>
 ✅ geri çağrı işlev yapısı _(call-back functions)_<br>
 ✅ standart qsort ve bsearch işlevleri<br>
