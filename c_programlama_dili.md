@@ -292,65 +292,65 @@
 ✅ dinamik diziveri yapısı _(dynamic array data structure)_
 		
 ##  __Yer Belirleyiciler (Storage Class Specifiers) ve Tür Niteleyiciler (Type Modifiers)__
-✅ yer belirleyiciler _(storage  class specifiers)_
-✅ auto anahtar sözcüğü
-✅ register anahtar sözcüğü
-✅ extern anahtar sözcüğü
-✅ static anahtar sözcüğü
-✅ modül ve bağlantı kategorileri
-✅ iç bağlantı _(internal linkage)_
-✅ dış bağlantı _(external linkage)_
-✅ global isim alanının kirlenmesi problemi _(global namespace pollution problem)_
-✅ tür niteleyicileri _(type modifiers)_
-✅ const anahtar sözcüğü ve const semantiği _(const keyword & const semantics)_
-✅ volatile anahtar sözcüğü _(volatile keyword)_
-✅ restrict anahtar sözcüğü _(restrict keyword)_
+✅ yer belirleyiciler _(storage  class specifiers)_ <br>
+✅ auto anahtar sözcüğü<br>
+✅ register anahtar sözcüğü<br>
+✅ extern anahtar sözcüğü<br>
+✅ static anahtar sözcüğü<br>
+✅ modül ve bağlantı kategorileri<br>
+✅ iç bağlantı _(internal linkage)_<br>
+✅ dış bağlantı _(external linkage)_<br>
+✅ global isim alanının kirlenmesi problemi _(global namespace pollution problem)_<br>
+✅ tür niteleyicileri _(type modifiers)_<br>
+✅ const anahtar sözcüğü ve const semantiği _(const keyword & const semantics)_<br>
+✅ volatile anahtar sözcüğü _(volatile keyword)_<br>
+✅ restrict anahtar sözcüğü _(restrict keyword)_<br>
 ##  __Programların sonlandırılması__
-✅ Normal sonlanma ve standart exit işlevi _(normal termination & std. exit function)_
-✅ standart atexit işlevi _(std. atexit function)_
-✅ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_
+✅ Normal sonlanma ve standart exit işlevi _(normal termination & std. exit function)_<br>
+✅ standart atexit işlevi _(std. atexit function)_<br>
+✅ Anormal sonlanma ve standart abort işlevi _(abnormal termination)_<br>
 	
 ##  Yapılar _(Structures)_
-✅ genel sentaks
-✅ yapı öğeleri _(structure members)_
-✅ nokta operatörü _(member selection - dot operator)_
-✅ ok operatörü _(member selection - arrow operator)_
-✅ yapı nesnelerine ilk değer verilmesi _(initialization of structure variables)_
-✅ yapı nesneleri ve işlevler _(functions with structure parameters)_
-✅ tamamlanmış ve eksik türler _(complete / incomplete types)_
-✅ içsel türler _(nested types)_
-✅ yapı öğesinin kendi türünden gösterici olması
-✅ düğüm kavramı _(nodes)_ 
-✅ bağlı liste (linked list) veri yapısı
-✅ tekli bağlı listeler _(singly linked lists)_
-✅ çifte bağlı listeler _(double linked lists)_
-✅ döner bağlı isteler _(rotating lists)_
-✅ ikili arama ağacı veri yapısı _(binary search tree data structure)_ 
-✅ yapı türlerinden sabitler _(compound literals)_
-✅ handle kavramı ve nesne yönelimli C kütüphaneleri
-✅ hizalama ve yapı türleri
-✅ hizalama ile ilgili kodlama hataları
-✅ offsetof makrosu		
-✅ anonim yapılar _(anonymous structures)_
-✅ yapıların içsel türleri _(nested types of structures)_
+✅ genel sentaks<br>
+✅ yapı öğeleri _(structure members)_<br>
+✅ nokta operatörü _(member selection - dot operator)_<br>
+✅ ok operatörü _(member selection - arrow operator)_<br>
+✅ yapı nesnelerine ilk değer verilmesi _(initialization of structure variables)_<br>
+✅ yapı nesneleri ve işlevler _(functions with structure parameters)_<br>
+✅ tamamlanmış ve eksik türler _(complete / incomplete types)_<br>
+✅ içsel türler _(nested types)_<br>
+✅ yapı öğesinin kendi türünden gösterici olması<br>
+✅ düğüm kavramı _(nodes)_ <br>
+✅ bağlı liste (linked list) veri yapısı<br>
+✅ tekli bağlı listeler _(singly linked lists)_<br>
+✅ çifte bağlı listeler _(double linked lists)_<br>
+✅ döner bağlı isteler _(rotating lists)_<br>
+✅ ikili arama ağacı veri yapısı _(binary search tree data structure)_ <br>
+✅ yapı türlerinden sabitler _(compound literals)_<br>
+✅ handle kavramı ve nesne yönelimli C kütüphaneleri<br>
+✅ hizalama ve yapı türleri<br>
+✅ hizalama ile ilgili kodlama hataları<br>
+✅ offsetof makrosu		<br>
+✅ anonim yapılar _(anonymous structures)_<br>
+✅ yapıların içsel türleri _(nested types of structures)_<br>
 ##  __Standart time Kütüphanesi (time Library)__
-✅ takvim zamanı ve ayrıştırılmış zaman _(calender time & broken-down time)_
-✅ time_t türü
-✅ clock_t türü
-✅ struct tm yapısı
+✅ takvim zamanı ve ayrıştırılmış zaman _(calender time & broken-down time)_<br>
+✅ time_t türü<br>
+✅ clock_t türü<br>
+✅ struct tm yapısı<br>
 ✅ time, localtime, gmtime, ctime, asctime, strftime, mktime, clock işlevleri
 
 ##  __Birlikler (Unions)__
-✅ birliklerin kullanım temaları
-✅ tagged unions
-✅ birliklerin bit alanı öğeler ile kullanımı
+✅ birliklerin kullanım temaları<br>
+✅ tagged unions<br>
+✅ birliklerin bit alanı öğeler ile kullanımı<br>
 ##  __Numaralandırmalar (Enumarations)__
-✅ numaralandırma sabitleri _(enumaration constants)_
-✅ enum idiyomları _(enum idioms)_
+✅ numaralandırma sabitleri _(enumaration constants)_<br>
+✅ enum idiyomları _(enum idioms)_<br>
 ##  __Bitsel İşlemler (Bitwise Operations)__
-✅ bitsel operatörler _(bitwise operators)_
-✅ bitsel manipülasyon işlemleri _(bitwise manipulations)_
-✅ yapıların bit alanı öğeleri _(bitfield members of structures)_
+✅ bitsel operatörler _(bitwise operators)_<br>
+✅ bitsel manipülasyon işlemleri _(bitwise manipulations)_<br>
+✅ yapıların bit alanı öğeleri _(bitfield members of structures)_<br>
 ✅ bitsel işlemler ve birlikler _(bitwise operations & unions)_
 ✅ bit vektör kullanımı _(bit vectors)_
 ✅ bitsel düzeyde oluşturulan arama (lookup) tabloları
