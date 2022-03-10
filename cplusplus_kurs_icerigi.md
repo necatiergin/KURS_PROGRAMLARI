@@ -290,7 +290,8 @@
 ## İçsel türler _(Type Members)_
 ✅ sınıf içinde yapılan eş isim bildirimleri<br>
 ✅ içsel sınıflar `(nested classes)`<br>
-&emsp;&emsp;❇️ erişim kontrolü `(access control)` ❇️ `pimpl` idiyomu `(pimpl idiom)`
+&emsp;&emsp;❇️ erişim kontrolü `(access control)`<br>
+&emsp;&emsp;❇️ `pimpl` idiyomu `(pimpl idiom)`
 
 ## Şablonlar _(Templates)_
 + şablon tür parametreleri `(template type parameters)`
