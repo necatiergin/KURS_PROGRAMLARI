@@ -30,7 +30,7 @@
 ✅ çift anlamlılık hatası `(ambiguity)` <br>
 
 ## İlk Değer Verme _(Initialization)_
-+ ✅ eş biçimli ilk değer verme `(uniform initialization)`<br>
+✅ eş biçimli ilk değer verme `(uniform initialization)`<br>
 &nbsp;&nbsp;&nbsp;&nbsp;❇️  daraltıcı dönüşümler `(narrowing conversions)` <br>
 &nbsp;&nbsp;&nbsp;&nbsp;❇️  most vexing parse` <br>
 ✅ doğrudan ilk değer verme `(direct intialization)`<br>
