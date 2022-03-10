@@ -46,7 +46,7 @@
 &emsp;&emsp;❇️ sağ taraf değeri ifadesi _(R value expression)_<br>
 &emsp;&emsp;❇️ sabit ifadesi _(constant expression)_<br>
 		
-+ __Bir C Programı Oluşturmak__
+## __Bir C Programı Oluşturmak__
 	+ metin düzenleyici programlar ve text dosyaları
 	+ kaynak dosya ve çeviri birimi _(source file & translation unit)_
 	+ derleyici program ve derleme süreci _(compilers & compile-time)_
@@ -62,7 +62,7 @@
 		+ statik kod analizi yapan programlar
 		+ hata ayıklayıcı programlar
 		
-+ __Veri Türleri (Data Types)__
+ __Veri Türleri (Data Types)__
 	+ varsayılan türler _(fundemental/basic types)_
 		+ tamsayı türleri _(integer types)_
 		+ gerçek sayı türleri _(floating types)_
