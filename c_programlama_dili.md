@@ -158,18 +158,18 @@
 			
 ##  __Kontrol Deyimleri__
 ✅ if deyimi _(if statement)_ <br>
-✅ genel sentaks<br>
-✅ else if merdiveni _(else if ladders)_<br>
-✅ tipik yapılan hatalar _(typical mistakes)_<br>
+&emsp;&emsp;❇️genel sentaks<br>
+&emsp;&emsp;❇️else if merdiveni _(else if ladders)_<br>
+&emsp;&emsp;❇️tipik yapılan hatalar _(typical mistakes)_<br>
 ✅ test işlevleri _(test functions)_<br>
 ✅ döngü deyimleri<br>
-✅ while döngü deyimi _(while statement)_<br>
-✅ do while döngü deyimi _(do-while statement)_<br>
-✅ for döngü deyimi _(for statement)_<br>
-✅ break deyimi _(break statement)_<br>
-✅ continue deyimi _(continue statement)_<br>
-✅ iç içe döngüler _(nested loops)_ <br>
-✅ döngü idiyomları _(loop idioms)_ <br>
+&emsp;&emsp;❇️while döngü deyimi _(while statement)_<br>
+&emsp;&emsp;❇️do while döngü deyimi _(do-while statement)_<br>
+&emsp;&emsp;❇️for döngü deyimi _(for statement)_<br>
+&emsp;&emsp;❇️break deyimi _(break statement)_<br>
+&emsp;&emsp;❇️continue deyimi _(continue statement)_<br>
+&emsp;&emsp;❇️iç içe döngüler _(nested loops)_ <br>
+&emsp;&emsp;❇️döngü idiyomları _(loop idioms)_ <br>
 ✅ switch deyimi _(switch statement)_<br>
 ✅ goto deyimi _(goto statement)_<br>
 ##  __Koşul Operatörü (Ternary Operator)__
@@ -186,12 +186,12 @@
 ✅ işlevsel makrolar _(functional macros)_<br>
 ✅ #undef komutu _(undef directive)_<br>
 ✅ koşullu derleme işlemleri ve koşullu derleme komutları _(conditional compiling directives)_<br>
-✅ #if<br>
-✅ #endif<br>
-✅ #else<br>
-✅ #elif<br>
-✅ #ifdef<br>
-✅ #ifndef<br>
+&emsp;&emsp;❇️#if<br>
+&emsp;&emsp;❇️#endif<br>
+&emsp;&emsp;❇️#else<br>
+&emsp;&emsp;❇️#elif<br>
+&emsp;&emsp;❇️#ifdef<br>
+&emsp;&emsp;❇️#ifndef<br>
 ✅ standart limits kütüphanesi _(standard \<limits> header)_<br>
 	
 ##  __Tür Dönüşümleri (Type Conversions)__
@@ -202,9 +202,9 @@
 ## __typedef bildirimleri – 1__
 ✅ tür eş isimleri ve taşınabilirlik _(type alias & portability)_  <br>
 ✅ standart typedef isimleri _(standard typedef names)_<br>
-✅ size_t tür eş ismi<br>
-✅ ptrdiff_t tür ismi<br>
-✅ time_t ve clock_t tür isimleri<br>
+&emsp;&emsp;❇️size_t tür eş ismi<br>
+&emsp;&emsp;❇️ptrdiff_t tür ismi<br>
+&emsp;&emsp;❇️time_t ve clock_t tür isimleri<br>
 ✅ \<stdint> başlık dosyası<br>
 ✅ \<stdbool> başlık dosyası<br>
 	
@@ -283,10 +283,10 @@
 ✅ heap alanı ve yönetimi _(heap and heap management)_<br>
 ✅ heap’in parçalara ayrılması _(heap fragmentation)_<br>
 ✅ standart dinamik bellek yönetimi işlevleri _(standard memory management functions)_<br>
-✅ malloc<br>
-✅ calloc<br>
-✅ realloc<br>
-✅ free<br>
+&emsp;&emsp;❇️malloc<br>
+&emsp;&emsp;❇️calloc<br>
+&emsp;&emsp;❇️realloc<br>
+&emsp;&emsp;❇️free<br>
 ✅ bellek sızıntısı _(memory leak)_<br>
 ✅ boşa düşen göstericiler _(dangling pointers)_<br>
 ✅ dinamik diziveri yapısı _(dynamic array data structure)_<br>
