@@ -31,8 +31,8 @@
 
 ## İlk Değer Verme _(Initialization)_
 ✅ eş biçimli ilk değer verme `(uniform initialization)`<br>
-➤ daraltıcı dönüşümler `(narrowing conversions)` <br>
-➤ most vexing parse` <br>
+✅ daraltıcı dönüşümler `(narrowing conversions)` <br>
+✅ most vexing parse` <br>
 ✅ doğrudan ilk değer verme `(direct intialization)`<br>
 ✅ değerle başlatma `value initialization`<br>
 ✅ kopyalama ile ilk değer verme `(copy initialization)`<br>
@@ -46,19 +46,19 @@
 ✅ auto geri dönüş değeri türü `(auto return type)` <br>
 
 ## kapsamlandırılmış enum türleri _(scoped enums)_
-+ geleneksel enum türleri `(conventional enum types)`
-+ baz tür seçimi `(underlying type)`
-+ tür dönüşümleri `(type conversions)`
-+ enum türleri kapsam `(enum classes & scope)`
-+ using enum declarations (C++20)
+✅ geleneksel enum türleri `(conventional enum types)` <br>
+✅ baz tür seçimi `(underlying type)` <br>
+✅ tür dönüşümleri `(type conversions)` <br>
+✅ enum türleri kapsam `(enum classes & scope)` <br>
+✅ using enum declarations (C++20) <br>
 
 ## Sabit İfadeleri _(Constant Expressions)_
-+ const anahtar sözcüğü ve const semantiği `(const keyword & const semantics)`
-+ const nesneler `(const objects)`
-+ constexpr anahtar sözcüğü `(constexpr keyword)`
-+ constexpr işlevler `(constexpr functions)`
-+ consteval işlevler - C++20 `(consteval functions - C++20)`
-+ constinit anahtar sözcüğü - C++20
+✅ const anahtar sözcüğü ve const semantiği `(const keyword & const semantics)`<br>
+✅ const nesneler `(const objects)`<br>
+✅ constexpr anahtar sözcüğü `(constexpr keyword)`<br>
+✅ constexpr işlevler `(constexpr functions)`<br>
+✅ consteval işlevler - C++20 `(consteval functions - C++20)`<br>
+✅ constinit anahtar sözcüğü - C++20
 
 ## İşlevlerin Varsayılan Argüman Alması _(Default Arguments)_
 
