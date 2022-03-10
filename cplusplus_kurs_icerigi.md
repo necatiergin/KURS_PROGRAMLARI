@@ -298,18 +298,18 @@
 ✅ şablon sabit parametreleri `(template non-type parameters)`<br>
 ✅ şablon şablon parametreleri `(template template parameters)`<br>
 ✅ şablon argümanları `(template arguments)`<br>
-emsp;&emsp;❇️ belirtilmiş template argümanları `(explicit template arguments)`<br>
-emsp;&emsp;❇️ varsayılan template argümanları `(default template arguments)`<br>
+&emsp;&emsp;❇️ belirtilmiş template argümanları `(explicit template arguments)`<br>
+&emsp;&emsp;❇️ varsayılan template argümanları `(default template arguments)`<br>
 ✅ şablonlardan kod üretimi `(template instantiation)`<br>
 ✅ fonksiyon şablonları `(function templates)`<br>
-emsp;&emsp;❇️ fonksiyon şablonlarında tür çıkarımı `(function template argument deduction)`<br>
-emsp;&emsp;❇️ fonksiyon şablonlarının yüklenmesi `(function template overloading)`<br>
+&emsp;&emsp;❇️ fonksiyon şablonlarında tür çıkarımı `(function template argument deduction)`<br>
+&emsp;&emsp;❇️ fonksiyon şablonlarının yüklenmesi `(function template overloading)`<br>
 ✅ sınıf şablonları `(class templates)`<br>
 ✅ kurucu işlev ile tür çıkarımı `(CTAD)`<br>
 ✅ üye şablonlar `(member templates)`<br>
 ✅ şablonların özelleştirilmesi `(template specialization)`<br>
-emsp;&emsp;❇️ tam özelleştirme `(explicit/full specialization)`<br>
-emsp;&emsp;❇️ kısmi özelleştirme `(partial specialization)`<br>
+&emsp;&emsp;❇️ tam özelleştirme `(explicit/full specialization)`<br>
+&emsp;&emsp;❇️ kısmi özelleştirme `(partial specialization)`<br>
 ✅ `sfinae`<br>
 ✅ değişken sayıda parametreli şablonlar `(variadic templates)`<br>
 ✅ mükemmel gönderim `(perfect forwarding)`<br>
