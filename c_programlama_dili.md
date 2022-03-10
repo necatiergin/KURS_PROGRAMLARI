@@ -47,114 +47,114 @@
 &emsp;&emsp;❇️ sabit ifadesi _(constant expression)_<br>
 		
 ## __Bir C Programı Oluşturmak__
-✅ metin düzenleyici programlar ve text dosyaları
-✅ kaynak dosya ve çeviri birimi _(source file & translation unit)_
-✅ derleyici program ve derleme süreci _(compilers & compile-time)_
-✅ derleyici bulgu iletileri _(diagnostic messages of compilers)_
-✅ tanımsız davranış _(undefined behavior)_
-✅ derleyiciye bağlı durumlar _(implementation defined behavior)_
-✅ derleyici programların lojik kontrolleri
-✅ derleyiciler ve kod optimizasyonu _(compilers & cod optimization)_
-✅ derleyici eklentileri _(compiler extensions)_
-✅ önişlemci program _(preprocessor)_
-✅ bağlayıcı program bağlama zamanı _(linker program & link time)_ 
-✅ ide’ler ve yardımcı programlar 
-✅ statik kod analizi yapan programlar
-✅ hata ayıklayıcı programlar
+✅ metin düzenleyici programlar ve text dosyaları<br>
+✅ kaynak dosya ve çeviri birimi _(source file & translation unit)_<br>
+✅ derleyici program ve derleme süreci _(compilers & compile-time)_<br>
+✅ derleyici bulgu iletileri _(diagnostic messages of compilers)_<br>
+✅ tanımsız davranış _(undefined behavior)_<br>
+✅ derleyiciye bağlı durumlar _(implementation defined behavior)_<br>
+✅ derleyici programların lojik kontrolleri<br>
+✅ derleyiciler ve kod optimizasyonu _(compilers & cod optimization)_<br>
+✅ derleyici eklentileri _(compiler extensions)_<br>
+✅ önişlemci program _(preprocessor)_<br>
+✅ bağlayıcı program bağlama zamanı _(linker program & link time)_ <br>
+✅ ide’ler ve yardımcı programlar <br>
+✅ statik kod analizi yapan programlar<br>
+✅ hata ayıklayıcı programlar<br>
 		
 ## __Veri Türleri (Data Types)__
-✅ varsayılan türler _(fundemental/basic types)_
-✅ tamsayı türleri _(integer types)_
-✅ gerçek sayı türleri _(floating types)_
-✅ programcı tarafından oluşturulan türler _(user defined types)_
+✅ varsayılan türler _(fundemental/basic types)_<br>
+✅ tamsayı türleri _(integer types)_<br>
+✅ gerçek sayı türleri _(floating types)_<br>
+✅ programcı tarafından oluşturulan türler _(user defined types)_<br>
 	
 ## __Bildirim ve Tanımlama (Declarations & Definitions)__
-✅ bildirimler ve deyimler _(declarations and statements)_
-✅ ilk değer verme _(initialization)_
-✅ bildirim listesi _(declarations as comma-separated lists)_ 
-✅ tanımlama _(definition)_
+✅ bildirimler ve deyimler _(declarations and statements)_<br>
+✅ ilk değer verme _(initialization)_<br>
+✅ bildirim listesi _(declarations as comma-separated lists)_ <br>
+✅ tanımlama _(definition)_<br>
 ## __Kapsam ve İsim arama (Scope & Name Lookup)__
-✅ kapsam _(scope)_
-✅ kapsam kategorileri _(scope categories)_
-✅ blok kapsamı _(block scope)_
-✅ dosya kapsamı _(file scope)_
-✅ fonksiyon kapsamı _(function prototype scope)_
-✅ işlev kapsamı _(function scope)_
-✅ isim arama _(name lookup)_
-✅ isim çakışmaları _(name collision)_
+✅ kapsam _(scope)_<br>
+✅ kapsam kategorileri _(scope categories)_<br>
+✅ blok kapsamı _(block scope)_<br>
+✅ dosya kapsamı _(file scope)_<br>
+✅ fonksiyon kapsamı _(function prototype scope)_<br>
+✅ işlev kapsamı _(function scope)_<br>
+✅ isim arama _(name lookup)_<br>
+✅ isim çakışmaları _(name collision)_<br>
 	
-## __Ömür Kavramı (Storage Duration)__
-✅ otomatik ömür _(automatic storage class)_
-✅ statik ömür _(static storage class)_
-✅ dinamik ömür _(dynamic storage class)_
+## __Ömür Kavramı (Storage Duration)__<br>
+✅ otomatik ömür _(automatic storage class)_<br>
+✅ statik ömür _(static storage class)_<br>
+✅ dinamik ömür _(dynamic storage class)_<br>
 	
 ## __İşlevler (Functions)__
-✅ işlevlerin tanımlanması _(function definitions)_
-✅ işlevlerin parametre değişkenleri _(formal parameters)_
-✅ işlevlerin geri dönüş değerleri _(return values)_
-✅ değerle çağrı _(call by value)_
-✅ referansla çağrılan işlevler _(call by reference)_
-✅ void işlevler _(void functions)_
-✅ return deyimi _(return statement)_
-✅ ifadeli ve ifadesiz return deyimleri _(return statements with/without expression)
-✅ saf ve saf olmayan işlevler _(pure and impure functions)_
-✅ işlevlerin çağrılması _(function calls)_
-✅ işlev çağrılarından elde edilen değerlerin kullanılması
-✅ inline işlevler _(inline functions)_
-✅ işlevlerin bildirilmesi _(function declarations)_
+✅ işlevlerin tanımlanması _(function definitions)_		<br>										
+✅ işlevlerin parametre değişkenleri _(formal parameters)_<br>
+✅ işlevlerin geri dönüş değerleri _(return values)_<br>
+✅ değerle çağrı _(call by value)_<br>
+✅ referansla çağrılan işlevler _(call by reference)_<br>
+✅ void işlevler _(void functions)_<br>
+✅ return deyimi _(return statement)_<br>
+✅ ifadeli ve ifadesiz return deyimleri _(return statements with/without expression)<br>
+✅ saf ve saf olmayan işlevler _(pure and impure functions)_<br>
+✅ işlevlerin çağrılması _(function calls)_<br>
+✅ işlev çağrılarından elde edilen değerlerin kullanılması<br>
+✅ inline işlevler _(inline functions)_<br>
+✅ işlevlerin bildirilmesi _(function declarations)_<br>
 	
-## __Standart Kütüphane (Standard Library)__
-✅ standart kütüphanenin varlık nedenleri
-✅ ortak arayüz ilkesi _(common interface principle)_ 
-✅ taşınabilirlik _(portability)_
-✅ kodların tekrar kullanımı _(code reuse)_
-✅ standart formatlı giriş çıkış işlevleri _(standard formatted input/output functions)_
-✅ standart giriş akımı _(standard input stream)_
-✅ standart çıkış akımları _(standard output stream)_
-✅ standart hata akımı _(standard error stream)_
-✅ akımların yönlendirilmesi _(direction of the streams)_
-✅ printf işlevi
-✅ scanf işlevi
-✅ standart formatsız giriş ve çıkış işlemleri _(standard unformatted input/output functions)_ 
-✅ getchar
-✅ putchar
-✅ standart başlık dosyaları _(standard headers)_
-✅ standart math kütüphanesi _(standard math library)_
+## __Standart Kütüphane (Standard Library)__<br>
+✅ standart kütüphanenin varlık nedenleri<br>
+✅ ortak arayüz ilkesi _(common interface principle)_ <br>
+✅ taşınabilirlik _(portability)_<br>
+✅ kodların tekrar kullanımı _(code reuse)_<br>
+✅ standart formatlı giriş çıkış işlevleri _(standard formatted input/output functions)_<br>
+✅ standart giriş akımı _(standard input stream)_<br>
+✅ standart çıkış akımları _(standard output stream)_<br>
+✅ standart hata akımı _(standard error stream)_<br>
+✅ akımların yönlendirilmesi _(direction of the streams)_<br>
+✅ printf işlevi<br>
+✅ scanf işlevi<br>
+✅ standart formatsız giriş ve çıkış işlemleri _(standard unformatted input/output functions)_ <br>
+✅ getchar<br>
+✅ putchar<br>
+✅ standart başlık dosyaları _(standard headers)_<br>
+✅ standart math kütüphanesi _(standard math library)_<br>
 
 ##  __Operatörler (Operators)__
-✅ temel kavramlar
-✅ operatörlerin değer üretmesi _(values generated by operators)_
-✅ operatör önceliği _(priority of operators)_
-✅ öncelik yönü _(associativity)_
-✅ yan etki _(side effect)_
-✅ yan etki noktası _(sequence point)_
-✅ aritmetik operatörler
-✅ toplama, çıkarma, çarpma, bölme ve kalan operatörleri
-✅ işaret operatörleri _(sign operators)_
-✅ artırma ve eksiltme operatörleri _(increment & decrement operators)_
-✅ karşılaştırma operatörleri _(relational operators)_
-✅ karşılaştırma idiyomları 
-✅ tipik hatalar _(typical mistakes)_ 
-✅ lojik operatörler _(logical operators)_
-✅ lojik yorumlama
-✅ kısa devre davranışı _(short-circuit behavior)_
-✅ tipik hatalar _(typical mistakes)_
-✅ lojik ifadeler -(logical expressions)_
-✅ idiyomlar _(idioms)_
-✅ atama operatörleri _(assignment operators)_
-✅ atama operatörlerinin değer üretmesi _(values generated by assignment operators)_
-✅ yalın atama operatörü
-✅ işlemli atama operatörleri _(compound assignment operators)_
-✅ idiyomlar _(idioms)_
-✅ virgül operatörü _(comma operator)_
-✅ öncelik operatörü
+✅ temel kavramlar<br>
+✅ operatörlerin değer üretmesi _(values generated by operators)_<br>
+✅ operatör önceliği _(priority of operators)_<br>
+✅ öncelik yönü _(associativity)_<br>
+✅ yan etki _(side effect)_<br>
+✅ yan etki noktası _(sequence point)_<br>
+✅ aritmetik operatörler<br>
+✅ toplama, çıkarma, çarpma, bölme ve kalan operatörleri<br>
+✅ işaret operatörleri _(sign operators)_<br>
+✅ artırma ve eksiltme operatörleri _(increment & decrement operators)_<br>
+✅ karşılaştırma operatörleri _(relational operators)_<br>
+✅ karşılaştırma idiyomları <br>
+✅ tipik hatalar _(typical mistakes)_<br> 
+✅ lojik operatörler _(logical operators)_<br>
+✅ lojik yorumlama<br>
+✅ kısa devre davranışı _(short-circuit behavior)_<br>
+✅ tipik hatalar _(typical mistakes)_<br>
+✅ lojik ifadeler -(logical expressions)_<br>
+✅ idiyomlar _(idioms)_<br>
+✅ atama operatörleri _(assignment operators)_<br>
+✅ atama operatörlerinin değer üretmesi _(values generated by assignment operators)_<br>
+✅ yalın atama operatörü<br>
+✅ işlemli atama operatörleri _(compound assignment operators)_<br>
+✅ idiyomlar _(idioms)_<br>
+✅ virgül operatörü _(comma operator)_<br>
+✅ öncelik operatörü<br>
 ##  __Sabitler (Constants)__
-✅ sabitlerin türleri _(types of constants)_
-✅ tamsayı sabitleri _(integer constants)_
-✅ gerçek sayı sabitleri _(floating constants)_
-✅ üstel notasyon _(scientific notation)_ 
-✅ karakter sabitleri _(character constants)_
-✅ kaçış sekansları _(escape sequences)_
+✅ sabitlerin türleri _(types of constants)_<br>
+✅ tamsayı sabitleri _(integer constants)_<br>
+✅ gerçek sayı sabitleri _(floating constants)_<br>
+✅ üstel notasyon _(scientific notation)_ <br>
+✅ karakter sabitleri _(character constants)_<br>
+✅ kaçış sekansları _(escape sequences)_<br>
 			
 ##  __Kontrol Deyimleri__
 ✅ if deyimi _(if statement)_ <br>
@@ -388,31 +388,31 @@
 ##  __Standart signal kütüphanesi__
 
 ##  __Önişlemci Komutları – 2__
-✅ önişlemci operatörleri _(preprocessor operators)_
-✅ \# dizge yapma operatörü _(stringification operator)_ 
-✅ \## atom yapıştırma operatörü _(token-pasting operator)_ 
-✅ defined operatörü _(defined operator)_
-✅ öntanımlı sembolik sabitler _(predefined symbolic constants)_
-✅ #line komutu _(line directive)_
-✅ #error komutu _(error directive)_
-✅ #pragma komutu _pragma directive)_
+✅ önişlemci operatörleri _(preprocessor operators)_<br>
+✅ \# dizge yapma operatörü _(stringification operator)_ <br>
+✅ \## atom yapıştırma operatörü _(token-pasting operator)_ <br>
+✅ defined operatörü _(defined operator)_<br>
+✅ öntanımlı sembolik sabitler _(predefined symbolic constants)_<br>
+✅ #line komutu _(line directive)_<br>
+✅ #error komutu _(error directive)_<br>
+✅ #pragma komutu _pragma directive)_<br>
 ##  __assert Makrosu__
 ##  __\_Static\_assert__ (C11)
 ##  __Değişken Sayıda Argümanla Çağrılabilen İşlevler (Variadic Functions)__
 
 ## __C99 Standartları ile Eklenen Önemli Öğeler__
-✅ long long veri türü _(long long data type)_
-✅ for döngü deyiminde yapılan bildirimler
-✅ \_Bool anahtar sözcüğü ve _<stdbool.h>_ başlık dosyası
-✅ <stdint.h> başlık dosyası ve standart tür eş isimleri
-✅ inline fonksiyonlar _(inline functions)_
-✅ değişken boyutlu diziler _(variable length arrays)_
-✅ yapıların esnek dizi öğeleri _(flexible array members)_
-✅ restrict belirteci _(restrict qualifier)_
-✅ bileşik sabitler _(compound literals)_
-✅ variadic makrolar _(variadic macros)_
-✅ C99 standartları ile eklenen diğer standart kütüphane öğeleri
-✅ C11 standartları
+✅ long long veri türü _(long long data type)_ <br>
+✅ for döngü deyiminde yapılan bildirimler<br>
+✅ \_Bool anahtar sözcüğü ve _<stdbool.h>_ başlık dosyası<br>
+✅ <stdint.h> başlık dosyası ve standart tür eş isimleri<br>
+✅ inline fonksiyonlar _(inline functions)_<br>
+✅ değişken boyutlu diziler _(variable length arrays)_<br>
+✅ yapıların esnek dizi öğeleri _(flexible array members)_<br>
+✅ restrict belirteci _(restrict qualifier)_<br>
+✅ bileşik sabitler _(compound literals)_<br>
+✅ variadic makrolar _(variadic macros)_<br>
+✅ C99 standartları ile eklenen diğer standart kütüphane öğeleri<br>
+✅ C11 standartları<br>
 
 ##  __C++ içindeki C__
  
