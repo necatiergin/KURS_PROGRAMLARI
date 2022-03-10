@@ -180,79 +180,79 @@
 ✅ toupper ve tolower işlevleri
 ##  __İşlev Bildirimleri (Function Declarations)__
 ##  __Önişlemci Komutları – 1__
-✅ #include komutu _(include directive)_
-✅ #define komutu ve makrolar _(define directive & macros)_
-✅ sembolik sabitler _(symbolic constants)_
-✅ işlevsel makrolar _(functional macros)_
-✅ #undef komutu _(undef directive)_
-✅ koşullu derleme işlemleri ve koşullu derleme komutları _(conditional compiling directives)_
-✅ #if
-✅ #endif
-✅ #else
-✅ #elif
-✅ #ifdef
-✅ #ifndef
-✅ standart limits kütüphanesi _(standard \<limits> header)_
+✅ #include komutu _(include directive)_ <br>
+✅ #define komutu ve makrolar _(define directive & macros)_<br>
+✅ sembolik sabitler _(symbolic constants)_<br>
+✅ işlevsel makrolar _(functional macros)_<br>
+✅ #undef komutu _(undef directive)_<br>
+✅ koşullu derleme işlemleri ve koşullu derleme komutları _(conditional compiling directives)_<br>
+✅ #if<br>
+✅ #endif<br>
+✅ #else<br>
+✅ #elif<br>
+✅ #ifdef<br>
+✅ #ifndef<br>
+✅ standart limits kütüphanesi _(standard \<limits> header)_<br>
 	
 ##  __Tür Dönüşümleri (Type Conversions)__
-✅ otomatik tür dönüşümleri _(implicit type conversions)_
-✅ tür dönüştürme operatörü _(type-cast operator)_
-✅ tür dönüşümleri ve veri kaybı _(narrowing conversions)_
+✅ otomatik tür dönüşümleri _(implicit type conversions)_<br>
+✅ tür dönüştürme operatörü _(type-cast operator)_<br>
+✅ tür dönüşümleri ve veri kaybı _(narrowing conversions)_<br>
 	
 ## __typedef bildirimleri – 1__
-✅ tür eş isimleri ve taşınabilirlik _(type alias & portability)_  
-✅ standart typedef isimleri _(standard typedef names)_
-✅ size_t tür eş ismi
-✅ ptrdiff_t tür ismi
-✅ time_t ve clock_t tür isimleri
-✅ \<stdint> başlık dosyası
-✅ \<stdbool> başlık dosyası
+✅ tür eş isimleri ve taşınabilirlik _(type alias & portability)_  <br>
+✅ standart typedef isimleri _(standard typedef names)_<br>
+✅ size_t tür eş ismi<br>
+✅ ptrdiff_t tür ismi<br>
+✅ time_t ve clock_t tür isimleri<br>
+✅ \<stdint> başlık dosyası<br>
+✅ \<stdbool> başlık dosyası<br>
 	
 ##  __Rastgele Sayı Üretimi ve Programlamadaki Önemi__
-✅ gerçek ve sözde rastgele sayı üretimi _(truly and pseudo random number generation)_
-✅ rastgele sayı üretim algoritmaları
-✅ tohum değeri _(seed value)_
-✅ standart rand ve srand işlevleri
+✅ gerçek ve sözde rastgele sayı üretimi _(truly and pseudo random number generation)_<br>
+✅ rastgele sayı üretim algoritmaları<br>
+✅ tohum değeri _(seed value)_<br>
+✅ standart rand ve srand işlevleri<br>
 ##  __sizeof Operatörü__
 ##  __Diziler (arrays)__
-✅ veri yapıları ve algoritmalara giriş _(introduction to data structure & algorithms)_
-✅ veri yapıları _(data structures)_
-✅ algoritmanın karmaşıklığı _(complexity of algorithms)_
-✅ big O notasyonu _(big O notation)_
-✅ tamsayı ve gerçek sayı dizileri
-✅ dizilere ilk değer verme _(initialization of arrays)_
-✅ designated initializer (C99)
-✅ yazılar ve yazı tutan char diziler
-✅ null karakter _(null character)_
-✅ yazılara ilişkin temel algoritmalar
+✅ veri yapıları ve algoritmalara giriş _(introduction to data structure & algorithms)_<br>
+✅ veri yapıları _(data structures)_<br>
+✅ algoritmanın karmaşıklığı _(complexity of algorithms)_<br>
+✅ big O notasyonu _(big O notation)_<br>
+✅ tamsayı ve gerçek sayı dizileri<br>
+✅ dizilere ilk değer verme _(initialization of arrays)_<br>
+✅ designated initializer (C99)<br>
+✅ yazılar ve yazı tutan char diziler<br>
+✅ null karakter _(null character)_<br>
+✅ yazılara ilişkin temel algoritmalar<br>
 ##  __Göstericiler (pointers)__
-✅ temel kavramlar
-✅ adres ifadeleri _(pointer expressions)_
-✅ gösterici değişkenler _(pointer variables)_
-✅ göstericiler ve storage _(pointers & storage duration)_
-✅ adres operatörü _(address of operator)_
-✅ içerik operatörü _(dereferencing operator)_  
-✅ diziden adrese dönüşüm _(array to pointer conversion)_
-✅ geçerli ve geçersiz göstericiler _(valid & invalid pointers)_
-✅ göstericiler ve const semantiği _(pointers & const semantics)_
-✅ kendisi const göstericiler _(const pointers)_
-✅ okuma amaçlı const göstericiler 
-✅ const semantiği ve tür dönüşümleri _(const semantics & type conversions)_
-✅ gösterici aritmetiği
-✅ indeks operatörü _(index/subscript operators)_
-✅ diziler üstünde işlem yapan işlevler 
-✅ göstericiler ve karşılaştırma işlemleri _(pointers & relational operators)_
-✅ adres döndüren işlevler _(function returning pointers)_
-✅ NULL gösterici _(NULL pointer)_
-✅ endianness, little endian, big endian kavramları _(endianness, litlle & big endian)_
-✅ gösterici hataları _(pointer mistakes)_
+✅ temel kavramlar<br>
+✅ adres ifadeleri _(pointer expressions)_<br>
+✅ gösterici değişkenler _(pointer variables)_<br>
+✅ göstericiler ve storage _(pointers & storage duration)_<br>
+✅ adres operatörü _(address of operator)_<br>
+✅ içerik operatörü _(dereferencing operator)_  <br>
+✅ diziden adrese dönüşüm _(array to pointer conversion)_<br>
+✅ geçerli ve geçersiz göstericiler _(valid & invalid pointers)_<br>
+✅ göstericiler ve const semantiği _(pointers & const semantics)_<br>
+✅ kendisi const göstericiler _(const pointers)_<br>
+✅ okuma amaçlı const göstericiler <br>
+✅ const semantiği ve tür dönüşümleri _(const semantics & type conversions)_<br>
+✅ gösterici aritmetiği<br>
+✅ indeks operatörü _(index/subscript operators)_<br>
+✅ diziler üstünde işlem yapan işlevler <br>
+✅ göstericiler ve karşılaştırma işlemleri _(pointers & relational operators)_<br>
+✅ adres döndüren işlevler _(function returning pointers)_<br>
+✅ NULL gösterici _(NULL pointer)_<br>
+✅ endianness, little endian, big endian kavramları _(endianness, litlle & big endian)_<br>
+✅ gösterici hataları _(pointer mistakes)_<br>
 ##  __Standart string Kütüphanesi (string library)__
-✅ strlen, strcpy, strcat, strncpy, strncat işlevleri
-✅ arama işlevleri: strchr, strnchr, strstr, strpbrk, strspn, strcspn
-✅ karşılaştırma işlevleri : strcmp, strcoll, stricmp
-✅ strtok işlevi
-✅ diğer standart string işlevleri
-✅ örnek bazı Posix işlevleri
+✅ strlen, strcpy, strcat, strncpy, strncat işlevleri<br>
+✅ arama işlevleri: strchr, strnchr, strstr, strpbrk, strspn, strcspn<br>
+✅ karşılaştırma işlevleri : strcmp, strcoll, stricmp<br>
+✅ strtok işlevi<br>
+✅ diğer standart string işlevleri<br>
+✅ örnek bazı Posix işlevleri<br>
 ##  __Standart stddef Kütüphanesi__
 ##  __String Sabitleri (String Literals)__
 ✅ string sabitleri ve const doğruluğu _(string literals and const correctness)_
