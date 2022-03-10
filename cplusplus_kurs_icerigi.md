@@ -31,8 +31,8 @@
 
 ## İlk Değer Verme _(Initialization)_
 ✅ eş biçimli ilk değer verme `(uniform initialization)`<br>
-&nbsp;&nbsp;&nbsp;&nbsp;❇daraltıcı dönüşümler `(narrowing conversions)` <br>
-&nbsp;&nbsp;&nbsp;&nbsp;❇most vexing parse` <br>
+➤ daraltıcı dönüşümler `(narrowing conversions)` <br>
+➤ most vexing parse` <br>
 ✅ doğrudan ilk değer verme `(direct intialization)`<br>
 ✅ değerle başlatma `value initialization`<br>
 ✅ kopyalama ile ilk değer verme `(copy initialization)`<br>
@@ -40,10 +40,10 @@
 ✅ bileşiklere ilk değer verme `(aggregate initialization)`<br>
 
 ## Tür Çıkarımı _(Type Deduction)_
-+ auto belirteci ile tür çıkarımı `(auto type deduction)`
-+ decltype belirteci ile tür çıkarımı `(decltype type deduction)`
-+ sonradan gelen geri dönüş türü `(trailing  return type)`
-+ auto geri dönüş değeri türü `(auto return type)`
+✅ auto belirteci ile tür çıkarımı `(auto type deduction)` <br>
+✅ decltype belirteci ile tür çıkarımı `(decltype type deduction)` <br>
+✅ sonradan gelen geri dönüş türü `(trailing  return type)` <br>
+✅ auto geri dönüş değeri türü `(auto return type)` <br>
 
 ## kapsamlandırılmış enum türleri _(scoped enums)_
 + geleneksel enum türleri `(conventional enum types)`
