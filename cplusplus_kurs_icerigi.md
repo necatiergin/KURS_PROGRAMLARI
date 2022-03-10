@@ -216,11 +216,11 @@
 ## Olağan Dışı Durumların İşlenmesi _(Exception Handling)_
 ✅ exception güvenliği `(exception safety) `<br>
 ✅ hata nesnelerinin gönderilmesi `(throwing exception objects)`<br>
-  + throw deyimi `(throw statement)`<br>
-  + rethrow deyimi `(rethrow statement)`<br>
+&emsp;&emsp;throw deyimi `(throw statement)`<br>
+&emsp;&emsp;rethrow deyimi `(rethrow statement)`<br>
 ✅ try blokları<br>
 ✅ catch blokları<br>
-  + catch all
+&emsp;&emsp; catch all
 ✅ yakalanamayan hata nesnesi `(uncaught exception)`<br>
 ✅ std::terminate<br>
 ✅ std::set_terminate<br>
@@ -349,26 +349,26 @@
 + iterator traits
 
 ## Kaplar _(Containers)_
-+ STL kapları ve veri yapıları `(STL containers & data structures) `
-+ sıralı kaplar `(sequence containers)`
-  + std::vector
-  + std::deque
-  + std::string
-  + std::array
-  + std::list
-  + std::forward_list
-+ ilişkisel kaplar `(associative containers)`
-  + std::set
-  + std::multiset
-  + std::map
-  + std::multimap
-+ sırasız ilişkisel kaplar `(unordered containers)`
-  + std::unordered_set
-  + std::unordered_multiset
-  + std::unordered_map
-  + std::unordered_multimap
-+ kapların tür öğeleri `(type members of containers)`
-+ kapların emplace işlevleri
+✅ STL kapları ve veri yapıları `(STL containers & data structures) ` <br>
+✅ sıralı kaplar `(sequence containers)`<br>
+&emsp;&emsp;❇️ std::vector<br>
+&emsp;&emsp;❇️ std::deque<br>
+&emsp;&emsp;❇️ std::string<br>
+&emsp;&emsp;❇️ std::array<br>
+&emsp;&emsp;❇️ std::list<br>
+&emsp;&emsp;❇️ std::forward_list<br>
+✅ ilişkisel kaplar `(associative containers)`<br>
+&emsp;&emsp;❇️ std::set<br>
+&emsp;&emsp;❇️ std::multiset<br>
+&emsp;&emsp;❇️ std::map<br>
+&emsp;&emsp;❇️ std::multimap<br>
+✅ sırasız ilişkisel kaplar `(unordered containers)`<br>
+&emsp;&emsp;❇️ std::unordered_set<br>
+&emsp;&emsp;❇️ std::unordered_multiset<br>
+&emsp;&emsp;❇️ std::unordered_map<br>
+&emsp;&emsp;❇️ std::unordered_multimap<br>
+✅ kapların tür öğeleri `(type members of containers)`<br>
+✅ kapların emplace işlevleri<br>
 
 ## Kap Uyumlandırıcıları _(Container Adaptors)_
 ✅ std::stack<br>
@@ -400,14 +400,14 @@
 ✅ lambda idiyomları `(lambda idioms)`<br>
 
 ## Akıllı Gösterici Sınıfları _(Standard Smart Pointer Classes)_
-+ unique_ptr sınıfı
-  + std::make_unique işlev şablonu
-  + std::default_delete ve custom deleters
-  + tipik hatalar
-+ std::shared_ptr sınıfı
-  + referans sayımı `(reference counting)`
-  + std::make_shared işlev şablonu
-  + weak_ptr sınıfı
+✅ unique_ptr sınıfı <br>
+&emsp;&emsp;❇️ std::make_unique işlev şablonu <br> 
+&emsp;&emsp;❇️ std::default_delete ve custom deleters <br>
+&emsp;&emsp;❇️ tipik hatalar <br>
+✅ std::shared_ptr sınıfı<br>
+&emsp;&emsp;❇️ referans sayımı `(reference counting)`<br>
+&emsp;&emsp;❇️ std::make_shared işlev şablonu<br>
+&emsp;&emsp;❇️ weak_ptr sınıfı<br>
 
 ## Standart Giriş Çıkış Kütüphanesi _(iostream Library)_
 ✅ giriş çıkış akımlarına ilişkin standart sınıflar `(standard stream classes)` <br>
