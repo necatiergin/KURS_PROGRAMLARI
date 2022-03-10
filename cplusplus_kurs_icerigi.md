@@ -63,25 +63,25 @@
 ## İşlevlerin Varsayılan Argüman Alması _(Default Arguments)_
 
 ## Referans Semantiği (Reference Semantics)
-+ sol taraf referansları `(L value references)`
-+ sağ taraf referansları `(R value references)`
-+ referanslar ve const semantiği `(references & const semantics)`
-+ referanslar ile göstericilerin `(pointer)` karşılaştırılması
-+ parametresi referans olan işlevler
-+ referans döndüren işlevler
+✅ sol taraf referansları `(L value references)`<br>
+✅ sağ taraf referansları `(R value references)`<br>
+✅ referanslar ve const semantiği `(references & const semantics)`<br>
+✅ referanslar ile göstericilerin `(pointer)` karşılaştırılması<br>
+✅ parametresi referans olan işlevler<br>
+✅ referans döndüren işlevler<br>
 
 ## İşlev Yüklemesi _(Function Overloading)_
-+ genel kurallar
-+ yüklenmiş işlev çözümlenmesi `(function overload resolution)`
-+ const yüklemesi `(const overloading)`
-+ extern "C" bildirimi `(extern C declarations)`
-+ işlev yüklemesinde dikkat edilmesi gereken durumlar
+✅ genel kurallar<br>
+✅ yüklenmiş işlev çözümlenmesi `(function overload resolution)`<br>
+✅ const yüklemesi `(const overloading)`<br>
+✅ extern "C" bildirimi `(extern C declarations)`<br>
+✅ işlev yüklemesinde dikkat edilmesi gereken durumlar<br>
 
 ## Tür Dönüştürme Operatörleri _(Type-cast Operators)_
-+ static_cast<> operatörü
-+ const_cast<> operatörü
-+ reinterpret_cast<> operatörü
-+ dynamic_cast<> operatörü `(kalıtım başlığı altında)`
+✅ static_cast<> operatörü<br>
+✅ const_cast<> operatörü<br>
+✅ reinterpret_cast<> operatörü<br>
+✅ dynamic_cast<> operatörü `(kalıtım başlığı altında)`<br>
 
 ## Sınıflara giriş _(Introduction to Classes)_
 + sınıf kapsamı `(class scope)`
@@ -155,15 +155,15 @@ sınıflar ve isim arama `(name lookup)`
 + programcının tanımladığı sabitler `(user-defined literals)`
 
 ## Dinamik Ömürlü Nesneler _(Dynamic Objects)_
-+ new ve delete ifadeleri `(new & delete expressions)` 
-+ new[] ve delete [] ifadeleri
-+ operator new işlevleri
-+ operator delete işlevleri
-+ operator new ve operator delete işlevlerinin yüklenmesi
-+ std::bad_alloc
-+ std::set_new_handler ve std::get_new_handler
-+ placement new operatörleri
-+ nothrow new
+✅ new ve delete ifadeleri `(new & delete expressions)` 
+✅ new[] ve delete [] ifadeleri
+✅ operator new işlevleri
+✅ operator delete işlevleri
+✅ operator new ve operator delete işlevlerinin yüklenmesi
+✅ std::bad_alloc
+✅ std::set_new_handler ve std::get_new_handler
+✅ placement new operatörleri
+✅ nothrow new
 
 ## Tür Eş İsimleri _(Type Alias)_
 + typedef bildirimleri
@@ -386,18 +386,18 @@ sınıflar ve isim arama `(name lookup)`
 + algoritmaların lambda ifadelerini kullanması
 
 ## Lambda İfadeleri _(Lambda Expressions)_
-+ kapanış türleri ve kapanış nesneleri `(closure types and closure objects)`
-+ lambda ifadeleri ve tür çıkarımı `(lambda expressions and type deduction)`
-+ lambda yakalama ifadeleri `(lambda captures)`
-+ `lambda init capture`
-+ capture this 
-+ capture `*this`
-+ mutable lambdalar
-+ trailing return type
-+ genelleştirilmiş lambda ifadeleri `(generalized lambda expressions)`
-+ algoritmalarda lambda ifadelerinin kullanımı
-+ lambda ifadeleri C++11/14/17/20
-+ lambda idiyomları `(lambda idioms)`
+✅ kapanış türleri ve kapanış nesneleri `(closure types and closure objects)`<br>
+✅ lambda ifadeleri ve tür çıkarımı `(lambda expressions and type deduction)`<br>
+✅ lambda yakalama ifadeleri `(lambda captures)`<br>
+✅ `lambda init capture`<br>
+✅ capture this <br>
+✅ capture `*this`<br>
+✅ mutable lambdalar<br>
+✅ trailing return type<br>
+✅ genelleştirilmiş lambda ifadeleri `(generalized lambda expressions)`<br>
+✅ algoritmalarda lambda ifadelerinin kullanımı<br>
+✅ lambda ifadeleri C++11/14/17/20<br>
+✅ lambda idiyomları `(lambda idioms)`<br>
 
 ## Akıllı Gösterici Sınıfları _(Standard Smart Pointer Classes)_
 + unique_ptr sınıfı
@@ -410,35 +410,35 @@ sınıflar ve isim arama `(name lookup)`
   + weak_ptr sınıfı
 
 ## Standart Giriş Çıkış Kütüphanesi _(iostream Library)_
-+ giriş çıkış akımlarına ilişkin standart sınıflar `(standard stream classes)`
-+ global akım nesneleri `(global stream objects)`
-+ formatlı giriş çıkış işlemleri `(formatted input output)`
-+ << ve >> operatörlerinin yüklenmesi `(inserter & extractors)`
-+ formatlama ve formatlama işlemleri `(formatting)`
-+ manipülatörler `(manipulators)`
-+ akımın durumu `(condition states)`
-+ string akımları `(stringstreams)`
-+ dosya işlemleri `(file operations)`
-+ formatsız giriş ve çıkış işlemleri `(unformatted input output)`
-+ bellek üstünde yapılan giriş çıkış işlemleri `(in-memory input output operations)`
+✅ giriş çıkış akımlarına ilişkin standart sınıflar `(standard stream classes)` <br>
+✅ global akım nesneleri `(global stream objects)`<br>
+✅ formatlı giriş çıkış işlemleri `(formatted input output)`<br>
+✅ << ve >> operatörlerinin yüklenmesi `(inserter & extractors)`<br>
+✅ formatlama ve formatlama işlemleri `(formatting)`<br>
+✅ manipülatörler `(manipulators)`<br>
+✅ akımın durumu `(condition states)`<br>
+✅ string akımları `(stringstreams)`<br>
+✅ dosya işlemleri `(file operations)`<br>
+✅ formatsız giriş ve çıkış işlemleri `(unformatted input output)`<br>
+✅ bellek üstünde yapılan giriş çıkış işlemleri `(in-memory input output operations)`<br>
 
 ## Bazı önemli STL Öğelerinin Tanıtımı
-+ std::pair
-+ std::tuple
-+ std::initializer_list
-+ std::bitset
-+ std::regex
-+ type_traits kütüphanesi
-+ std::allocator
-+ std::ratio
-+ std::chrono
-+ standart random kütüphanesi
-+ std::string_view sınıfı
-+ std::optional sınıfı
-+ std::variant sınıfı
-+ std::any sınıfı
-+ std::byte
-+ std::invoke
+✅ std::pair<br>
+✅ std::tuple<br>
+✅ std::initializer_list<br>
+✅ std::bitset<br>
+✅ std::regex<br>
+✅ type_traits kütüphanesi<br>
+✅ std::allocator<br>
+✅ std::ratio<br>
+✅ std::chrono<br>
+✅ standart random kütüphanesi<br>
+✅ std::string_view sınıfı<br>
+✅ std::optional sınıfı<br>
+✅ std::variant sınıfı<br>
+✅ std::any sınıfı<br>
+✅ std::byte<br>
+✅ std::invoke<br>
 
 ## Tamamlayıcı Araçlar ve Sentaks Öğeleri
 ✅ static_assert <br>
