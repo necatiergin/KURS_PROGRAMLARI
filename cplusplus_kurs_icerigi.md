@@ -84,41 +84,41 @@
 ✅ dynamic_cast<> operatörü `(kalıtım başlığı altında)`<br>
 
 ## Sınıflara giriş _(Introduction to Classes)_
-+ sınıf kapsamı `(class scope)`
-+ sınıflar ve isim arama `(name lookup)`
-+ erişim kontrolü `(access control)` ve veri gizleme `(data hiding)`
-  + public öğeler `(public members)`
-  + private öğeler `(private members)`
-  + protected öğeler `(protected members)`
-+ sınıfların öğeleri `(class members)`
-  + sınıfların veri öğeleri `(data members)`
-    + non-static veri öğeleri
-    + mutable veri öğeleri
-    + static veri öğeleri
-  + sınıfların üye işlevleri
-    + non-static üye işlevler
-    + const üye işlevler
-    + static üye işlevler
-  + this göstericisi ve \*this
-  + sınıfların tür öğeleri `(type members)`
-+ sınıfların kurucu işlevleri `(constructors)`
-  + kurucu işlev ilk değer verme listesi `(constructor initializer list)`
-  + delege eden kurucu işlevler `(delegating constructors)`
-  + explicit kurucu işlevler `(explicit constructors)`
-+ sınıfların sonlandırıcı işlevleri `(destructors)`
-+ üye işlevlerin çağrılması
-+  sınıflar ve const doğruluğu `(classes & const correctness)`
-  + const sınıf nesneleri `(const objects)`
-  + const üye fonksiyonlar `(const member fuctions)`
-+ geçici sınıf nesneleri `(temporary objects)`
-+ otomatik tür dönüşümleri `(implicit type conversions)` 
-+ mutable anahtar sözcüğü
-+ friend bildirimi `(friend declarations)` 
-  + friend bildirimi ve veri gizleme
-  + global işlevlere friend bildirimi
-  + sınıfların üye işlevlerine friend bildirimi
-  + sınıflara friend bildirimi
-  + attorney client idiyomu
+✅ sınıf kapsamı `(class scope)` <br>
+✅ sınıflar ve isim arama `(name lookup)`<br>
+✅ erişim kontrolü `(access control)` ve veri gizleme `(data hiding)`<br>
+&emsp;&emsp;❇️ public öğeler `(public members)`<br>
+&emsp;&emsp;❇️ private öğeler `(private members)`<br>
+&emsp;&emsp;❇️ protected öğeler `(protected members)`<br>
+✅ sınıfların öğeleri `(class members)`<br>
+&emsp;&emsp;❇️ sınıfların veri öğeleri `(data members)`<br>
+&emsp;&emsp;&emsp;&emsp;⦿  non-static veri öğeleri<br>
+&emsp;&emsp;&emsp;&emsp;⦿  mutable veri öğeleri<br>
+&emsp;&emsp;&emsp;&emsp;⦿  static veri öğeleri<br>
+&emsp;&emsp;❇️ sınıfların üye işlevleri<br>
+&emsp;&emsp;&emsp;&emsp;⦿ non-static üye işlevler<br>
+&emsp;&emsp;&emsp;&emsp;⦿ const üye işlevler<br>
+&emsp;&emsp;&emsp;&emsp;⦿ static üye işlevler<br>
+&emsp;&emsp;❇️ this göstericisi ve \*this<br>
+&emsp;&emsp;❇️ sınıfların tür öğeleri `(type members)`<br>
+✅ sınıfların kurucu işlevleri `(constructors)`<br>
+&emsp;&emsp;❇️ kurucu işlev ilk değer verme listesi `(constructor initializer list)`<br>
+&emsp;&emsp;❇️ delege eden kurucu işlevler `(delegating constructors)`<br>
+&emsp;&emsp;❇️ explicit kurucu işlevler `(explicit constructors)`<br>
+✅ sınıfların sonlandırıcı işlevleri `(destructors)`<br>
+✅ üye işlevlerin çağrılması<br>
+✅ sınıflar ve const doğruluğu `(classes & const correctness)`<br>
+&emsp;&emsp;❇️ const sınıf nesneleri `(const objects)`<br>
+&emsp;&emsp;❇️ const üye fonksiyonlar `(const member fuctions)`<br>
+✅ geçici sınıf nesneleri `(temporary objects)`<br>
+✅ otomatik tür dönüşümleri `(implicit type conversions)` <br>
+✅ mutable anahtar sözcüğü<br>
+✅ friend bildirimi `(friend declarations)` <br>
+&emsp;&emsp;❇️ friend bildirimi ve veri gizleme<br>
+&emsp;&emsp;❇️ global işlevlere friend bildirimi<br>
+&emsp;&emsp;❇️ sınıfların üye işlevlerine friend bildirimi<br>
+&emsp;&emsp;❇️ sınıflara friend bildirimi<br>
+&emsp;&emsp;❇️ attorney client idiyomu<br>
 
 ## Sınıfların Özel Üye İşlevleri ve Kopyalama İşlemleri _(Special Member Functions & Copy Control)_
 ✅ sınıfların özel işlevleri <br>
