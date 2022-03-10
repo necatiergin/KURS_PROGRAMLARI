@@ -1,50 +1,50 @@
 # C Programlama Dili Kursu İçeriği
 
-+ __Kursun Tanıtımı__
-+ __C Programlama Dilinin Genel Tanıtımı__
-	+ programlama dillerini birbirinden ayıran kriterler
-		+ declarative ve imperative diller _(declarative & imperative languages)_
-		+ programlama paradigmaları _(programming paradigms)_
-		+ seviye _(level)_
-		+ mülkiyet _(proprietary languages)_
-		+ statik ve dinamik tür kavramları _(static typing vs. dynamic typing)_
-		+ prosedürel programlama ve C dili _(procedural programming & C language)_
-	+ C dilinin kullanım alanları 
-	+ C dilinin temel özellikleri
-	+ C dilinin tarihsel gelişimi ve C Standartları _(history of C language & C Standards)_
-		+ Klasik C
-		+ C89
-		+ C99
-		+ C11
-	+ C ve C++ ilişkisi
+##  __Kursun Tanıtımı__
+##  __C Programlama Dilinin Genel Tanıtımı__
+✅ programlama dillerini birbirinden ayıran kriterler <br>
+✅ declarative ve imperative diller _(declarative & imperative languages)_ <br>
+✅ programlama paradigmaları _(programming paradigms)_ <br>
+✅ programlama dillerinin seviyesi _(level)_ <br>
+✅ mülkiyet _(proprietary languages)_ <br>
+✅ statik ve dinamik tür kavramları _(static typing vs. dynamic typing)_ <br>
+✅ prosedürel programlama ve C dili _(procedural programming & C language)_ <br>
+✅ C dilinin kullanım alanları <br>
+✅ C dilinin temel özellikleri<br>
+✅ C dilinin tarihsel gelişimi ve C Standartları _(history of C language & C Standards)_ <br>
+&emsp;&emsp;❇️ Klasik C <br>
+&emsp;&emsp;❇️ C89 <br>
+&emsp;&emsp;❇️ C99 <br>
+&emsp;&emsp;❇️ C11 <br>
+&emsp;&emsp;❇️ C ve C++ ilişkisi <br>
 
-+ __Temel Kavramlar__
-	+ atom kavramı _(tokens)_ 
-		+ atom kategorileri _(token categories)_
-			+ anahtar sözcükler _(keywords)_
-			+ isimler _(identifiers)_
-			+ sabitler _(constants - literals)_
-			+ string literalleri _(string literals)_
-			+ operatörler _(operators)_
-		+ atomlarına ayırma _(tokenizing)_
-		+ en uzun atom kuralı _(maximum munch)_
-	+ sayı sistemleri
-		+ işaretli ve işaretsiz ikilik sayı sistemi _(signed & unsigned binary systems)_
-		+ dönüşümler _(conversions)_
-		+ bire tümleme işlemi _(one's complement)_
-		+ ikiye tümleme işlemi _(two's complement)_
-		+ onaltılık sayı sistemi _(hexadecimal system)_
-		+ sekizlik sayı sistemi _(octal system)_
-	+ nesneler _(objects)_
-		+ tür kavramı _(data types)_
-		+ nesnelerin bellek alanları _(storage)_
-		+ temel türler _(fundemantal types)_
-		+ programcı tarafından tanımlanan türler _(user-defined types)_
-	+ ifadeler (expressions)
-		+ ifade kategorileri _(value categories)_
-			+ sol taraf değeri ifadesi _(L value expression)_
-			+ sağ taraf değeri ifadesi _(R value expression)_
-		+ sabit ifadesi _(constant expression)_
+## __Temel Kavramlar__
+✅ atom kavramı _(tokens)_ <br>
+&emsp;&emsp;❇️ atom kategorileri _(token categories)_<br>
+&emsp;&emsp;❇️ anahtar sözcükler _(keywords)_<br>
+&emsp;&emsp;❇️ isimler _(identifiers)_<br>
+&emsp;&emsp;❇️ sabitler _(constants - literals)_<br>
+&emsp;&emsp;❇️ string literalleri _(string literals)_<br>
+&emsp;&emsp;❇️ operatörler _(operators)_<br>
+&emsp;&emsp;❇️ atomlarına ayırma _(tokenizing)_<br>
+&emsp;&emsp;❇️ en uzun atom kuralı _(maximum munch)_<br>
+✅ sayı sistemleri<br>
+&emsp;&emsp;❇️ işaretli ve işaretsiz ikilik sayı sistemi _(signed & unsigned binary systems)_<br>
+&emsp;&emsp;❇️ dönüşümler _(conversions)_<br>
+&emsp;&emsp;❇️ bire tümleme işlemi _(one's complement)_<br>
+&emsp;&emsp;❇️ ikiye tümleme işlemi _(two's complement)_<br>
+&emsp;&emsp;❇️ onaltılık sayı sistemi _(hexadecimal system)_<br>
+&emsp;&emsp;❇️ sekizlik sayı sistemi _(octal system)_<br>
+✅ nesneler _(objects)_<br>
+✅ tür kavramı _(data types)_<br>
+✅ nesnelerin bellek alanları _(storage)_<br>
+✅ temel türler _(fundemantal types)_<br>
+✅ programcı tarafından tanımlanan türler _(user-defined types)_<br>
+✅ ifadeler (expressions)<br>
+&emsp;&emsp;❇️ ifade kategorileri _(value categories)_<br>
+&emsp;&emsp;❇️ sol taraf değeri ifadesi _(L value expression)_<br>
+&emsp;&emsp;❇️ sağ taraf değeri ifadesi _(R value expression)_<br>
+&emsp;&emsp;❇️ sabit ifadesi _(constant expression)_<br>
 		
 + __Bir C Programı Oluşturmak__
 	+ metin düzenleyici programlar ve text dosyaları
