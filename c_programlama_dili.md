@@ -1,6 +1,7 @@
 # C Programlama Dili Kursu İçeriği
 
 ##  __Kursun Tanıtımı__
+
 ##  __C Programlama Dilinin Genel Tanıtımı__
 ✅ programlama dillerini birbirinden ayıran kriterler <br>
 ✅ declarative ve imperative diller _(declarative & imperative languages)_ <br>
@@ -149,6 +150,7 @@
 &emsp;&emsp;❇️ idiyomlar _(idioms)_<br>
 ✅ virgül operatörü _(comma operator)_<br>
 ✅ öncelik operatörü<br>
+
 ##  __Sabitler (Constants)__
 ✅ sabitlerin türleri _(types of constants)_<br>
 &emsp;&emsp;❇️ tamsayı sabitleri _(integer constants)_<br>
@@ -173,13 +175,17 @@
 &emsp;&emsp;❇️döngü idiyomları _(loop idioms)_ <br>
 ✅ switch deyimi _(switch statement)_<br>
 ✅ goto deyimi _(goto statement)_<br>
+
 ##  __Koşul Operatörü (Ternary Operator)__
+
 ##  __Standart ctype Kütüphanesi__
 ✅ karakter test işlevleri<br>
 &emsp;&emsp;❇️ isupper, islower, isalpha, isdigit, isalnum, isxdigit, isspace, isblank, ispunct, isprint, isgraph, iscntrl<br>
 ✅ karakter dönüşüm işlevleri<br>
 &emsp;&emsp;❇️ toupper ve tolower işlevleri<br>
+
 ##  __İşlev Bildirimleri (Function Declarations)__
+
 ##  __Önişlemci Komutları – 1__
 ✅ #include komutu _(include directive)_ <br>
 ✅ #define komutu ve makrolar _(define directive & macros)_<br>
@@ -187,12 +193,12 @@
 ✅ işlevsel makrolar _(functional macros)_<br>
 ✅ #undef komutu _(undef directive)_<br>
 ✅ koşullu derleme işlemleri ve koşullu derleme komutları _(conditional compiling directives)_<br>
-&emsp;&emsp;❇️#if<br>
-&emsp;&emsp;❇️#endif<br>
-&emsp;&emsp;❇️#else<br>
-&emsp;&emsp;❇️#elif<br>
-&emsp;&emsp;❇️#ifdef<br>
-&emsp;&emsp;❇️#ifndef<br>
+&emsp;&emsp;❇️ #if<br>
+&emsp;&emsp;❇️ #endif<br>
+&emsp;&emsp;❇️ #else<br>
+&emsp;&emsp;❇️ #elif<br>
+&emsp;&emsp;❇️ #ifdef<br>
+&emsp;&emsp;❇️ #ifndef<br>
 ✅ standart limits kütüphanesi _(standard \<limits> header)_<br>
 	
 ##  __Tür Dönüşümleri (Type Conversions)__
@@ -203,9 +209,9 @@
 ## __typedef bildirimleri – 1__
 ✅ tür eş isimleri ve taşınabilirlik _(type alias & portability)_  <br>
 ✅ standart typedef isimleri _(standard typedef names)_<br>
-&emsp;&emsp;❇️size_t tür eş ismi<br>
-&emsp;&emsp;❇️ptrdiff_t tür ismi<br>
-&emsp;&emsp;❇️time_t ve clock_t tür isimleri<br>
+&emsp;&emsp;❇️ size_t tür eş ismi<br>
+&emsp;&emsp;❇️ ptrdiff_t tür ismi<br>
+&emsp;&emsp;❇️ time_t ve clock_t tür isimleri<br>
 ✅ \<stdint> başlık dosyası<br>
 ✅ \<stdbool> başlık dosyası<br>
 	
@@ -214,7 +220,9 @@
 ✅ rastgele sayı üretim algoritmaları<br>
 ✅ tohum değeri _(seed value)_<br>
 ✅ standart rand ve srand işlevleri<br>
+
 ##  __sizeof Operatörü__
+
 ##  __Diziler (arrays)__
 ✅ veri yapıları ve algoritmalara giriş _(introduction to data structure & algorithms)_<br>
 ✅ veri yapıları _(data structures)_<br>
@@ -226,6 +234,7 @@
 ✅ yazılar ve yazı tutan char diziler<br>
 ✅ null karakter _(null character)_<br>
 ✅ yazılara ilişkin temel algoritmalar<br>
+
 ##  __Göstericiler (pointers)__
 ✅ temel kavramlar<br>
 ✅ adres ifadeleri _(pointer expressions)_<br>
@@ -247,6 +256,7 @@
 ✅ NULL gösterici _(NULL pointer)_<br>
 ✅ endianness, little endian, big endian kavramları _(endianness, litlle & big endian)_<br>
 ✅ gösterici hataları _(pointer mistakes)_<br>
+
 ##  __Standart string Kütüphanesi (string library)__
 ✅ strlen, strcpy, strcat, strncpy, strncat işlevleri<br>
 ✅ arama işlevleri: strchr, strnchr, strstr, strpbrk, strspn, strcspn<br>
@@ -254,7 +264,9 @@
 ✅ strtok işlevi<br>
 ✅ diğer standart string işlevleri<br>
 ✅ örnek bazı Posix işlevleri<br>
+
 ##  __Standart stddef Kütüphanesi__
+
 ##  __String Sabitleri (String Literals)__
 ✅ string sabitleri ve const doğruluğu _(string literals and const correctness)_<br>
 ✅ string sabitleri ve ömür _(lifespan of string literals)_<br>
@@ -313,6 +325,7 @@
 &emsp;&emsp;❇️ const anahtar sözcüğü ve const semantiği _(const keyword & const semantics)_<br>
 &emsp;&emsp;❇️ volatile anahtar sözcüğü _(volatile keyword)_<br>
 &emsp;&emsp;❇️ restrict anahtar sözcüğü _(restrict keyword)_<br>
+
 ##  __Programların sonlandırılması__
 ✅ Normal sonlanma ve standart exit işlevi _(normal termination & std. exit function)_<br>
 ✅ standart atexit işlevi _(std. atexit function)_<br>
@@ -341,6 +354,7 @@
 &emsp;&emsp;❇️ offsetof makrosu <br>
 ✅ anonim yapılar _(anonymous structures)_<br>
 ✅ yapıların içsel türleri _(nested types of structures)_<br>
+
 ##  __Standart time Kütüphanesi (time Library)__
 ✅ takvim zamanı ve ayrıştırılmış zaman _(calender time & broken-down time)_<br>
 ✅ time_t türü<br>
@@ -375,10 +389,10 @@
 ✅ fopen, freopen, fclose ve fcloseall işlevleri<br>
 ✅ okuma ve yazma işlemleri<br>
 ✅ formatlı okuma yazma işlemleri<br>
-✅ fprintf işlevi<br>
-✅ fscanf işlevi<br>
-✅ fputs işlevi<br>
-✅ fgets işlevi<br>
+&emsp;&emsp;❇️ fprintf işlevi<br>
+&emsp;&emsp;❇️ fscanf işlevi<br>
+&emsp;&emsp;❇️ fputs işlevi<br>
+&emsp;&emsp;❇️ fgets işlevi<br>
 ✅ formatsız okuma yazma işlemleri<br>
 &emsp;&emsp;❇️ fgetc işlevi<br>
 &emsp;&emsp;❇️ fputc işlevi<br>
@@ -394,9 +408,11 @@
 ✅ fsetbuf işlevi<br>
 ✅ ungetc işlevi<br>
 ✅ Diğer dosya işlevleri ve örnek uygulamalar<br>
+
 ##  __errno.h başlık dosyası__
 ✅ errno değişkeni<br>
 ✅ strerror ve perror fonksionları<br>
+
 ##  __Standart signal kütüphanesi__
 
 ##  __Önişlemci Komutları – 2__
@@ -408,8 +424,11 @@
 ✅ #line komutu _(line directive)_<br>
 ✅ #error komutu _(error directive)_<br>
 ✅ #pragma komutu _pragma directive)_<br>
+
 ##  __assert Makrosu__
+
 ##  __\_Static\_assert__ (C11)
+
 ##  __Değişken Sayıda Argümanla Çağrılabilen İşlevler (Variadic Functions)__
 
 ## __C99 Standartları ile Eklenen Önemli Öğeler__
