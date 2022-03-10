@@ -30,14 +30,14 @@
 ✅ çift anlamlılık hatası `(ambiguity)` <br>
 
 ## İlk Değer Verme _(Initialization)_
-+ eş biçimli ilk değer verme `(uniform initialization)`
-  + daraltıcı dönüşümler `(narrowing conversions)`
-  + `most vexing parse`
-+ doğrudan ilk değer verme `(direct intialization)`
-+ değerle başlatma `value initialization`
-+ kopyalama ile ilk değer verme `(copy initialization)`
-+ varsayılan ilk değer verme `(default initialization)`
-+ bileşiklere ilk değer verme `(aggregate initialization)`
+✅ eş biçimli ilk değer verme `(uniform initialization)`<br>
++ daraltıcı dönüşümler `(narrowing conversions)`
++ `most vexing parse`
+✅ doğrudan ilk değer verme `(direct intialization)`<br>
+✅ değerle başlatma `value initialization`<br>
+✅ kopyalama ile ilk değer verme `(copy initialization)`<br>
+✅ varsayılan ilk değer verme `(default initialization)`<br>
+✅ bileşiklere ilk değer verme `(aggregate initialization)`<br>
 
 ## Tür Çıkarımı _(Type Deduction)_
 + auto belirteci ile tür çıkarımı `(auto type deduction)`
