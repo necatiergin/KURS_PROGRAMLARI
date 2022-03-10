@@ -255,41 +255,41 @@
 ✅ örnek bazı Posix işlevleri<br>
 ##  __Standart stddef Kütüphanesi__
 ##  __String Sabitleri (String Literals)__
-✅ string sabitleri ve const doğruluğu _(string literals and const correctness)_
-✅ string sabitleri ve ömür _(lifespan of string literals)_
-✅ özdeş string sabitleri 
-✅ string sabitleri ve kaçış sekansları
-✅ string sabitlerinin birden fazla satıra yayılması
+✅ string sabitleri ve const doğruluğu _(string literals and const correctness)_<br>
+✅ string sabitleri ve ömür _(lifespan of string literals)_<br>
+✅ özdeş string sabitleri <br>
+✅ string sabitleri ve kaçış sekansları<br>
+✅ string sabitlerinin birden fazla satıra yayılması<br>
 ##  __Gösterici Dizileri (Pointer Arrays)__
 ##  __Gösterici Gösteren Gösterici (Pointer to pointer)__
 ##  __void Göstericiler (void Pointers)__
-✅ türden bağımsız işlevler _(generic functions)_
-✅ standart memset, memcpy, memmove, memchr, memcmp işlevleri
-✅ void ** türü
+✅ türden bağımsız işlevler _(generic functions)_<br>
+✅ standart memset, memcpy, memmove, memchr, memcmp işlevleri<br>
+✅ void ** türü<br>
 ##  __İşlev Göstericileri (Function Pointers)__
 ✅ genel sentaks
 ✅ işlevden adrese dönüşüm _(function to pointer conversion)_
-✅ işlev göstericileri ve typedef bildirimleri _(function pointers and typedef declarations)_
-✅ geri çağrı işlev yapısı _(call-back functions)_
-✅ standart qsort ve bsearch işlevleri
-✅ işlev gösterici dizileri _(function pointer arrays)_
+✅ işlev göstericileri ve typedef bildirimleri _(function pointers and typedef declarations)_<br>
+✅ geri çağrı işlev yapısı _(call-back functions)_<br>
+✅ standart qsort ve bsearch işlevleri<br>
+✅ işlev gösterici dizileri _(function pointer arrays)_<br>
 ##  __Çok Boyutlu Diziler (Multi-dimensional Arrays)__
-✅ çok boyutlu dizileri gösteren göstericiler (pointer to multi-dimensional arrays)
+✅ çok boyutlu dizileri gösteren göstericiler (pointer to multi-dimensional arrays)<br>
 ##  __Programların Sonlandırılması__
-✅ normal ve anormal sonlanma (normal & abnormal termination)
-✅ standart exit, atexit ve abort işlevleri
+✅ normal ve anormal sonlanma (normal & abnormal termination)<br>
+✅ standart exit, atexit ve abort işlevleri<br>
 ##  __Dinamik Bellek Yönetimi (Dynamic Memory Management)__
-✅ dinamik bellek ihtiyacı ve dinamik ömür kavramı _(dynamic storage)_
-✅ heap alanı ve yönetimi _(heap and heap management)_
-✅ heap’in parçalara ayrılması _(heap fragmentation)_
-✅ standart dinamik bellek yönetimi işlevleri _(standard memory management functions)_
-✅ malloc
-✅ calloc
-✅ realloc
-✅ free
-✅ bellek sızıntısı _(memory leak)_
-✅ boşa düşen göstericiler _(dangling pointers)_
-✅ dinamik diziveri yapısı _(dynamic array data structure)_
+✅ dinamik bellek ihtiyacı ve dinamik ömür kavramı _(dynamic storage)_<br>
+✅ heap alanı ve yönetimi _(heap and heap management)_<br>
+✅ heap’in parçalara ayrılması _(heap fragmentation)_<br>
+✅ standart dinamik bellek yönetimi işlevleri _(standard memory management functions)_<br>
+✅ malloc<br>
+✅ calloc<br>
+✅ realloc<br>
+✅ free<br>
+✅ bellek sızıntısı _(memory leak)_<br>
+✅ boşa düşen göstericiler _(dangling pointers)_<br>
+✅ dinamik diziveri yapısı _(dynamic array data structure)_<br>
 		
 ##  __Yer Belirleyiciler (Storage Class Specifiers) ve Tür Niteleyiciler (Type Modifiers)__
 ✅ yer belirleyiciler _(storage  class specifiers)_ <br>
@@ -356,35 +356,35 @@
 ✅ bitsel düzeyde oluşturulan arama (lookup) tabloları
 ##  __Komut Satırı Argümanları (Command Line Arguments)__
 ##  __Dosya İşlemleri (File Operations)__
-✅ dosyaların açılması ve kapatılması
-✅ dosya açış modları
-✅ okuma, yazma ve sona ekleme modları
-✅ text modu ve binary mod
-✅ fopen, freopen, fclose ve fcloseall işlevleri
-✅ okuma ve yazma işlemleri
-✅ formatlı okuma yazma işlemleri
-✅ fprintf işlevi
-✅ fscanf işlevi
-✅ fputs işlevi
-✅ fgets işlevi
-✅ formatsız okuma yazma işlemleri
-✅ fgetc işlevi
-✅ fputc işlevi
-✅ fread işlevi
-✅ fwrite işlevi
-✅ standart dosya konum göstericisi işlevleri
-✅ fseek işlevi
-✅ ftell işlevi
-✅ rewind işlevi
-✅ fsetpos işlevi
-✅ fgetpos işlevi
-✅ feof, ferror, clearerr, fflush işlevleri
-✅ fsetbuf işlevi
-✅ ungetc işlevi
-✅ Diğer dosya işlevleri ve örnek uygulamalar
+✅ dosyaların açılması ve kapatılması<br>
+✅ dosya açış modları<br>
+✅ okuma, yazma ve sona ekleme modları<br>
+✅ text modu ve binary mod<br>
+✅ fopen, freopen, fclose ve fcloseall işlevleri<br>
+✅ okuma ve yazma işlemleri<br>
+✅ formatlı okuma yazma işlemleri<br>
+✅ fprintf işlevi<br>
+✅ fscanf işlevi<br>
+✅ fputs işlevi<br>
+✅ fgets işlevi<br>
+✅ formatsız okuma yazma işlemleri<br>
+✅ fgetc işlevi<br>
+✅ fputc işlevi<br>
+✅ fread işlevi<br>
+✅ fwrite işlevi<br>
+✅ standart dosya konum göstericisi işlevleri<br>
+✅ fseek işlevi<br>
+✅ ftell işlevi<br>
+✅ rewind işlevi<br>
+✅ fsetpos işlevi<br>
+✅ fgetpos işlevi<br>
+✅ feof, ferror, clearerr, fflush işlevleri<br>
+✅ fsetbuf işlevi<br>
+✅ ungetc işlevi<br>
+✅ Diğer dosya işlevleri ve örnek uygulamalar<br>
 ##  __errno.h başlık dosyası__
-✅ errno değişkeni
-✅ strerror ve perror fonksionları
+✅ errno değişkeni<br>
+✅ strerror ve perror fonksionları<br>
 ##  __Standart signal kütüphanesi__
 
 ##  __Önişlemci Komutları – 2__
