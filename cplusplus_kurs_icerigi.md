@@ -222,10 +222,9 @@
 &emsp;&emsp;rethrow deyimi _(rethrow statement)_<br>
 ✅ try blokları<br>
 ✅ catch blokları<br>
-&emsp;&emsp; catch all <br>
+&emsp;&emsp;❇️ catch all <br>
 ✅ yakalanamayan hata nesnesi _(uncaught exception)_<br>
-✅ std::terminate<br>
-✅ std::set_terminate<br>
+✅ std::terminate ve std::set_terminate işlevleri<br>
 ✅ hata nesnesinin yeniden gönderilmesi _(rethrow statement)_<br>
 ✅ yığının geri sarımı _(stack unwinding)_<br>
 ✅ kurucu işlevlerden exception gönderimi<br>
@@ -240,15 +239,9 @@
 ✅ std::exception sınıfı ve hiyerarşisi<br>
 &emsp;&emsp;❇️ std::exception sınıfı ve what sanal fonksiyonu<br>
 &emsp;&emsp;❇️ std::logic_error<br>
-&emsp;&emsp;&emsp;&emsp;⦿ std::invalid_argument<br>
-&emsp;&emsp;&emsp;&emsp;⦿ std::domain_error<br>
-&emsp;&emsp;&emsp;&emsp;⦿ std::length_error<br>
-&emsp;&emsp;&emsp;&emsp;⦿ std::out_of_range<br>
-&emsp;&emsp;&emsp;&emsp;⦿ std::future_error<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::invalid_argument, std::domain_error, std::length_error<, std::out_of_range, std::future_error sınıfları <br>
 &emsp;&emsp;❇️ std::runtime_error<br>
-&emsp;&emsp;&emsp;&emsp;⦿ std::range_error<br>
-&emsp;&emsp;&emsp;&emsp;⦿ std::overflow_error<br>
-&emsp;&emsp;&emsp;&emsp;⦿ std::underflow_error<br>
+&emsp;&emsp;&emsp;&emsp;⦿ std::range_error, std::overflow_error, std::underflow_error sınıfları <br>
 &emsp;&emsp;❇️ std::system_error<br>
 &emsp;&emsp;❇️ std::regex_error<br>
 &emsp;&emsp;❇️ std::bad_alloc<br>
