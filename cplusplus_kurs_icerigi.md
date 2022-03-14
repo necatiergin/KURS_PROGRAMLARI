@@ -441,6 +441,8 @@
 ✅ std::invoke<br>
 
 ## Tamamlayıcı Araçlar ve Sentaks Öğeleri
+✅ aralık tabanlı for döngüleri `(range based for loops)`<br>
+✅ ilk değer vermeli if ve switch deyimleri `(if/switch with initializers)`<br>
 ✅ static_assert <br>
 ✅ decltype(auto) tür çıkarımı<br>
 ✅ std::declval<br>
