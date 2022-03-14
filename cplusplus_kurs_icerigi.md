@@ -85,6 +85,10 @@
 ✅ reinterpret_cast<> operatörü<br>
 ✅ dynamic_cast<> operatörü _(kalıtım başlığı altında)_<br>
 
+## inline işlevler ve inline değişkenler
+✅ inline işlevler _(inline functions)_ <br>
+✅ inline değişkenler _(inline variables)_ <br>
+
 ## Sınıflara giriş _(Introduction to Classes)_
 ✅ sınıf kapsamı _(class scope)_ <br>
 ✅ sınıflar ve isim arama _(name lookup)_<br>
