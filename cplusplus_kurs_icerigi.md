@@ -73,7 +73,7 @@
 ✅ referanslar ve _life extension_ <br>
 
 ## İşlev Yüklemesi _(Function Overloading)_
-✅ genel kurallar<br>
+✅ genel kurallar <br>
 ✅ yüklenmiş işlev çözümlenmesi _(function overload resolution)_<br>
 ✅ const yüklemesi _(const overloading)_<br>
 ✅ extern "C" bildirimi _(extern C declarations)_<br>
@@ -150,9 +150,9 @@
 ✅ karşılaştırma operatörlerinin yüklenmesi<br>
 ✅ 3 yollu karşılaştırma operatörü _(3-way comparision operator)_ C++20<br>
 ✅ "++" ve "--" operatörlerinin yüklenmesi<br>
-✅ ok operatörü ve içerik operatörlerinin yüklenmesi<br>
-✅ [] operatörünün yüklenmesi<br>
-✅ fonksiyon çağrı operatörünün yüklenmesi<br>
+✅ ok operatörü ve içerik operatörlerinin yüklenmesi _(overloading of arrow and dereferencing operators)_<br>
+✅ [] operatörünün yüklenmesi _(overloading of subscript operator)_<br>
+✅ fonksiyon çağrı operatörünün yüklenmesi  _(overloading of function call operator)_<br>
 ✅ tür dönüştürme operatör fonksiyonları _(type-cast operator functions)_<br>
 ✅ programcının tanımladığı sabitler _(user-defined literals)_<br>
 
