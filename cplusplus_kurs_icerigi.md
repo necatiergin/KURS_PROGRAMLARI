@@ -87,7 +87,7 @@
 
 ## inline işlevler ve inline değişkenler
 ✅ inline işlevler _(inline functions)_ <br>
-✅ inline değişkenler _(inline variables)_ <br>
+✅ inline değişkenler (C++17) _(inline variables)_ <br>
 
 ## Sınıflara giriş _(Introduction to Classes)_
 ✅ sınıf kapsamı _(class scope)_ <br>
