@@ -44,6 +44,7 @@
 ✅ decltype belirteci ile tür çıkarımı `(decltype type deduction)` <br>
 ✅ sonradan gelen geri dönüş türü `(trailing  return type)` <br>
 ✅ auto geri dönüş değeri türü `(auto return type)` <br>
+✅ decltype auto tür çıkarımı `(decltype auto)` <br>
 
 ## kapsamlandırılmış enum türleri _(scoped enums)_
 ✅ geleneksel enum türleri `(conventional enum types)` <br>
@@ -417,7 +418,7 @@
 ✅ formatlama ve formatlama işlemleri `(formatting)`<br>
 ✅ manipülatörler `(manipulators)`<br>
 ✅ akımın durumu `(condition states)`<br>
-✅ string akımları `(stringstreams)`<br>
+✅ string akımları `(string streams)`<br>
 ✅ dosya işlemleri `(file operations)`<br>
 ✅ formatsız giriş ve çıkış işlemleri `(unformatted input output)`<br>
 ✅ bellek üstünde yapılan giriş çıkış işlemleri `(in-memory input output operations)`<br>
@@ -433,11 +434,11 @@
 ✅ std::ratio<br>
 ✅ std::chrono<br>
 ✅ standart random kütüphanesi<br>
-✅ std::string_view sınıfı<br>
-✅ std::optional sınıfı<br>
-✅ std::variant sınıfı<br>
-✅ std::any sınıfı<br>
-✅ std::byte<br>
+✅ std::string_view sınıfı (C++17)<br>
+✅ std::optional sınıfı (C++17) <br>
+✅ std::variant sınıfı (C++17)<br>
+✅ std::any sınıfı (C++17)<br>
+✅ std::byte (C++17)<br>
 ✅ std::invoke<br>
 
 ## Tamamlayıcı Araçlar ve Sentaks Öğeleri
