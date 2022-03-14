@@ -395,14 +395,14 @@
 ✅ lambda idiyomları _(lambda idioms)_<br>
 
 ## Akıllı Gösterici Sınıfları _(Standard Smart Pointer Classes)_
-✅ unique_ptr sınıfı <br>
+✅ std::unique_ptr sınıfı <br>
 &emsp;&emsp;❇️ std::make_unique işlev şablonu <br> 
 &emsp;&emsp;❇️ std::default_delete ve custom deleters <br>
 &emsp;&emsp;❇️ tipik hatalar <br>
 ✅ std::shared_ptr sınıfı<br>
 &emsp;&emsp;❇️ referans sayımı _(reference counting)_<br>
 &emsp;&emsp;❇️ std::make_shared işlev şablonu<br>
-&emsp;&emsp;❇️ weak_ptr sınıfı<br>
+&emsp;&emsp;❇️ std::weak_ptr sınıfı<br>
 
 ## Standart Giriş Çıkış Kütüphanesi _(iostream Library)_
 ✅ giriş çıkış akımlarına ilişkin standart sınıflar _(standard stream classes)_ <br>
@@ -434,6 +434,8 @@
 ✅ std::any sınıfı (C++17)<br>
 ✅ std::byte (C++17)<br>
 ✅ std::invoke<br>
+✅ std::apply<br>
+
 
 ## Tamamlayıcı Araçlar ve Sentaks Öğeleri
 ✅ aralık tabanlı for döngüleri _(range based for loops)_<br>
