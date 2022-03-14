@@ -70,6 +70,7 @@
 ✅ referanslar ile göstericilerin `(pointer)` karşılaştırılması<br>
 ✅ parametresi referans olan işlevler<br>
 ✅ referans döndüren işlevler<br>
+✅ referanslar ve _life extension_ <br>
 
 ## İşlev Yüklemesi _(Function Overloading)_
 ✅ genel kurallar<br>
