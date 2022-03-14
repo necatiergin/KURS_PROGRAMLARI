@@ -300,7 +300,7 @@
 &emsp;&emsp;❇️ fonksiyon şablonlarında tür çıkarımı _(function template argument deduction)_<br>
 &emsp;&emsp;❇️ fonksiyon şablonlarının yüklenmesi _(function template overloading)_<br>
 ✅ sınıf şablonları _(class templates)_<br>
-✅ kurucu işlev ile tür çıkarımı _(CTAD)_<br>
+✅ kurucu işlev ile tür çıkarımı _(CTAD)_ (C++17)<br>
 ✅ üye şablonlar _(member templates)_<br>
 ✅ şablonların özelleştirilmesi _(template specialization)_<br>
 &emsp;&emsp;❇️ tam özelleştirme _(explicit/full specialization)_<br>
@@ -308,7 +308,7 @@
 ✅ _sfinae_<br>
 ✅ değişken sayıda parametreli şablonlar _(variadic templates)_<br>
 ✅ mükemmel gönderim _(perfect forwarding)_<br>
-✅ katlama ifadeleri _(fold expressions)_<br>
+✅ katlama ifadeleri(C++17) _(fold expressions)_<br>
 ✅ _if constexpr_<br>
 ✅ değişken şablonları _(variable templates)_<br>
 ✅ eş isim şablonları _(alias templates)_<br>
