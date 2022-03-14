@@ -123,7 +123,7 @@
 &emsp;&emsp;❇️ attorney client idiyomu<br>
 
 ## Sınıfların Özel Üye İşlevleri ve Kopyalama İşlemleri _(Special Member Functions & Copy Control)_
-✅ sınıfların özel işlevleri <br>
+✅ sınıfların özel işlevleri _(special member functions)_<br>
 &emsp;&emsp;❇️ default constructor _(varsayılan kurucu işlev)_<br>
 &emsp;&emsp;❇️ destructor _(sonlandırıcı işlev)_<br>
 &emsp;&emsp;❇️ copy constructor _(kopyalayan kurucu işlev)_<br>
