@@ -216,10 +216,10 @@
 ✅ mixin sınıflar _(mixin classes)_<br>
 
 ## Olağan Dışı Durumların İşlenmesi _(Exception Handling)_
-✅ exception güvenliği _(exception safety) _<br>
+✅ exception güvenliği _(exception safety)_<br>
 ✅ hata nesnelerinin gönderilmesi _(throwing exception objects)_<br>
-&emsp;&emsp;throw deyimi _(throw statement)_<br>
-&emsp;&emsp;rethrow deyimi _(rethrow statement)_<br>
+&emsp;&emsp;❇️ throw deyimi _(throw statement)_<br>
+&emsp;&emsp;❇️ rethrow deyimi _(rethrow statement)_<br>
 ✅ try blokları<br>
 ✅ catch blokları<br>
 &emsp;&emsp;❇️ catch all <br>
