@@ -292,7 +292,8 @@
 ✅ işlev gösterici dizileri _(function pointer arrays)_<br>
 
 ##  __Çok Boyutlu Diziler (Multi-dimensional Arrays)__
-✅ çok boyutlu dizileri gösteren göstericiler (pointer to multi-dimensional arrays)<br>
+✅ çok boyutlu dizileri gösteren göstericiler _(pointer to multi-dimensional arrays)_<br>
+✅ çok boyutlu dizilerin fonksiyonlara gönderilmesi _(passing multi-dimensional arrays to functions)_<br>
 
 ##  __Programların Sonlandırılması__
 ✅ normal ve anormal sonlanma (normal & abnormal termination)<br>
@@ -308,8 +309,11 @@
 &emsp;&emsp;❇️ realloc<br>
 &emsp;&emsp;❇️ free<br>
 ✅ bellek sızıntısı _(memory leak)_<br>
+✅  _dangling pointers_<br>
+
 ✅ boşa düşen göstericiler _(dangling pointers)_<br>
-✅ dinamik diziveri yapısı _(dynamic array data structure)_<br>
+✅ dinamik dizi veri yapısı _(dynamic array data structure)_<br>
+✅ dinamik gözterici dizileri _(dynamic pointer arrays)_<br>
 		
 ##  __Yer Belirleyiciler (Storage Class Specifiers) ve Tür Niteleyiciler (Type Modifiers)__
 ✅ yer belirleyiciler _(storage  class specifiers)_ <br>
