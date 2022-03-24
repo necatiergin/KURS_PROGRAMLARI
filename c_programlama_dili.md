@@ -98,7 +98,7 @@
 ✅ referansla çağrılan işlevler _(call by reference)_<br>
 ✅ void işlevler _(void functions)_<br>
 ✅ return deyimi _(return statement)_<br>
-&emsp;&emsp;❇️ ifadeli ve ifadesiz return deyimleri _(return statements with/without expression)<br>
+&emsp;&emsp;❇️ ifadeli ve ifadesiz return deyimleri _(return statements with/without expression)_<br>
 ✅ saf ve saf olmayan işlevler _(pure and impure functions)_<br>
 ✅ işlevlerin çağrılması _(function calls)_<br>
 ✅ işlev çağrılarından elde edilen değerlerin kullanılması<br>
@@ -149,7 +149,7 @@
 &emsp;&emsp;❇️ işlemli atama operatörleri _(compound assignment operators)_<br>
 &emsp;&emsp;❇️ idiyomlar _(idioms)_<br>
 ✅ virgül operatörü _(comma operator)_<br>
-✅ öncelik operatörü<br>
+✅ öncelik parantezi < br>
 
 ##  __Sabitler (Constants)__
 ✅ sabitlerin türleri _(types of constants)_<br>
