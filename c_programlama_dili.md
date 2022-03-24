@@ -58,10 +58,10 @@
 ✅ derleyiciler ve kod optimizasyonu _(compilers & cod optimization)_<br>
 ✅ derleyici eklentileri _(compiler extensions)_<br>
 ✅ önişlemci program _(preprocessor)_<br>
-✅ bağlayıcı program bağlama zamanı _(linker program & link time)_ <br>
+✅ bağlayıcı program ve bağlama zamanı _(linker program & link time)_ <br>
 ✅ ide’ler ve yardımcı programlar <br>
 ✅ statik kod analizi yapan programlar<br>
-✅ hata ayıklayıcı programlar<br>
+✅ hata ayıklayıcı programlar _(debuggers)_ <br>
 		
 ## __Veri Türleri (Data Types)__
 ✅ varsayılan türler _(fundemental/basic types)_<br>
