@@ -187,10 +187,11 @@
 ##  __İşlev Bildirimleri (Function Declarations)__
 
 ##  __Önişlemci Komutları – 1__
+✅ önişlemci programın genel tanıtımı _(introduction to preprocessing )_ <br>
 ✅ #include komutu _(include directive)_ <br>
 ✅ #define komutu ve makrolar _(define directive & macros)_<br>
-✅ sembolik sabitler _(symbolic constants)_<br>
-✅ işlevsel makrolar _(functional macros)_<br>
+&emsp;&emsp;❇️ sembolik sabitler _(symbolic constants)_<br>
+&emsp;&emsp;❇️ işlevsel makrolar _(functional macros)_<br>
 ✅ #undef komutu _(undef directive)_<br>
 ✅ koşullu derleme işlemleri ve koşullu derleme komutları _(conditional compiling directives)_<br>
 &emsp;&emsp;❇️ #if<br>
@@ -219,7 +220,7 @@
 ✅ gerçek ve sözde rastgele sayı üretimi _(truly and pseudo random number generation)_<br>
 ✅ rastgele sayı üretim algoritmaları<br>
 ✅ tohum değeri _(seed value)_<br>
-✅ standart rand ve srand işlevleri<br>
+✅ standart _rand_ ve _srand_ işlevleri<br>
 
 ##  __sizeof Operatörü__
 
@@ -231,8 +232,10 @@
 ✅ tamsayı ve gerçek sayı dizileri<br>
 ✅ dizilere ilk değer verme _(initialization of arrays)_<br>
 ✅ designated initializer (C99)<br>
+✅ diziler üstünde yürütülen temel algoritmalar<br>
 ✅ yazılar ve yazı tutan char diziler<br>
 ✅ null karakter _(null character)_<br>
+✅ yazılar üstünde yürütülen temel algoritmalar<br>
 ✅ yazılara ilişkin temel algoritmalar<br>
 
 ##  __Göstericiler (pointers)__
