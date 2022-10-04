@@ -122,3 +122,23 @@
 + biased dağılımı _(biased distribution)_
 + gather algoritması _(gather algorithm)_
 + slide algoritması _(slide algorithm)_
+
+## lambda İfadeleri C++11/14/17/20 
++ lambda ifadeleri ve tür çıkarımı
++ mutable lambdas
++ lambda ifadeleri ve constexpr 
++ genelleştirilmiş lambda ifadeleri _(generalized lambda expressions)_
++ lambda init capture
++ lambda ifadeleri ve mükemmel gönderim
++ lambda ifadelerinde _pack expansion_
++ lambda ifadeleri ve STL algoritmaları
++ recursive lambdalar
++ üye fonksiyonlar içinde lambda ifadelerinin kullanımı
++ lambda ifadeleri ve fonksiyonel programlama
++ C++20 extensions
+	+ template parameter lists on lambdas (C++20)
+	+ \[=, this] as a lambda capture (C++20)
+	+ işlem kodu üretilmeyen bağlamlardaki lambda ifadeleri C++20 _(lambda expressions in unevaluated context - C++20)_
+	+ lambda init capture pack expansions (C++20)
+	+ default constructible and assignable stateless lambdas (C++20)
+
