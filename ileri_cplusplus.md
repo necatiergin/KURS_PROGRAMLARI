@@ -27,3 +27,12 @@
   + taşıma iteratörleri _(move iterators)_
 + tipik hatalar _(typical mistakes)_
 +  temel ilkeler
+
+## mükemmel gönderim _(perfect forwarding)_
++ forwarding reference (universal references)
++ forwarding reference ve sağ taraf referansı
++ std::forward fonksiyon şablonu
++ mükemmel gönderim ve _auto &&_ kullanımı
++ _decltype(auto)_
++ geri dönüş değerinin mükemmel gönderimi _decltype(auto)_
++ mükemmel gönderim ve standart kütüphane _(perfect forwarding & standard library)_
