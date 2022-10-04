@@ -172,4 +172,18 @@
 + _auto_ geri dönüş türü _(auto return type)_
 + lambda ifadelerinde tür çıkarımı _(type deduction in lambda expressions)_
 
+## concepts C++20
++ typesafe meta-programming
++ _concept_ nedir? Ne işe yarar?
++ _concept_ kullanımının avantajları
++ _concept_'leri kullanmanın farklı biçimleri
+  + requires clause
+  + trailing requires clause
+  + constrained template parameter
+  + concept fonsiyon parametreleri
++ _concept_'ler ve sınıflar
++ _concept_'ler ve standart kütüphane
++ kendi _concept_'lerimizi oluşturmak
++ multiple destructors
+
 
