@@ -203,4 +203,22 @@
 + std::format_to_n
 + std::formatted_size
 
+## C++20 diğer yenilikler
++ designated initializers
++ range-based for loop with initializer
++ narrowing bool conversion
++ using enum
++ yeni attribute'lar
++ conditional explicit
 
+## C++20 standart kütüphane eklentileri (C++20 std. library extensions)
++ std::span
++ bit header
++ math constants
++ std::bit_cast
++ std::midpoint
++ std::to_array
++ string sınıfının starts_with ve ends_with işlevleri
++ associative containers contains işlevleri
++ make_shared for arrays
++ std::is_constant_evaluated
