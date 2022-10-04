@@ -158,3 +158,18 @@
 + _std::nested\_exception_ sınıfı
 + exception dispatcher idiom
 
+## üç yollu karşılaştırma (spaceship) operatörü - C++20 (three ways comparison operator C++20)
++ karşılaştırma kategorileri
+  + strong ordering
+  + weak ordering
+  + partial ordering
++ Standart kütüphane ve _(spaceship)_ operatörü
+
+## tür çıkarımı (type deduction)
++ _auto_ ile tür çıkarımı _(auto type deduction)_
++ _decltype_ belirleyicisi _(decltype specifier)_
++ _decltype(auto)_ belirleyicisi
++ _auto_ geri dönüş türü _(auto return type)_
++ lambda ifadelerinde tür çıkarımı _(type deduction in lambda expressions)_
+
+
