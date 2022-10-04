@@ -47,3 +47,51 @@
 + constexpr sanal işlevler C++20 _(constexpr virtual functions C++20)_
 + constexpr lambda functions
 + user defined literals
+
+## şablonlar ve türden bağımsız programlama - İleri (templates & generic programming - advanced)
++ temel kavramların kısa tekrarı
+  + fonksiyon şablonları (function templates)
+  + sınıf şablonları (class templates)
+  + değişken şablonları (variable templates )
+  + tür eş isim şablonları (alias templates )
+  + member templates
+  + template parameters
+    + type parameters
+    + non-type parameters
+    + template parameters
+  + function templates & overloading
+  + explicit specialization
+  + partial specialization
+  + template instantiation
+  + template arguments
+  + template argument deduction
++ dependent & non-dependent names
++ templates & friendship
++ auto parameter type (C++17)
++ CTAD (class template argument deduction)
++ meta fonksiyonlar (meta functions)
+  + tür elde eden meta fonksiyonlar
+  + değer elde eden meta fonksiyonlar
++ type traits kütüphanesi
++ static_assert ve şablonlar
++ std::type_identity
++ tag dispatch
++ if constexpr (C++17)
++ variadic şablonlar _(variadic templates)_
+  + sizeof... operatörü
+  + pack expansions
++ katlama ifadeleri C++17 _(fold expressions C++17)_
+  + unary right fold
+  + unary left fold
+  + binary right fold
+  + binary left fold
++ sfinae
++ enable_if
++ void_t
++ declval
++ std::invoke
++ std::apply
++ C++20 eklemeleri 
+    + string literals template parameters (C++20)
+    + typename anahtar sözcüğünün kullanılma zorunluluğu olmayan durumlar (C++20)
+
