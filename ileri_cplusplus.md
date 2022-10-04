@@ -11,12 +11,12 @@
 + garanti edilmiş kopyalama eliminasyonu _(mandatory copy elision C++17)_
 
 ## taşıma semantiği (move semantics) 
-+ sağ taraf referansları(R Value references) (hızlı tekrar)
++ sağ taraf referansları (R Value references) (hızlı tekrar)
 + taşıma semantiğinin temel nitelikleri
 + std::move
 + taşıma semantiği ve sınıfların özel üye fonksiyonları _(move semantics & special member functions)_
 + taşıma semantiğinden faydalanma biçimleri
-+ referans niteleyicileri _(reference qualifiers)
++ referans niteleyicileri _(reference qualifiers)_
   + referans niteleyecileri ve işlev yüklemesi _(function overloading)_
   + referans niteleyicileri ve taşıma semantiği
 + taşınmış nesne durumu _(moved-from states)_
