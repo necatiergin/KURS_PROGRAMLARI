@@ -186,4 +186,21 @@
 + kendi _concept_'lerimizi oluşturmak
 + multiple destructors
 
+## std::ranges kütüphanesi C++20
++ ranges
++ standard range algorithms
++ sentinels
++ projections
++ range concepts
++ views
++ range adaptors
++ standard views
++ range type meta functions
+
+## std::format C++20
++ std::format
++ std::format_to
++ std::format_to_n
++ std::formatted_size
+
 
