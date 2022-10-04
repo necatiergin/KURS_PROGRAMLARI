@@ -95,3 +95,30 @@
     + string literals template parameters (C++20)
     + typename anahtar sözcüğünün kullanılma zorunluluğu olmayan durumlar (C++20)
 
+## önemli C++ idiyomları ve teknikleri
++ RAII
++ swap functions
++ copy & swap idiom
++ scope guards
++ strong types
++ tag dispatch
++ hidden friends
++ virtual constructor
++ virtual friend
++ factories
++ proxy
++ memory ownership
++ pimpl & fast pimpl
++ attorney - client idiom
++ local buffer optimization
++ implementation class
++ non virtual interface (NVI)
++ isimlendirilmiş parametre _(named parameter)_
++ tür silme _(type erasure)_
++ IIFE _(immediatly invoked lambda expression)_
++ referans sayımı _(reference counting)_
++ positive lambda
++ exception dispatcher
++ biased dağılımı _(biased distribution)_
++ gather algoritması _(gather algorithm)_
++ slide algoritması _(slide algorithm)_
