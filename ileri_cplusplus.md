@@ -36,3 +36,14 @@
 + _decltype(auto)_
 + geri dönüş değerinin mükemmel gönderimi _decltype(auto)_
 + mükemmel gönderim ve standart kütüphane _(perfect forwarding & standard library)_
+
+## sabitler ve sabit ifadeleri C++11/14/17/20
++ constexpr
++ constexpr işlevler _(constexpr functions)_
++ constexpr kurucu işlevler _(constexpr constructors)_
++ literal types
++ consteval & immediate functions(C++20)
++ constinit (C++20)
++ constexpr sanal işlevler C++20 _(constexpr virtual functions C++20)_
++ constexpr lambda functions
++ user defined literals
