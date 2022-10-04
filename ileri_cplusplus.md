@@ -142,3 +142,19 @@
 	+ lambda init capture pack expansions (C++20)
 	+ default constructible and assignable stateless lambdas (C++20)
 
+## advanced exception handling
++ _exception_ garanti kategorileri
+  + temel hata güvencesi _(basic guarantee)_
+  + güçlü hata güvencesi _(strong guarantee)_
+  + hata göndermeme güvencesi _(no throw guarantee)_
+  + sınıfların özel fonksiyonları ve noexcept
++ noexcept belirleyicisi _(noexcept specifier)_
++ noexcept operatörü _(noexcept operator)_
++ noexcept belirleyicisi ve standart type_traits kütüphanesi
++ _exception\_ptr_ türü
++ _make\_exception_ptr_ fonksiyonu
++ _current\_exception_ fonksiyonu
++ _rethrow\_exception_ fonksiyonu
++ _std::nested\_exception_ sınıfı
++ exception dispatcher idiom
+
