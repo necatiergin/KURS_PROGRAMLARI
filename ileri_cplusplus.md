@@ -15,20 +15,9 @@ forwarding (universal) references, forwarding reference vs R value reference, st
 ## constants and constant expressions C++11/14/17/20
 constexpr, constexpr functions, constexpr constructors, literal types, consteval & immediate functions(C++20), constinit (C++20), constexpr virtual functions C++20, constexpr lambda functions, user defined literals.
 
-## şablonlar ve türden bağımsız programlama - İleri (templates & generic programming - advanced)
-+ temel kavramların kısa tekrarı
-  + fonksiyon şablonları (function templates)
-  + sınıf şablonları (class templates)
-  + değişken şablonları (variable templates )
-  + tür eş isim şablonları (alias templates )
-  + member templates
-  + template parameters
-    + type parameters
-    + non-type parameters
-    + template parameters
-  + function templates & overloading
-  + explicit specialization
-  + partial specialization
+## templates & generic programming (advanced)
+basic concepts, function templates, class templates, variable templates, alias templates, member templates, template parameters, type parameters, non-type parameters
+template parameters, function templates & overloading, explicit specialization, partial specialization
   + template instantiation
   + template arguments
   + template argument deduction
