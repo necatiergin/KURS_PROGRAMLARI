@@ -17,10 +17,7 @@ constexpr, constexpr functions, constexpr constructors, literal types, consteval
 
 ## templates & generic programming (advanced)
 basic concepts, function templates, class templates, variable templates, alias templates, member templates, template parameters, type parameters, non-type parameters
-template parameters, function templates & overloading, explicit specialization, partial specialization
-  + template instantiation
-  + template arguments
-  + template argument deduction
+template parameters, function templates & overloading, explicit specialization, partial specialization, template instantiation, template arguments, template argument deduction, 
 + dependent & non-dependent names
 + templates & friendship
 + auto parameter type (C++17)
@@ -41,17 +38,8 @@ template parameters, function templates & overloading, explicit specialization, 
   + unary left fold
   + binary right fold
   + binary left fold
-+ sfinae
-+ enable_if
-+ void_t
-+ declval
-+ std::invoke
-+ std::apply
-+ C++20 eklemeleri 
-    + string literals template parameters (C++20)
-    + typename anahtar sözcüğünün kullanılma zorunluluğu olmayan durumlar (C++20)
-
-## önemli C++ idiyomları ve teknikleri
+sfinae, enable_if, void_t, declval, std::invoke, std::apply, C++20 additions, string literals template parameters, removal of some typename usage restrictions.
+## C++ idioms & tecniques
 + RAII
 + swap functions
 + copy & swap idiom
