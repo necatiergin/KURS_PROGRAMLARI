@@ -31,12 +31,30 @@ exception guarantees, basic guarantee, strong guarantee, no throw guarantee, spe
 ## spaceship operator(three ways comparison operator C++20)
 comparison categories, strong ordering, weak ordering, partial ordering, spaceship operator in STL.
 
+## concurrency in C++
+std::thread, std::this_thread namespace, std::jthread (C++20), thread_local storage, std::async, shared objects & mutex classes, race condition & data race, 
+std::lock_guard, std::unique_lock, std::scoped_lock, deadlocks, std::once_flag & std::call_once, std::future, std::promise, std::shared_future, std::packaged_task, std::condition_variable, std::atomic, thread pools, paralel STL algorithms
+
 ## type deduction
 auto type deduction, decltype specifier, decltype(auto), trailing auto, auto return type, type deduction in lambda expressions.
 
+## vocabulary types
+std::optional, std::variant, std::any.
+
+## random library
+
+## std::span
+
+## policy based design
+
+## strong types
+
+## user defined literals
+
+## uninitialized memory & algoritms
+
 ## concepts C++20
 typesafe meta-programming, advantagous of concepts, usage of concepts, requires clause, trailing requires clause, constrained template parameters, concepts as function paramaters, concepts and classes, concepts & STL, building our own concepts.
-
 
 ## std::ranges library
 ranges, standard range algorithms, sentinels, projections, range concepts, views, range adaptors, standard views, range type meta functions
