@@ -1,6 +1,6 @@
 ## Kurs içeriği yeniden düzenleniyor. Yakında tamamlanacak...
 
-# İleri C++ Kursu İçeriği
+# Advanced C++
 
 ## copy elision
 temporary materialization, prvalue xvalue conversion, unmaterialized object passing, return value optimization (RVO), named return value optimization (NRVO), blocking copy elision, throwing by value, catching by value, mandatory copy elision.
