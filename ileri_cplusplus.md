@@ -7,27 +7,13 @@
 
 ## move semantics 
 R Value references (brush up), taşıma semantiğinin temel nitelikleri, std::move, move semantics & special member functions, taşıma semantiğinden faydalanma biçimleri, 
-referans qualifiers & move semantics, moved-from states, move semantics & exception guarantees 
-+ standart kütüphane ve taşıma semantiği _(standard library and move semantics)_
-  + salt taşınabilir türler _(move only types)_
-  + taşıyan algoritmalar _(moving algorithms)_
-  + taşıma iteratörleri _(move iterators)_
-+ tipik hatalar _(typical mistakes)_
-+  temel ilkeler
+referans qualifiers & move semantics, moved-from states, move semantics & exception guarantees, move semantics in STL, move only types, moving algorithms, move iterators, typical mistakes, guidelines.
 
-## mükemmel gönderim _(perfect forwarding)_
-+ forwarding reference (universal references)
-+ forwarding reference ve sağ taraf referansı
-+ std::forward fonksiyon şablonu
-+ mükemmel gönderim ve _auto &&_ kullanımı
-+ _decltype(auto)_
-+ geri dönüş değerinin mükemmel gönderimi _decltype(auto)_
-+ mükemmel gönderim ve standart kütüphane _(perfect forwarding & standard library)_
+## perfect forwarding
++ forwarding reference (universal references), forwarding reference vs R value reference, std::forward in detail, auto && for perfect forwarding,  decltype(auto) & perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes, guidelines.
 
-## sabitler ve sabit ifadeleri C++11/14/17/20
-+ constexpr
-+ constexpr işlevler _(constexpr functions)_
-+ constexpr kurucu işlevler _(constexpr constructors)_
+## constants and constant expressions C++11/14/17/20
+constexpr, constexpr functions, constexpr constructors
 + literal types
 + consteval & immediate functions(C++20)
 + constinit (C++20)
