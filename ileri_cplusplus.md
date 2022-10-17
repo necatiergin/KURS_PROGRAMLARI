@@ -1,7 +1,9 @@
+## Kurs içeriği yeniden düzenleniyor. Yakında tamamlanacak...
+
 # İleri C++ Kursu İçeriği
 
 ## copy elision
-+ temporary materialization _(Prvalue Xvalue conversion)_, unmaterialized object passing, return value optimization (RVO), named return value optimization (NRVO), blocking copy elision, throwing by value, catching by value, mandatory copy elision (C++17)
++ temporary materialization, Prvalue Xvalue conversion)_, unmaterialized object passing, return value optimization (RVO), named return value optimization (NRVO), blocking copy elision, throwing by value, catching by value, mandatory copy elision (C++17)
 
 ## taşıma semantiği (move semantics) 
 + sağ taraf referansları (R Value references) (hızlı tekrar)
