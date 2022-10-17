@@ -28,4 +28,24 @@ lambda expressions & type deduction, mutable lambdas, lambda expressions & const
 ## advanced exception handling
 exception guarantees, basic guarantee, strong guarantee, no throw guarantee, special member functions & noexcept, noexcept specifier vs. noexcept operator, noexcept specifier in type_traits library, std::exception_ptr, std::make_exception_ptr, std::current_exception, std::rethrow_exception, std::nested_exception, exception dispatcher idiom.
 
+## spaceship operator(three ways comparison operator C++20)
+comparison categories, strong ordering, weak ordering, partial ordering, spaceship operator in STL.
+
+## type deduction
+auto type deduction, decltype specifier, decltype(auto), trailing auto, auto return type, type deduction in lambda expressions.
+
+## concepts C++20
+typesafe meta-programming, advantagous of concepts, usage of concepts, requires clause, trailing requires clause, constrained template parameters, concepts as function paramaters, concepts and classes, concepts & STL, building our own concepts.
+
+
+## std::ranges library
+ranges, standard range algorithms, sentinels, projections, range concepts, views, range adaptors, standard views, range type meta functions
+
+## std::format library
+std::format, td::format_to, std::format_to_n, std::formatted_size, 
+
+## Other C++20 novelties and library eztensions
+designated initializers, range-based for loop with initializer, narrowing bool conversion, using enum, new attributes, conditional explicit, std::span, bit header, math constants, std::bit_cast, std::midpoint, std::to_array, string sınıfının starts_with ve ends_with işlevleri, associative containers contains işlevleri, make_shared for arrays, std::is_constant_evaluated
+
+
 
