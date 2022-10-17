@@ -10,7 +10,7 @@ R Value references (brush up), taşıma semantiğinin temel nitelikleri, std::mo
 referans qualifiers & move semantics, moved-from states, move semantics & exception guarantees, move semantics in STL, move only types, moving algorithms, move iterators, typical mistakes, guidelines.
 
 ## perfect forwarding
-+ forwarding reference (universal references), forwarding reference vs R value reference, std::forward in detail, auto && for perfect forwarding,  decltype(auto) & perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes, guidelines.
+forwarding (universal) references, forwarding reference vs R value reference, std::forward in detail, auto && for perfect forwarding,  decltype(auto) & perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes, guidelines.
 
 ## constants and constant expressions C++11/14/17/20
 constexpr, constexpr functions, constexpr constructors, literal types, consteval & immediate functions(C++20), constinit (C++20), constexpr virtual functions C++20, constexpr lambda functions, user defined literals.
