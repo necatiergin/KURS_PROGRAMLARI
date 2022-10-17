@@ -23,5 +23,9 @@ template parameters, function templates & overloading, explicit specialization, 
 raii, swap functions, copy & swap, scope guards, strong types, tag dispatch, hidden friends, virtual constructor, virtual friend, factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface, named parameters, type erasure, immediatly invoked lambda expression, reference counting, positive lambda, exception dispatcher, biased distribution, gather algorithm, slide algorithm. 
 
 ## lambda expressions C++11/14/17/20 
-lambda expressions & type deduction, mutable lambdas, lambda expressions & constexpr, generalized lambda expressions, lambda init capture, lambda expressions & perfect forwarding, pack expansions in lambda expressions, lambda expressions & STL algorithms, recursive lambda, lambda expressions in member functions, lambda expressions for functional programming, template parameter lists on lambdas (C++20), new lambda captures (C++20), lambda expressions in unevaluated context - C++20, lambda init capture pack expansions (C++20), default constructible and assignable stateless lambdas (C++20)
+lambda expressions & type deduction, mutable lambdas, lambda expressions & constexpr, generalized lambda expressions, lambda init capture, lambda expressions & perfect forwarding, pack expansions in lambda expressions, lambda expressions & STL algorithms, recursive lambda, lambda expressions in member functions, lambda expressions for functional programming, template parameter lists on lambdas (C++20), new lambda captures (C++20), lambda expressions in unevaluated context - C++20, lambda init capture pack expansions (C++20), default constructible and assignable stateless lambdas (C++20).
+
+## advanced exception handling
+exception guarantees, basic guarantee, strong guarantee, no throw guarantee, special member functions & noexcept, noexcept specifier vs. noexcept operator, noexcept specifier in type_traits library, std::exception_ptr, std::make_exception_ptr, std::current_exception, std::rethrow_exception, std::nested_exception, exception dispatcher idiom.
+
 
