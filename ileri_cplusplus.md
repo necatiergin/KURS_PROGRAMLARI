@@ -39,33 +39,9 @@ template parameters, function templates & overloading, explicit specialization, 
   + binary right fold
   + binary left fold
 sfinae, enable_if, void_t, declval, std::invoke, std::apply, C++20 additions, string literals template parameters, removal of some typename usage restrictions.
+
 ## C++ idioms & tecniques
-+ RAII
-+ swap functions
-+ copy & swap idiom
-+ scope guards
-+ strong types
-+ tag dispatch
-+ hidden friends
-+ virtual constructor
-+ virtual friend
-+ factories
-+ proxy
-+ memory ownership
-+ pimpl & fast pimpl
-+ attorney - client idiom
-+ local buffer optimization
-+ implementation class
-+ non virtual interface (NVI)
-+ isimlendirilmiş parametre _(named parameter)_
-+ tür silme _(type erasure)_
-+ IIFE _(immediatly invoked lambda expression)_
-+ referans sayımı _(reference counting)_
-+ positive lambda
-+ exception dispatcher
-+ biased dağılımı _(biased distribution)_
-+ gather algoritması _(gather algorithm)_
-+ slide algoritması _(slide algorithm)_
+RAII, swap functions, copy & swap, scope guards, strong types, tag dispatch, hidden friends, virtual constructor, virtual friend, factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), named parameter, type erasure, immediatly invoked lambda expression, reference counting, positive lambda, exception dispatcher, biased distribution, gather algorithm, slide algorithm. 
 
 ## lambda İfadeleri C++11/14/17/20 
 + lambda ifadeleri ve tür çıkarımı
