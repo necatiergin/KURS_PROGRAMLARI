@@ -42,7 +42,7 @@ auto type deduction, decltype specifier, decltype(auto), trailing auto, auto ret
 std::optional, std::variant, std::any.
 
 ## random library
-pseudo-random number generation, random number engines, random number engine adaptors, predefined random number generators
+pseudo-random number generation, random number engines, random number engine adaptors, predefined random number generators, random number distributions.
 
 ## std::span
 
