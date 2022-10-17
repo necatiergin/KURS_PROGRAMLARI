@@ -44,7 +44,7 @@ ranges, standard range algorithms, sentinels, projections, range concepts, views
 ## std::format library
 std::format, td::format_to, std::format_to_n, std::formatted_size, 
 
-## Other C++20 novelties and library eztensions
+## Other C++20 novelties and library extensions
 designated initializers, range-based for loop with initializer, narrowing bool conversion, using enum, new attributes, conditional explicit, std::span, bit header, math constants, std::bit_cast, std::midpoint, std::to_array, string sınıfının starts_with ve ends_with işlevleri, associative containers contains işlevleri, make_shared for arrays, std::is_constant_evaluated
 
 
