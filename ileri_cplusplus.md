@@ -3,7 +3,7 @@
 # İleri C++ Kursu İçeriği
 
 ## copy elision
-+ temporary materialization, prvalue xvalue conversion, unmaterialized object passing, return value optimization (RVO), named return value optimization (NRVO), blocking copy elision, throwing by value, catching by value, mandatory copy elision.
+temporary materialization, prvalue xvalue conversion, unmaterialized object passing, return value optimization (RVO), named return value optimization (NRVO), blocking copy elision, throwing by value, catching by value, mandatory copy elision.
 
 ## move semantics 
 R Value references (brush up), taşıma semantiğinin temel nitelikleri, std::move, move semantics & special member functions, taşıma semantiğinden faydalanma biçimleri, 
@@ -13,13 +13,7 @@ referans qualifiers & move semantics, moved-from states, move semantics & except
 + forwarding reference (universal references), forwarding reference vs R value reference, std::forward in detail, auto && for perfect forwarding,  decltype(auto) & perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes, guidelines.
 
 ## constants and constant expressions C++11/14/17/20
-constexpr, constexpr functions, constexpr constructors
-+ literal types
-+ consteval & immediate functions(C++20)
-+ constinit (C++20)
-+ constexpr sanal işlevler C++20 _(constexpr virtual functions C++20)_
-+ constexpr lambda functions
-+ user defined literals
+constexpr, constexpr functions, constexpr constructors, literal types, consteval & immediate functions(C++20), constinit (C++20), constexpr virtual functions C++20, constexpr lambda functions, user defined literals.
 
 ## şablonlar ve türden bağımsız programlama - İleri (templates & generic programming - advanced)
 + temel kavramların kısa tekrarı
