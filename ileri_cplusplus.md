@@ -87,8 +87,7 @@ sfinae, enable_if, void_t, declval, std::invoke, std::apply, C++20 additions, st
 	+ default constructible and assignable stateless lambdas (C++20)
 
 ## advanced exception handling
-+ _exception_ garanti kategorileri
-  + temel hata güvencesi _(basic guarantee)_
+exception guarantees, temel hata güvencesi _(basic guarantee)_
   + güçlü hata güvencesi _(strong guarantee)_
   + hata göndermeme güvencesi _(no throw guarantee)_
   + sınıfların özel fonksiyonları ve noexcept
@@ -102,12 +101,8 @@ sfinae, enable_if, void_t, declval, std::invoke, std::apply, C++20 additions, st
 + _std::nested\_exception_ sınıfı
 + exception dispatcher idiom
 
-## üç yollu karşılaştırma (spaceship) operatörü - C++20 (three ways comparison operator C++20)
-+ karşılaştırma kategorileri
-  + strong ordering
-  + weak ordering
-  + partial ordering
-+ Standart kütüphane ve _(spaceship)_ operatörü
+## spaceship operator(three ways comparison operator C++20)
+comparison categories, strong ordering, weak ordering, partial ordering, spaceship operator in STL.
 
 ## tür çıkarımı (type deduction)
 + _auto_ ile tür çıkarımı _(auto type deduction)_
@@ -117,43 +112,17 @@ sfinae, enable_if, void_t, declval, std::invoke, std::apply, C++20 additions, st
 + lambda ifadelerinde tür çıkarımı _(type deduction in lambda expressions)_
 
 ## concepts C++20
-+ typesafe meta-programming
-+ _concept_ nedir? Ne işe yarar?
-+ _concept_ kullanımının avantajları
-+ _concept_'leri kullanmanın farklı biçimleri
-  + requires clause
-  + trailing requires clause
-  + constrained template parameter
-  + concept fonsiyon parametreleri
-+ _concept_'ler ve sınıflar
-+ _concept_'ler ve standart kütüphane
-+ kendi _concept_'lerimizi oluşturmak
-+ multiple destructors
+typesafe meta-programming, advantagous of concepts, usage of concepts, requires clause, trailing requires clause, constrained template parameters, concepts as function paramaters, concepts and classes, concepts & STL, building our own concepts.
+
 
 ## std::ranges kütüphanesi C++20
-+ ranges
-+ standard range algorithms
-+ sentinels
-+ projections
-+ range concepts
-+ views
-+ range adaptors
-+ standard views
-+ range type meta functions
+ranges, standard range algorithms, sentinels, projections, range concepts, views, range adaptors, standard views, range type meta functions
 
 ## std::format C++20
-+ std::format
-+ std::format_to
-+ std::format_to_n
-+ std::formatted_size
++ std::format, td::format_to, std::format_to_n, std::formatted_size, 
 
 ## C++20 diğer yenilikler
-+ designated initializers
-+ range-based for loop with initializer
-+ narrowing bool conversion
-+ using enum
-+ yeni attribute'lar
-+ conditional explicit
++ designated initializers, range-based for loop with initializer, + narrowing bool conversion, using enum, new attributes, conditional explicit
 
 ## C++20 standart kütüphane eklentileri (C++20 std. library extensions)
 + std::span
