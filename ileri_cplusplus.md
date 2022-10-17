@@ -17,28 +17,7 @@ constexpr, constexpr functions, constexpr constructors, literal types, consteval
 
 ## templates & generic programming (advanced)
 basic concepts, function templates, class templates, variable templates, alias templates, member templates, template parameters, type parameters, non-type parameters
-template parameters, function templates & overloading, explicit specialization, partial specialization, template instantiation, template arguments, template argument deduction, 
-+ dependent & non-dependent names
-+ templates & friendship
-+ auto parameter type (C++17)
-+ CTAD (class template argument deduction)
-+ meta fonksiyonlar (meta functions)
-  + tür elde eden meta fonksiyonlar
-  + değer elde eden meta fonksiyonlar
-+ type traits kütüphanesi
-+ static_assert ve şablonlar
-+ std::type_identity
-+ tag dispatch
-+ if constexpr (C++17)
-+ variadic şablonlar _(variadic templates)_
-  + sizeof... operatörü
-  + pack expansions
-+ katlama ifadeleri C++17 _(fold expressions C++17)_
-  + unary right fold
-  + unary left fold
-  + binary right fold
-  + binary left fold
-sfinae, enable_if, void_t, declval, std::invoke, std::apply, C++20 additions, string literals template parameters, removal of some typename usage restrictions.
+template parameters, function templates & overloading, explicit specialization, partial specialization, template instantiation, template arguments, template argument deduction, dependent & non-dependent names, templates & friendship, auto parameter type (C++17), CTAD (class template argument deduction), meta functions, value returning meta functions, type returning meta functions, type traits library, static_assert & templates, std::type_identity, tag dispatch, if constexpr, variadic templates, sizeof... operator, pack expansions, fold expressions (C++17), unary right fold, unary left fold, binary right fold, inary left fold, sfinae, enable_if, void_t, declval, std::invoke, std::apply, C++20 additions, string literals template parameters, removal of some typename usage restrictions.
 
 ## C++ idioms & tecniques
 RAII, swap functions, copy & swap, scope guards, strong types, tag dispatch, hidden friends, virtual constructor, virtual friend, factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), named parameter, type erasure, immediatly invoked lambda expression, reference counting, positive lambda, exception dispatcher, biased distribution, gather algorithm, slide algorithm. 
