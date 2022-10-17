@@ -42,6 +42,7 @@ auto type deduction, decltype specifier, decltype(auto), trailing auto, auto ret
 std::optional, std::variant, std::any.
 
 ## random library
+pseudo-random number generation, random number engines, random number engine adaptors, predefined random number generators
 
 ## std::span
 
@@ -57,7 +58,7 @@ std::optional, std::variant, std::any.
 typesafe meta-programming, advantagous of concepts, usage of concepts, requires clause, trailing requires clause, constrained template parameters, concepts as function paramaters, concepts and classes, concepts & STL, building our own concepts.
 
 ## std::ranges library
-ranges, standard range algorithms, sentinels, projections, range concepts, views, range adaptors, standard views, range type meta functions
+ranges, standard range algorithms, sentinels, projections, range concepts, views, range adaptors, standard views, range type meta functions, non-deterministic random numbers
 
 ## std::format library
 std::format, td::format_to, std::format_to_n, std::formatted_size, 
