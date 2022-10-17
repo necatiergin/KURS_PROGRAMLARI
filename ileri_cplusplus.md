@@ -3,19 +3,11 @@
 # İleri C++ Kursu İçeriği
 
 ## copy elision
-+ temporary materialization, Prvalue Xvalue conversion)_, unmaterialized object passing, return value optimization (RVO), named return value optimization (NRVO), blocking copy elision, throwing by value, catching by value, mandatory copy elision (C++17)
++ temporary materialization, prvalue xvalue conversion, unmaterialized object passing, return value optimization (RVO), named return value optimization (NRVO), blocking copy elision, throwing by value, catching by value, mandatory copy elision.
 
-## taşıma semantiği (move semantics) 
-+ sağ taraf referansları (R Value references) (hızlı tekrar)
-+ taşıma semantiğinin temel nitelikleri
-+ std::move
-+ taşıma semantiği ve sınıfların özel üye fonksiyonları _(move semantics & special member functions)_
-+ taşıma semantiğinden faydalanma biçimleri
-+ referans niteleyicileri _(reference qualifiers)_
-  + referans niteleyecileri ve işlev yüklemesi _(function overloading)_
-  + referans niteleyicileri ve taşıma semantiği
-+ taşınmış nesne durumu _(moved-from states)_
-+ taşıma semantiği ve _noexcept_ belirleyicisi 
+## move semantics 
+R Value references (brush up), taşıma semantiğinin temel nitelikleri, std::move, move semantics & special member functions, taşıma semantiğinden faydalanma biçimleri, 
+referans qualifiers & move semantics, moved-from states, move semantics & exception guarantees 
 + standart kütüphane ve taşıma semantiği _(standard library and move semantics)_
   + salt taşınabilir türler _(move only types)_
   + taşıyan algoritmalar _(moving algorithms)_
