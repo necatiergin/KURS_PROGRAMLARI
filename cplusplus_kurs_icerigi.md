@@ -348,7 +348,7 @@
 ✅ iterator traits
 
 ## Kaplar _(Containers)_
-✅ STL kapları ve veri yapıları _(STL containers & data structures) _ <br>
+✅ STL kapları ve veri yapıları _(STL containers & data structures)_ <br>
 ✅ sıralı kaplar _(sequence containers)_<br>
 &emsp;&emsp;❇️ std::vector<br>
 &emsp;&emsp;❇️ std::deque<br>
@@ -440,7 +440,6 @@
 ✅ std::invoke<br>
 ✅ std::apply<br>
 
-
 ## Tamamlayıcı Araçlar ve Sentaks Öğeleri
 ✅ aralık tabanlı for döngüleri _(range based for loops)_<br>
 ✅ ilk değer vermeli if ve switch deyimleri _(if/switch with initializers)_<br>
@@ -452,7 +451,7 @@
 ✅ ikilik sayı sisteminde yazılan sabitler _(binary literals)_<br>
 ✅ basamak ayırıcısı _(digit seperator)_<br>
 ✅ ilk değer vermeli if deyimi (C++17) _(if with initializer)_<br>
-✅ ilk değer vermeli switch  deyimi (C++17) _(if with initializer)_<br>
+✅ ilk değer vermeli switch  deyimi (C++17) _(switch with initializer)_<br>
 ✅ alignas belirteci _(alignas specifier)_<br>
 ✅ alignof operatörü _(alignof operator)_<br>
 ✅ yapısal bağlama (C++17)_(structural binding)_<br>
