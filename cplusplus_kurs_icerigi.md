@@ -455,7 +455,7 @@
 ✅ ilk değer vermeli switch  deyimi (C++17) _(if with initializer)_<br>
 ✅ alignas belirteci _(alignas specifier)_<br>
 ✅ alignof operatörü _(alignof operator)_<br>
-✅ yapısal bağlama (C++17)_(structural binding) _<br>
+✅ yapısal bağlama (C++17)_(structural binding)_<br>
 ✅ attribute’lar _(attributes)_<br>
 
 ## Concurrency
