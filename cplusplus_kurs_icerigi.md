@@ -86,6 +86,7 @@
 ✅ dynamic_cast<> operatörü _(kalıtım başlığı altında)_<br>
 
 ## inline işlevler ve inline değişkenler
+✅ ODR _(one definition rule)_ <br>
 ✅ inline işlevler _(inline functions)_ <br>
 ✅ inline değişkenler (C++17) _(inline variables)_ <br>
 
