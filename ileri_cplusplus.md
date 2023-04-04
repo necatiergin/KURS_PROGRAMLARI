@@ -28,7 +28,7 @@ lambda expressions & type deduction, mutable lambdas, lambda expressions & const
 ## advanced exception handling
 exception guarantees, basic guarantee, strong guarantee, no throw guarantee, special member functions & noexcept, noexcept specifier vs. noexcept operator, noexcept specifier in type_traits library, std::exception_ptr, std::make_exception_ptr, std::current_exception, std::rethrow_exception, std::nested_exception, exception dispatcher idiom.
 
-## spaceship operator(three ways comparison operator C++20)
+## spaceship operator (C++20)
 comparison categories, strong ordering, weak ordering, partial ordering, spaceship operator in STL.
 
 ## concurrency in C++
@@ -36,7 +36,7 @@ std::thread, std::this_thread namespace, std::jthread (C++20), thread_local stor
 std::lock_guard, std::unique_lock, std::scoped_lock, deadlocks, std::once_flag & std::call_once, std::future, std::promise, std::shared_future, std::packaged_task, std::condition_variable, std::atomic, thread pools, paralel STL algorithms
 
 ## type deduction
-auto type deduction, decltype specifier, decltype(auto), trailing auto, auto return type, type deduction in lambda expressions.
+auto type deduction, decltype specifier, decltype(auto), trailing return typr, auto return type, type deduction in lambda expressions.
 
 ## vocabulary types
 std::optional, std::variant, std::any.
@@ -60,7 +60,7 @@ typesafe meta-programming, advantagous of concepts, usage of concepts, requires 
 ## std::ranges library (C++20)
 ranges, standard range algorithms, sentinels, projections, range concepts, views, range adaptors, standard views, range type meta functions, non-deterministic random numbers
 
-## std::format library
+## std::format library (C++20)
 std::format, td::format_to, std::format_to_n, std::formatted_size, 
 
 ## coroutines (C++20)
