@@ -54,13 +54,16 @@ pseudo-random number generation, random number engines, random number engine ada
 
 ## uninitialized memory & algoritms
 
-## concepts C++20
+## concepts (C++20)
 typesafe meta-programming, advantagous of concepts, usage of concepts, requires clause, trailing requires clause, constrained template parameters, concepts as function paramaters, concepts and classes, concepts & STL, building our own concepts.
 
-## std::ranges library
+## std::ranges library (C++20)
 ranges, standard range algorithms, sentinels, projections, range concepts, views, range adaptors, standard views, range type meta functions, non-deterministic random numbers
 
 ## std::format library
+std::format, td::format_to, std::format_to_n, std::formatted_size, 
+
+## coroutines (C++20)
 std::format, td::format_to, std::format_to_n, std::formatted_size, 
 
 ## Other C++20 novelties and library extensions
