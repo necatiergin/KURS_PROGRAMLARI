@@ -172,7 +172,7 @@
 ✅ placement new operatörleri<br>
 ✅ nothrow new<br>
 
-## Tür Eş İsimleri _(Type Alias)_
+## Tür Eş İsim Bildirimleri _(Type Alias Declarations)_
 ✅ typedef bildirimleri <br>
 ✅ using bildirimleri <br>
 
@@ -232,7 +232,7 @@
 ✅ std::terminate ve std::set_terminate işlevleri<br>
 ✅ hata nesnesinin yeniden gönderilmesi _(rethrow statement)_<br>
 ✅ yığının geri sarımı _(stack unwinding)_<br>
-✅ kurucu işlevlerden exception gönderimi<br>
+✅ kurucu işlevlerden exception gönderimi _(exceptions in constructors)_<br>
 ✅ sonlandırıcı işlevler ve hata gönderimi<br>
 ✅ exception handling ve kalıtım _(eception handling & inheritance)_<br>
 ✅ exception handling ve dinamik ömürlü sınıf nesneleri _(exception handling & dynamic objects)_<br>
@@ -276,7 +276,7 @@
 ✅ string::npos<br>
 ✅ arama işlevleri<br>
 ✅ set işlemleri<br>
-✅ erişim işlemleri<br>
+✅ erişim işlemleri (a<br>
 ✅ karşılaştırma işlevleri _(comparision functions)_<br>
 ✅ sayısal dönüşüm işlevleri _(numeric conversions)_<br>
 ✅ küçük string optimizasyonu _(small string optimization)_<br>
@@ -327,8 +327,8 @@
 &emsp;&emsp;❇️ bidirectional iterator<br>
 &emsp;&emsp;❇️ random access iterator<br>
 ✅ kapların begin ve end işlevleri<br>
-✅ global begin ve end işlevleri<br>
-✅ iterator işlevleri<br>
+✅ std::begin ve std::end işlevleri<br>
+✅ iteratorler üstünde çalışan işlevler <br>
 &emsp;&emsp;❇️ std::next <br>
 &emsp;&emsp;❇️ std::prev <br>
 &emsp;&emsp;❇️ std::iter_swap<br>
