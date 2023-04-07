@@ -235,8 +235,8 @@
 ✅ kurucu işlevlerden exception gönderimi<br>
 ✅ sonlandırıcı işlevler ve hata gönderimi<br>
 ✅ exception handling ve kalıtım _(eception handling & inheritance)_<br>
-✅ exception handling ve dinamik ömürlü sınıf nesneleri _(eception handling & dynamic objects)_<br>
-✅ exception  güvenliği için akıllı göstericilerin kullanımı _(eception handling & smart pointers)_<br>
+✅ exception handling ve dinamik ömürlü sınıf nesneleri _(exception handling & dynamic objects)_<br>
+✅ exception  güvenliği için akıllı göstericilerin kullanımı _(exception handling & smart pointers)_<br>
 ✅ işlev try blokları _(function try block)_<br>
 ✅ noexcept belirleyicisi _(noexcept specifier)_<br>
 ✅ beklenmeyen hata nesnesi _(unexpected excetion)_<br>
