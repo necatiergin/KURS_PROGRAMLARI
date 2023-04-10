@@ -34,4 +34,8 @@ _(comparison categories, strong ordering, weak ordering, partial ordering, space
 ## std::format (4 saat)
 C++20 Standardı ile dile eklenen std::format kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay.
 
+## std::ranges (12 saat)
+
+## coroutines (C++20) (10 saat)
+(std::format, td::format_to, std::format_to_n, std::formatted_size, )
 
