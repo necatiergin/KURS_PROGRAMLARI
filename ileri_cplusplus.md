@@ -121,6 +121,8 @@ lambda expressions basics (fast forward)
   + std::optional
   + std::variant
   + std::any
-std::format library (C++20)
-std::ranges library(C++20)
++ std::format (C++20)
++ std::ranges (C++20)
++ std::span
+
 
