@@ -11,7 +11,7 @@ Taşıma semantiği Modern C++'ın öne çıkardığı çok önemli bir konu. Bu
 Bu bölümde Modern C++'ın tüm araçlarına nüfuz etmiş olan tür çıkarımı konusunu ileri düzeyde ele alacağız. 
 _(auto type deduction, decltype specifier, decltype(auto), trailing return type, auto return type, type deduction in lambda expressions) _
 
-# sabit ifadeleri (constant expressions) (8 saat)
+## sabit ifadeleri (constant expressions) (8 saat)
 C++ diline güç katan en temel araçlardan biri sabit ifadeleri ve derleme zamanında yapılan hesaplamalar. Bu bölümde bu konuya yönelik bazı araçları ileri düzeyde ele alacağız. 
 _(constexpr variables, constexpr functions, constexpr constructors, literal types, consteval & immediate functions, constinit, constexpr virtual functions, constexpr lambda functions, user defined literals_)
 
