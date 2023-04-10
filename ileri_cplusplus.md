@@ -37,5 +37,5 @@ C++20 Standardı ile dile eklenen std::format kütüphanesini detaylı olarak ö
 ## std::ranges (12 saat)
 
 ## coroutines (C++20) (10 saat)
-(std::format, td::format_to, std::format_to_n, std::formatted_size, )
+_(std::format, td::format_to, std::format_to_n, std::formatted_size)_
 
