@@ -31,7 +31,7 @@ _(lambda expressions and type deductions, lambda expressions & constexpr, genera
 C++ 20 ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay.
 _(comparison categories, strong ordering, weak ordering, partial ordering, spaceship operator in STL.)_
 
-## std::format
+## std::format (4 saat)
 C++20 Standardı ile dile eklenen std::format kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay.
 
 
