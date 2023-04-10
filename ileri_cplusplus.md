@@ -93,4 +93,22 @@ static_assert declarations & templates
   + std::declval
 + C++20 additions
 
+## lambda expressions C++11/14/17/20/23 
+lambda expressions basics (fast forward)
+  + lambda expressions and type deductions
+  + lambda expressions & constexpr
+  + generalized lambda expressions
+  + lambda init capture
+  + lambda expressions & perfect forwarding
+  + pack expansions in lambda expressions
+  + lambda expressions & STL algorithms
++ recursive lambda
++ lambda expressions in member functions
++ lambda expressions for functional programming
++ template parameter lists on lambdas (C++20)
++ new lambda captures (C++20)
++ lambda expressions in unevaluated context - C++20
++ lambda init capture pack expansions (C++20)
++ default constructible and assignable stateless lambdas (C++20).
++ lambda expression idioms
 
