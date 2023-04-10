@@ -87,6 +87,10 @@ static_assert declarations & templates
 + sizeof... operator
 + pack expansion patterns 
 + fold expressions
-+ sfinae, std::enable_if, std::void_t, std::declval, std::invoke, std::apply, C++20 additions, string literals template parameters, removal of some typename usage restrictions.
++ sfinae
+  + std::enable_if
+  + std::void_t
+  + std::declval
++ C++20 additions
 
 
