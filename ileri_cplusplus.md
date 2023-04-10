@@ -38,3 +38,14 @@
 + typical mistakes & misconceptions
 + guidelines
 
+## constants and constant expressions C++11/14/17/20/23
++ constexpr variables
++ constexpr functions
++ constexpr constructors
++ literal types, 
++ consteval & immediate functions
++ constinit
++ constexpr virtual functions
++ constexpr lambda functions
++ user defined literals.
+
