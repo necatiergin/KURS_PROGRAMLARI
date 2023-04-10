@@ -49,3 +49,11 @@
 + constexpr lambda functions
 + user defined literals.
 
+## type deduction
++ auto type deduction
++ decltype specifier
++ decltype(auto)
++ trailing return type
++ auto return type
++ type deduction in lambda expressions
+
