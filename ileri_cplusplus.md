@@ -13,7 +13,7 @@ _(auto type deduction, decltype specifier, decltype(auto), trailing return type,
 
 ## sabit ifadeleri (constant expressions) (8 saat)
 C++ diline güç katan en temel araçlardan biri sabit ifadeleri ve derleme zamanında yapılan hesaplamalar. Bu bölümde bu konuya yönelik bazı araçları ileri düzeyde ele alacağız. 
-_(constexpr variables, constexpr functions, constexpr constructors, literal types, consteval & immediate functions, constinit, constexpr virtual functions, constexpr lambda functions, user defined literals_)
+_(constexpr variables, constexpr functions, constexpr constructors, literal types, consteval & immediate functions, constinit, constexpr virtual functions, constexpr lambda functions, user defined literals)_
 
 ## türden bağımsız programlama (generic programming) (24 saat)
 Bu bölümde C++ dilinin türden bağımsız programlama araçları kapsamlı bir şekilde ve ileri düzeyde ele alınıyor. Önce temel kursta öğrendiğimiz araçları hızlı bir şekilde tekrar ediyor sonra ileri düzey araçları, yenilikleri ve teknikleri öğreniyoruz. Konu başlıklarımızdan bazıları:
@@ -21,6 +21,9 @@ _(template terminology, function templates,  class templates, variable templates
 
 ## mükemmel gönderim (perfect forwarding) (8 saat)
 _(forwarding (universal) references, forwarding reference vs R value reference, std::forward, auto && for perfect forwarding, decltype(auto) & perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes & misconceptions, guidelines.)_
+
+## olağan dışı durumların işlenmesi (advanced exception handling) (3 saat)
+Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığımız bazı ileri konuları inceleyecek _(exception handling)_ konusunda daha derin bir bakış açısına sahip olacağız.
 
 ## lambda ifadeleri (lambda expressions C++11/14/17/20/23) (10 saat)
 Modern C++'ın en önemli araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin bilmediğimiz hiçbir şey kalmayacak. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz.
