@@ -26,3 +26,15 @@
 + STL moving algorithms
 + typical mistakes & misconceptions
 + guidelines
+
+## perfect forwarding
++ forwarding (universal) references
++ forwarding reference vs R value reference
++ std::forward
++ auto && for perfect forwarding
++ decltype(auto) & perfect forwarding
++ perfect forwarding of return values
++ perfect forwarding in STL
++ typical mistakes & misconceptions
++ guidelines
+
