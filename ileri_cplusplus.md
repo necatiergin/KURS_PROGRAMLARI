@@ -93,6 +93,8 @@ static_assert declarations & templates
   + std::declval
 + C++20 additions
 
+## concepts (C++20)
+
 ## lambda expressions C++11/14/17/20/23 
 lambda expressions basics (fast forward)
   + lambda expressions and type deductions
@@ -111,4 +113,14 @@ lambda expressions basics (fast forward)
 + lambda init capture pack expansions (C++20)
 + default constructible and assignable stateless lambdas (C++20).
 + lambda expression idioms
+
+## standard library (C++17/20/23)
++ random library
++ regex library
++ vocabulary types (C++17)
+  + std::optional
+  + std::variant
+  + std::any
+std::format library (C++20)
+std::ranges library(C++20)
 
