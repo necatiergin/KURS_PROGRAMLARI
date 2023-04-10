@@ -57,3 +57,36 @@
 + auto return type
 + type deduction in lambda expressions
 
+## templates & generic programming (advanced)
++ basic concepts
+  + function templates
+  + class templates
+  + variable templates
+  + alias templates
++ member templates, 
++ template parameters
+  + type parameters
+  + non-type parameters 
+    + auto non-type parameters
+  + template template parameters
+  + function templates & overloading
++ explicit specialization
++ partial specialization
++ template instantiation
++ template arguments
++ template argument deduction
++ dependent & non-dependent names
++ templates & friendship
++ ctad 
++ meta functions and standard type_traits library
+static_assert declarations & templates
++ std::type_identity
++ tag dispatch
++ if constexpr (static if)
++ variadic templates
++ sizeof... operator
++ pack expansion patterns 
++ fold expressions
++ sfinae, std::enable_if, std::void_t, std::declval, std::invoke, std::apply, C++20 additions, string literals template parameters, removal of some typename usage restrictions.
+
+
