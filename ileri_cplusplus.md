@@ -15,3 +15,4 @@ _(auto type deduction, decltype specifier, decltype(auto), trailing return type,
 C++ diline güç katan en temel araçlardan biri sabit ifadeleri ve derleme zamanında yapılan hesaplamalar. Bu bölümde bu konuya yönelik bazı araçları ileri düzeyde ele alacağız. 
 _(constexpr variables, constexpr functions, constexpr constructors, literal types, consteval & immediate functions, constinit, constexpr virtual functions, constexpr lambda functions, user defined literals_)
 
+## türden bağımsız programlama (generic programming) (24 saat)
