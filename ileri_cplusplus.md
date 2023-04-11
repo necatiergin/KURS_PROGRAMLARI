@@ -42,6 +42,9 @@ _(std::format, td::format_to, std::format_to_n, std::formatted_size)_
 ## C++ idioms and techniques
 Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br>
 
+## derleyici optimizasyonları (compiler optimizations)
+Bu bölümde tipik bir C++ derleyicisinin gerçekleştirdiği optimizasyon faaliyetleri üstünde duracağız.<br>
+ 
 ## std::ranges
 C++20 standardı ile dile eklenen std::ranges kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. STL2.0'ı öğreneceğiz.
 
@@ -49,7 +52,7 @@ C++20 standardı ile dile eklenen std::ranges kütüphanesi standart kütüphane
 
 ## Yeni kütüphane öğeleri (New library components)
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.<br>
-std::optional, std::variant, std::any, file_system_library_
+_std::optional, std::variant, std::any, file_system_library_
  
 ## Concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br>
