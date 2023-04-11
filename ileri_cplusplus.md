@@ -49,7 +49,7 @@ C++20 standardı ile dile eklenen std::ranges kütüphanesi standart kütüphane
 
 ## Yeni kütüphane öğeleri (New library components)
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.<br>
-_std::regex, std::optional, std::variant, std::any, file_system_library_
+std::optional, std::variant, std::any, file_system_library_
  
 ## Concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br>
