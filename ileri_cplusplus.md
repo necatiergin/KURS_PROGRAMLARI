@@ -52,7 +52,7 @@ C++20 standardı ile dile eklenen std::ranges kütüphanesi standart kütüphane
 
 ## Yeni kütüphane öğeleri (New library components)
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.<br>
-_std::optional, std::variant, std::any, file_system_library, std::expected(C++23), std::mdspan(C++23), std::print(C++23)_
+_std::optional, std::variant, std::any, file_system_library, std::expected(C++23), std::mdspan(C++23), std::print(C++23), std::flat_set, std::flat_map
  
 ## Concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br>
