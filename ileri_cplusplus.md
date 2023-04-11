@@ -35,7 +35,7 @@ _(lambda expressions and type deductions, lambda expressions & constexpr, genera
 C++ 20 ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay.<br>
 _(comparison categories, strong ordering, weak ordering, partial ordering, spaceship operator in STL.)_
 
-## std::format
+## std::format (C++20)
 C++20 Standardı ile dile eklenen _std::format_ kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay.
 _(std::format, td::format_to, std::format_to_n, std::formatted_size)_
 
@@ -45,14 +45,14 @@ Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini merce
 ## derleyici optimizasyonları (compiler optimizations)
 Bu bölümde tipik bir C++ derleyicisinin gerçekleştirdiği optimizasyon faaliyetleri üstünde duracağız.<br>
  
-## std::ranges
+## std::ranges (C++20)
 C++20 standardı ile dile eklenen std::ranges kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. STL2.0'ı öğreneceğiz.
 
 ## coroutines (C++20)
 
 ## Yeni kütüphane öğeleri (New library components)
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.<br>
-_std::optional, std::variant, std::any, file_system_library_
+_std::optional, std::variant, std::any, file_system_library_, std::expected
  
 ## Concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br>
