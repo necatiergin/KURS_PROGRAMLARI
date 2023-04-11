@@ -39,9 +39,17 @@ _(comparison categories, strong ordering, weak ordering, partial ordering, space
 C++20 Standardı ile dile eklenen _std::format_ kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay.
 _(std::format, td::format_to, std::format_to_n, std::formatted_size)_
 
+## C++ idioms and techniques (20 saat)
+Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br>
+
 ## std::ranges (12 saat)
-C++20 standardı ile dile eklenen std::ranges kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. STL2.0'ı öğrneceğiz.
+C++20 standardı ile dile eklenen std::ranges kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. STL2.0'ı öğreneceğiz.
 
 ## coroutines (C++20) (10 saat)
 
+## Yeni kütüphane öğeleri (New library components) (20 saat)
+Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.
+ 
+## Concurrency in C++ (20 saat)
+Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüpanesini ele alacağız.
 
