@@ -27,7 +27,7 @@ _(forwarding (universal) references, forwarding reference vs R value reference, 
 
 ## olağan dışı durumların işlenmesi (advanced exception handling)
 Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığımız bazı ileri konuları inceleyecek _(exception handling)_ konusunda daha derin bir bakış açısına sahip olacağız. _exception handling_ konusunda bilmediğimiz hiçbir şey kalmayacak.<br><br>
-_exception guarantees in details, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception,_
+_exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_
 
 ## lambda ifadeleri (lambda expressions C++11/14/17/20/23)
 Modern C++'ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin bilmediğimiz hiçbir şey kalmayacak. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz.<br><br>
@@ -56,7 +56,7 @@ C++20 standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüpha
 
 ## Yeni kütüphane öğeleri (New library components)
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.<br><br>
-_std::optional, std::variant, std::any, file_system_library, std::expected(C++23), std::mdspan(C++23), std::print(C++23), std::flat_set (C++23), std::flat_map(C++23)_
+std::string_view, _std::optional, std::variant, std::any, file_system_library, std::span (C++20), std::expected(C++23), std::mdspan(C++23), std::print(C++23), std::flat_set (C++23), std::flat_map(C++23)_
  
 ## Concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br><br>
