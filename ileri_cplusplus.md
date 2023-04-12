@@ -22,7 +22,7 @@ Bu bölümde C++ dilinin türden bağımsız programlama _(generic programming)_
 _(template terminology, function templates,  class templates, variable templates, alias templates, member templates, template parameters, type parameters, non-type parameters, auto non-type parameters, template template parameters, function templates & overloading, explicit specialization, partial specialization, template instantiation, template arguments, template argument deduction, dependent & non-dependent names, templates & friendship, ctad , meta functions and standard type_traits library, static_assert declarations & templates, std::type_identity, tag dispatch, if constexpr (static if), variadic templates, sizeof... operator, pack expansion patterns, fold expressions, sfinae, std::enable_if, std::void_t, std::declval, C++20 additions_
 
 ## mükemmel gönderim (perfect forwarding)
-Modern C++'ın kazandırdığı en önemli araçlardan biri _"perfect forwarding"_. Bu bölümde "perfect forwarding" tüm yönleriyle ele alnacak. <br> <br>
+Modern C++'ın kazandırdığı en önemli araçlardan biri _"perfect forwarding"_. Bu bölümde _"perfect forwarding"_ tüm yönleriyle ele alnacak. <br> <br>
 _(forwarding (universal) references, forwarding reference vs R value reference, std::forward, auto && for perfect forwarding, decltype(auto) & perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes & misconceptions, guidelines.)_
 
 ## olağan dışı durumların işlenmesi (advanced exception handling)
