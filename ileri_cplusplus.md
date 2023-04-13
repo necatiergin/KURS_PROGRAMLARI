@@ -25,7 +25,7 @@ _(template terminology, function templates,  class templates, variable templates
 Modern C++'ın kazandırdığı en önemli araçlardan biri _"perfect forwarding"_. Bu bölümde _"perfect forwarding"_ tüm yönleriyle ele alnacak. <br> <br>
 _(forwarding (universal) references, forwarding reference vs R value reference, std::forward, auto && for perfect forwarding, decltype(auto) and perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes & misconceptions, guidelines.)_
 
-## concepts
+## concepts (C++20)
 _concept'ler_ C++20 standardı ile dile eklenen en önemli araçlardan biri. _Concept_'ler ile türden bağımsız programlama, daha kolay ve daha güvenli olarak gerçekleştirilebiliyor. Bu başlık altında _concept_'lere yönelik özellikleri ve standart kütüphane öğelerini ayrıntılı olarak ele alacağız.<br>
 
 ## olağan dışı durumların işlenmesi (advanced exception handling)
