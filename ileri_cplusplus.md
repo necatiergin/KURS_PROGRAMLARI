@@ -57,11 +57,11 @@ C++20 standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüpha
 
 ## coroutines (C++20)
 
-## Yeni kütüphane öğeleri (New library components)
+## yeni kütüphane öğeleri (New library components)
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.<br><br>
 std::string_view, _std::optional, std::variant, std::any, file_system_library, std::span (C++20), std::expected(C++23), std::mdspan(C++23), std::print(C++23), std::flat_set (C++23), std::flat_map(C++23)_
  
-## Concurrency in C++
+## concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br><br>
 _(std::thread, std::this_thread namespace, std::jthread (C++20), thread_local storage, std::async, shared objects & mutex classes, race condition & data race, 
 std::lock_guard, std::unique_lock, std::scoped_lock, deadlocks, std::once_flag & std::call_once, std::future, std::promise, std::shared_future, std::packaged_task, std::condition_variable, std::atomic, thread pools, paralel STL algorithms)_
