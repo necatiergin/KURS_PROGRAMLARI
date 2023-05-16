@@ -59,7 +59,7 @@ _C++20_ standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüp
 ## coroutines (C++20)
 _C++20_ Standardı ile dile eklenen ve _C++23_ Standardı ile yapılan eklemeler ile daha güçlü hale gelen _coroutin_'leri detaylı olarak ele alacağız.
 
-## yeni kütüphane öğeleri (New library components)
+## yeni kütüphane öğeleri (new library components)
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.<br><br>
 std::string_view, _std::optional, std::variant, std::any, file_system_library, std::span (C++20), std::expected(C++23), std::mdspan(C++23), std::print(C++23), std::flat_set (C++23), std::flat_map(C++23)_
  
