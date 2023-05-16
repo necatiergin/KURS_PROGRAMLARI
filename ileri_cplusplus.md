@@ -51,7 +51,8 @@ _(RAII, swap functions, copy & swap idiom, scope guards, strong types, tag dispa
 factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), isimlendirilmiş parametre (named parameter), tür silme (type erasure), IIFE (immediatly invoked lambda expression), referans sayımı (reference counting), positive lambda, exception dispatcher, biased dağılımı (biased distribution), gather algorithm, slide algorithm)_
 
 ## derleyici optimizasyonları (compiler optimizations)
-Bu bölümde tipik bir C++ derleyicisinin gerçekleştirdiği optimizasyon faaliyetleri üstünde duracağız.<br>
+Bu bölümde tipik bir C++ derleyicisinin gerçekleştirdiği optimizasyon faaliyetleri üstünde duracağız.<br><br>
+_dead code elimination, loop unrolling, loop inversion, constant folding, constant propagation, function inlining_                                                            _
  
 ## std::ranges (C++20)
 _C++20_ standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. STL2.0'ı öğreneceğiz.
