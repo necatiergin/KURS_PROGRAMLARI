@@ -50,7 +50,7 @@ _std::format, td::format_to, std::format_to_n, std::formatted_size_
 
 ## C++ idioms and techniques
 Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br><br>
-_RAII, swap functions, copy & swap idiom, scope guards, strong types, tag dispatch, hidden friends, virtual constructor, virtual friend,
+_RAII, swap functions, copy & swap idiom, scope guards, strong types, tag dispatch, hidden friends, ADL + fallback, virtual constructor, virtual friend,
 factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), isimlendirilmiş parametre (named parameter), tür silme (type erasure), IIFE (immediatly invoked lambda expression), referans sayımı (reference counting), positive lambda, exception dispatcher, biased dağılımı (biased distribution), gather algorithm, slide algorithm, tail call optimization (TCO), strength reduction, instruction scheduling_
 
 ## derleyici optimizasyonları (compiler optimizations)
