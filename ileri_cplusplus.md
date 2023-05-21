@@ -17,6 +17,9 @@ _auto type deduction, decltype specifier, decltype(auto), trailing return type, 
 C++ diline güç katan en temel araçlardan biri sabit ifadeleri ve derleme zamanında yapılan hesaplamalar. Bu bölümde bu konuya yönelik bazı araçları ileri düzeyde ele alacağız. _C++20 ve C++23_ standartları ile dile yapılan eklemeleri de inceleyeceğiz.<br><br>
 _constexpr variables, constexpr functions, constexpr constructors, literal types, consteval & immediate functions, constinit, constexpr virtual functions, constexpr lambda functions, user defined literals_
 
+## (advance) namespaces
+Bu bölümde isim alanlarını ileri düzeyde inceleyeceğiz. İsim alanları konusunda _C++17/20/23_ standartları ile gelen önemli eklentileri ve bunların sağladığı faydaları ele alacağız.
+
 ## türden bağımsız programlama (generic programming)
 Bu bölümde C++ dilinin türden bağımsız programlama _(generic programming)_ araçları kapsamlı bir şekilde ve ileri düzeyde ele alacağız. Önce temel kursta öğrendiğimiz araçları hızlı bir şekilde tekrar edecek sonra ileri düzey araçları, yeni standartlarla gelen eklentileri ve bazı önemli teknikleri ve idiyomları öğreneceğiz. C++20 standartları ile gelen eklemeler de konu başlıklarımız arasında olacak<br><br>
 _template terminology, function templates,  class templates, variable templates, alias templates, member templates, template parameters, type parameters, non-type parameters, auto non-type parameters, template template parameters, function templates & overloading, explicit specialization, partial specialization, template instantiation, template arguments, template argument deduction, dependent & non-dependent names, templates & friendship, ctad , meta functions and standard type_traits library, static_assert declarations & templates, std::type_identity, tag dispatch, if constexpr (static if), variadic templates, sizeof... operator, pack expansion patterns, fold expressions, sfinae, std::enable_if, std::void_t, std::declval, C++20 additions_
