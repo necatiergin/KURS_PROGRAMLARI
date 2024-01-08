@@ -33,7 +33,7 @@ Bu bölümde isim alanlarını ileri düzeyde inceleyeceğiz. İsim alanları ko
 ## türden bağımsız programlama (generic programming)
 Bu bölümde C++ dilinin türden bağımsız programlama _(generic programming)_ araçları kapsamlı bir şekilde ve ileri düzeyde ele alacağız. Önce temel kursta öğrendiğimiz araçları hızlı bir şekilde tekrar edecek sonra ileri düzey araçları, yeni standartlarla gelen eklentileri ve bazı önemli teknikleri ve idiyomları öğreneceğiz. C++20 standartları ile gelen eklemeler de konu başlıklarımız arasında olacak<br><br>
 _template terminology_, 
-_function templates_,  
+_function templates_, 
 _class templates_, 
 _variable templates_, 
 _alias templates_, 
