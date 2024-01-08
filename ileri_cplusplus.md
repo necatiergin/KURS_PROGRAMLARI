@@ -38,7 +38,26 @@ _exception guarantees in details, noexcept specifier, noexcept operator, when to
 
 ## lambda ifadeleri (lambda expressions C++11/14/17/20/23)
 Modern _C++'_ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin bilmediğimiz hiçbir şey kalmayacak. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz. Lambda ifadelerine ilişkin kullanılan idiyomları ve teknikleri de ayrıntılı olarak ele alacağız.
-_lambda expressions and type deductions, lambda expressions & constexpr, generalized lambda expressions, lambda init capture, lambda expressions & perfect forwarding, pack expansions in lambda expressions, lambda expressions & STL algorithms, recursive lambda, lambda expressions in member functions, lambda expressions for functional programming, lambda expressions in C++20/23, template parameter lists on lambdas (C++20), new lambda captures (C++20), lambda expressions in unevaluated context - C++20, lambda init capture pack expansions (C++20), default constructible and assignable stateless lambdas (C++20), multiple lambda, IIFE, lambda call once, type distinction through lambda.
+_lambda expressions and type deductions_, 
+_lambda expressions & constexpr_, 
+_generalized lambda expressions_, 
+_lambda init capture_, 
+_lambda expressions & perfect forwarding_, 
+_pack expansions in lambda expressions_, 
+_lambda expressions & STL algorithms_, 
+_recursive lambda_, 
+_lambda expressions in member functions_, 
+_lambda expressions for functional programming_, 
+_lambda expressions in C++20/23_, 
+_template parameter lists on lambdas (C++20)_, 
+_new lambda captures (C++20)_, 
+_lambda expressions in unevaluated context - C++20_, 
+_lambda init capture pack expansions (C++20, 
+_default constructible and assignable stateless lambdas (C++20)_, 
+_multiple lambda_, 
+_IIFE_, 
+_lambda call once_, 
+_type distinction through lambda_.
 
 ## spaceship operator (C++20) 
 _C++20_ ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay.<br><br>
