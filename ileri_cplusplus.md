@@ -1,7 +1,7 @@
 # Advanced C++
 
 ## kopyalama eliminasyonu (copy elision)
-Kopyalama eliminasyonu çok iyi hakim olmamız gereken bir konu. Bu bölümde _kopyalama eliminasyonunu_ önce temel düzeyde tekrar edecek daha sonra kopyalama eliminasyonuna yönelik tipik durumları ayrıntılı olarak ele alacağız. _C++17_ Standardı ile dile eklenen _"mandatory copy elision"_ ve _copy elision_'ı engelleyen senaryolara da değineceğiz. Tipik yapılan hataları ve yanlış anlamaları _(misconceptions)_ konuşacağız. <br><br>
+Kopyalama eliminasyonu çok iyi hakim olmamız gereken bir konu. Bu bölümde _kopyalama eliminasyonunu_ önce temel düzeyde tekrar edecek daha sonra kopyalama eliminasyonuna yönelik tipik durumları ayrıntılı olarak ele alacağız. _C++17_ Standardı ile dile eklenen _"mandatory copy elision"_ ve _copy elision_'ı engelleyen senaryolara da değineceğiz. Tipik yapılan hataları ve yanlış anlamaları _(misconceptions)_ konuşacağız: <br><br>
 _temporary materialization_, 
 _prvalue xvalue conversion_, 
 _unmaterialized object passing_, 
@@ -14,7 +14,7 @@ _mandatory copy elision_,
 _typical mistakes & misconceptions, guidelines_
 
 ## taşıma semantiği (move semantics)
-Taşıma semantiği Modern C++'a güç katan en önemli yapılardan biri. Bu bölümde taşıma semantiğini önce temel düzeyde tekrar edecek sonra ileri düzey bilgiler edineceğiz. Bu konuda yapılan tipik hataları ve kullanılan idiyomatik yapıları da ele alacağız. <br><br> 
+Taşıma semantiği Modern C++'a güç katan en önemli yapılardan biri. Bu bölümde taşıma semantiğini önce temel düzeyde tekrar edecek sonra ileri düzey bilgiler edineceğiz. Bu konuda yapılan tipik hataları ve kullanılan idiyomatik yapıları da ele alacağız: <br><br> 
 _basic features of move semantics_, _std::move_, _move semantics & special member functions_, _how to use move semantics_, _reference qualifiers & move semantics_, _moved-from state_, _move semantics & exception guarantees_, _move semantics in STL_, _move only types_, _STL moving algorithms_, _typical mistakes & misconceptions_, _guidelines_
 
 ## tür çıkarımı (type deduction)
