@@ -17,7 +17,7 @@ _typical mistakes & misconceptions, guidelines_
 Taşıma semantiği Modern C++'a güç katan en önemli yapılardan biri. Bu bölümde taşıma semantiğini önce temel düzeyde tekrar edecek sonra ileri düzey bilgiler edineceğiz. Bu konuda yapılan tipik hataları ve kullanılan idiyomatik yapıları da ele alacağız. <br><br> 
 _basic features of move semantics_,
 _std::move_, 
-_move semantics & special member functions_, _how to use move semantics_, _reference qualifiers & move semantics_, _moved-from state_,  _move semantics & exception guarantees_, _move semantics in STL_, _move only types_, _STL moving algorithms_, _typical mistakes & misconceptions_, _guidelines_
+_move semantics & special member functions_, _how to use move semantics_, _reference qualifiers & move semantics_, _moved-from state_, _move semantics & exception guarantees_, _move semantics in STL_, _move only types_, _STL moving algorithms_, _typical mistakes & misconceptions_, _guidelines_
 
 ## tür çıkarımı (type deduction)
 Bu bölümde Modern C++'ın neredeyse tüm araçlarına nüfuz etmiş olan tür çıkarımı konusunu ileri düzeyde ele alacağız. <br> 
@@ -69,7 +69,15 @@ _C++20/23 additions_
 
 ## mükemmel gönderim (perfect forwarding)
 Modern _C++_'ın kazandırdığı en önemli araçlardan biri _"perfect forwarding"_. Bu bölümde _"perfect forwarding"_ tüm yönleriyle ele alnacak. <br> <br>
-_forwarding (universal) references, forwarding reference vs R value reference, std::forward, auto && for perfect forwarding, decltype(auto) and perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes & misconceptions, guidelines._
+_forwarding (universal) references_, 
+_forwarding reference vs R value reference_, 
+_std::forward_, 
+_auto && for perfect forwarding_, 
+_decltype(auto) and perfect forwarding_, 
+_perfect forwarding of return values_, 
+_perfect forwarding in STL_, 
+_typical mistakes & misconceptions_, 
+_guidelines_.
 
 ## concepts (C++20)
 _concept'ler_ _C++20_ standardı ile dile eklenen en önemli araçlardan biri. _Concept_'ler ile türden bağımsız programlama, daha kolay ve daha güvenli olarak gerçekleştirilebiliyor. Bu başlık altında _concept_'lere yönelik özellikleri ve standart kütüphane öğelerini ayrıntılı olarak ele alacağız.<br><br>
@@ -104,11 +112,18 @@ _type distinction through lambda_.
 
 ## spaceship operator (C++20) 
 _C++20_ ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay.<br><br>
-_comparison categories, strong ordering, weak ordering, partial ordering, spaceship operator in STL._
+_comparison categories_, 
+_strong ordering_, 
+_weak ordering_, _partial ordering_, 
+_spaceship operator in STL._
 
 ## std::format (C++20)
 _C++20_ Standardı ile dile eklenen _std::format_ kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay.<br><br>
-_std::format, td::format_to, std::format_to_n, std::formatted_size_, std::print
+_std::format_, 
+_std::format_to_, 
+_std::format_to_n_, 
+_std::formatted_size_, 
+_std::print_
 
 ## C++ idioms and techniques
 Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br><br>
@@ -176,7 +191,17 @@ _C++20_ Standardı ile dile eklenen ve _C++23_ Standardı ile yapılan eklemeler
 
 ## yeni kütüphane öğeleri (new library components)
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız.<br><br>
-std::string_view, _std::optional, std::variant, std::any, file_system_library, std::span (C++20), std::expected(C++23), std::mdspan(C++23), std::print(C++23), std::flat_set (C++23), std::flat_map(C++23)_
+_std::string_view_, 
+_std::optional_, 
+_std::variant_, 
+_std::any_, 
+_file_system_library_, 
+_std::span (C++20)_, 
+_std::expected(C++23)_, 
+_std::mdspan(C++23)_, 
+_std::print(C++23)_, 
+_std::flat_set (C++23)_, 
+_std::flat_map(C++23)_
  
 ## concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br><br>
