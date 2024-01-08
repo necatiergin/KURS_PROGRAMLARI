@@ -16,7 +16,7 @@ _typical mistakes & misconceptions, guidelines_
 
 ## taşıma semantiği (move semantics)
 Taşıma semantiği Modern C++'a güç katan en önemli yapılardan biri. Bu bölümde taşıma semantiğini önce temel düzeyde tekrar edecek sonra ileri düzey bilgiler edineceğiz. Bu konuda yapılan tipik hataları ve kullanılan idiyomatik yapıları da ele alacağız. <br><br> 
-_basic features of move semantics_, 
+_basic features of move semantics_,
 _std::move_, 
 _move semantics & special member functions_,  
 _how to use move semantics_, 
@@ -26,7 +26,8 @@ _move semantics & exception guarantees_,
 _move semantics in STL_, 
 _move only types_, 
 _STL moving algorithms_, 
-_typical mistakes & misconceptions, guidelines_
+_typical mistakes & misconceptions_, 
+_guidelines_
 
 ## tür çıkarımı (type deduction)
 Bu bölümde Modern C++'ın neredeyse tüm araçlarına nüfuz etmiş olan tür çıkarımı konusunu ileri düzeyde ele alacağız. <br> 
