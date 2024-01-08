@@ -126,4 +126,29 @@ std::string_view, _std::optional, std::variant, std::any, file_system_library, s
  
 ## concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br><br>
-_std::thread_, _std::this_thread namespace_, _std::jthread (C++20)_, _std::stop_token_, _thread_local storage_, _std::async_, _shared objects & mutex classes_, _race condition_ & data race, _std::lock_guard_, _std::unique_lock_, _std::scoped_lock_, _deadlocks_, _std::once_flag & std::call_once_, _std::future_, _std::promise_, _std::shared_future_, _std::packaged_task_, _std::condition_variable_, _std::atomic_, _thread pools_, _std::counting_semaphore_ & _std::binary_semaphore_, _paralel STL algorithms_, _concurrency idioms & tecniques_. 
+_std::thread_, 
+_std::this_thread namespace_, 
+_std::jthread (C++20)_, 
+_std::stop_token_, 
+_thread_local storage_, 
+_std::async_, 
+_mutex classes_, 
+_race condition_ & data race, 
+_std::lock_guard_, 
+_std::unique_lock_, 
+_std::scoped_lock_, 
+_deadlocks_, 
+_std::once_flag & std::call_once_, 
+_std::future_, 
+_std::promise_, 
+_std::shared_future_, 
+_std::packaged_task_, 
+_std::condition_variable_, 
+_std::atomic_, 
+_thread pools_, 
+_sequential consistency_,
+_acquire release semantics,
+_std::counting_semaphore_,
+_std::binary_semaphore_, 
+_paralel STL algorithms_,
+_concurrency idioms & techniques_. 
