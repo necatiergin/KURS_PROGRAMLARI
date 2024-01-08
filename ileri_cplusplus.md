@@ -86,7 +86,7 @@ Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığ
 _exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_, _polymorphic_exception_, _exception_dispatcher_
 
 ## lambda ifadeleri (lambda expressions C++11/14/17/20/23)
-Modern _C++'_ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin her şeyi öğreneceğiz. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz. Lambda ifadelerine ilişkin kullanılan idiyomları ve teknikleri de ayrıntılı olarak ele alacağız: <br><br>
+Modern C++'ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin her şeyi öğreneceğiz. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz. Lambda ifadelerine ilişkin kullanılan idiyomları ve teknikleri de ayrıntılı olarak ele alacağız: <br><br>
 _lambda expressions and type deductions_, 
 _lambda expressions & constexpr_, 
 _generalized lambda expressions_, 
