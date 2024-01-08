@@ -34,7 +34,7 @@ _constraints, requires clauses, requires expressions, type requirements, compoun
 
 ## olağan dışı durumların işlenmesi (advanced exception handling)
 Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığımız bazı ileri konuları inceleyecek _(exception handling)_ konusunda daha derin bir bakış açısına sahip olacağız. _Exception handling'e_ ilişkin kullanılan teknikleri ve idiyomları da öğreneceğiz. _exception handling_ konusunda bilmediğimiz hiçbir şey kalmayacak.<br><br>
-_exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_
+_exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_, _polymorphic_exception_, _exception_dispatcher_
 
 ## lambda ifadeleri (lambda expressions C++11/14/17/20/23)
 Modern _C++'_ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin bilmediğimiz hiçbir şey kalmayacak. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz. Lambda ifadelerine ilişkin kullanılan idiyomları ve teknikleri de ayrıntılı olarak ele alacağız.
@@ -51,7 +51,7 @@ _std::format, td::format_to, std::format_to_n, std::formatted_size_, std::print
 ## C++ idioms and techniques
 Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br><br>
 _RAII_, _swap functions_, _copy & swap idiom_, _scope guards_, _strong types_, _tag dispatch_, _hidden friends_, _ADL + fallback_, _virtual constructor_, _virtual friend_,
-factories, proxy, memory ownership, _pimpl & fast pimpl_, _attorney - client_, _local buffer optimization_, _implementation class_, _non virtual interface (NVI)_, _isimlendirilmiş parametre (named parameter)_, tür silme _(type erasure)_, _IIFE (immediatly invoked lambda expression)_, _referans sayımı (reference counting)_, _positive lambda_, _exception dispatcher_, _biased dağılım (std::discrete_distribution_), _gather_ algorithm, _slide_ algorithm.
+_factories_, _proxy_, _memory ownership_, _propagate_const_, _mixin classes_,  _pimpl & fast pimpl_, _attorney - client_, _local buffer optimization_, _implementation class_, _non virtual interface (NVI)_, _isimlendirilmiş parametre (named parameter)_, tür silme _(type erasure)_, _IIFE (immediatly invoked lambda expression)_, _referans sayımı (reference counting)_, _positive lambda_, _exception dispatcher_, _biased dağılım (std::discrete_distribution_), _gather algorithm_, _slide algorithm_.
 
 ## derleyici optimizasyonları (compiler optimizations)
 Bu bölümde tipik bir C++ derleyicisinin gerçekleştirdiği optimizasyon faaliyetleri üstünde duracağız.<br><br>
