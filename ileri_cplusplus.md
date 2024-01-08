@@ -29,29 +29,29 @@ Modern _C++_'ın kazandırdığı en önemli araçlardan biri _"perfect forwardi
 _forwarding (universal) references, forwarding reference vs R value reference, std::forward, auto && for perfect forwarding, decltype(auto) and perfect forwarding, perfect forwarding of return values, perfect forwarding in STL, typical mistakes & misconceptions, guidelines._
 
 ## concepts (C++20)
-_concept'ler_ C++20 standardı ile dile eklenen en önemli araçlardan biri. _Concept_'ler ile türden bağımsız programlama, daha kolay ve daha güvenli olarak gerçekleştirilebiliyor. Bu başlık altında _concept_'lere yönelik özellikleri ve standart kütüphane öğelerini ayrıntılı olarak ele alacağız.<br><br>
+_concept'ler_ _C++20_ standardı ile dile eklenen en önemli araçlardan biri. _Concept_'ler ile türden bağımsız programlama, daha kolay ve daha güvenli olarak gerçekleştirilebiliyor. Bu başlık altında _concept_'lere yönelik özellikleri ve standart kütüphane öğelerini ayrıntılı olarak ele alacağız.<br><br>
 _constraints, requires clauses, requires expressions, type requirements, compound requirements, nested requirements, concepts, type constraints and auto, standard concepts_ 
 
 ## olağan dışı durumların işlenmesi (advanced exception handling)
-Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığımız bazı ileri konuları inceleyecek _(exception handling)_ konusunda daha derin bir bakış açısına sahip olacağız. _exception handling_ konusunda bilmediğimiz hiçbir şey kalmayacak.<br><br>
+Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığımız bazı ileri konuları inceleyecek _(exception handling)_ konusunda daha derin bir bakış açısına sahip olacağız. _Exception handling'e_ ilişkin kullanılan teknikleri ve idiyomları da öğreneceğiz. _exception handling_ konusunda bilmediğimiz hiçbir şey kalmayacak.<br><br>
 _exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_
 
 ## lambda ifadeleri (lambda expressions C++11/14/17/20/23)
-Modern C++'ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin bilmediğimiz hiçbir şey kalmayacak. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz.<br><br>
-_lambda expressions and type deductions, lambda expressions & constexpr, generalized lambda expressions, lambda init capture, lambda expressions & perfect forwarding, pack expansions in lambda expressions, lambda expressions & STL algorithms, recursive lambda, lambda expressions in member functions, lambda expressions for functional programming, lambda expressions in C++20/23, template parameter lists on lambdas (C++20), new lambda captures (C++20), lambda expressions in unevaluated context - C++20, lambda init capture pack expansions (C++20), default constructible and assignable stateless lambdas (C++20), lambda idioms._
+Modern _C++'_ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin bilmediğimiz hiçbir şey kalmayacak. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz. Lambda ifadelerine ilişkin kullanılan idiyomları ve teknikleri de ayrıntılı olarak ele alacağız.
+_lambda expressions and type deductions, lambda expressions & constexpr, generalized lambda expressions, lambda init capture, lambda expressions & perfect forwarding, pack expansions in lambda expressions, lambda expressions & STL algorithms, recursive lambda, lambda expressions in member functions, lambda expressions for functional programming, lambda expressions in C++20/23, template parameter lists on lambdas (C++20), new lambda captures (C++20), lambda expressions in unevaluated context - C++20, lambda init capture pack expansions (C++20), default constructible and assignable stateless lambdas (C++20), multiple lambda, IIFE, lambda call once, type distinction through lambda.
 
 ## spaceship operator (C++20) 
-C++ 20 ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay.<br><br>
+_C++20_ ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay.<br><br>
 _comparison categories, strong ordering, weak ordering, partial ordering, spaceship operator in STL._
 
 ## std::format (C++20)
-C++20 Standardı ile dile eklenen _std::format_ kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay.<br><br>
-_std::format, td::format_to, std::format_to_n, std::formatted_size_
+_C++20_ Standardı ile dile eklenen _std::format_ kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay.<br><br>
+_std::format, td::format_to, std::format_to_n, std::formatted_size_, std::print
 
 ## C++ idioms and techniques
 Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br><br>
 _RAII, swap functions, copy & swap idiom, scope guards, strong types, tag dispatch, hidden friends, ADL + fallback, virtual constructor, virtual friend,
-factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), isimlendirilmiş parametre (named parameter), tür silme (type erasure), IIFE (immediatly invoked lambda expression), referans sayımı (reference counting), positive lambda, exception dispatcher, biased dağılımı (biased distribution), gather algorithm, slide algorithm, tail call optimization (TCO), strength reduction, instruction scheduling_
+factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), isimlendirilmiş parametre (named parameter), tür silme (type erasure), IIFE (immediatly invoked lambda expression), referans sayımı (reference counting), positive lambda, exception dispatcher, biased dağılımı (biased distribution), _gather_ algorithm, _slide_ algorithm.
 
 ## derleyici optimizasyonları (compiler optimizations)
 Bu bölümde tipik bir C++ derleyicisinin gerçekleştirdiği optimizasyon faaliyetleri üstünde duracağız.<br><br>
@@ -69,5 +69,5 @@ std::string_view, _std::optional, std::variant, std::any, file_system_library, s
  
 ## concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br><br>
-_(std::thread, std::this_thread namespace, std::jthread (C++20), thread_local storage, std::async, shared objects & mutex classes, race condition & data race, 
-std::lock_guard, std::unique_lock, std::scoped_lock, deadlocks, std::once_flag & std::call_once, std::future, std::promise, std::shared_future, std::packaged_task, std::condition_variable, std::atomic, thread pools, paralel STL algorithms)_
+std::thread, std::this_thread namespace, std::jthread (C++20), thread_local storage, std::async, shared objects & mutex classes, race condition & data race, 
+std::lock_guard, std::unique_lock, std::scoped_lock, deadlocks, std::once_flag & std::call_once, std::future, std::promise, std::shared_future, std::packaged_task, std::condition_variable, std::atomic, thread pools, std::counting_semaphore, paralel STL algorithms, concurrency idioms. 
