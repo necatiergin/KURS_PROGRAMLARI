@@ -50,15 +50,18 @@ _std::format, td::format_to, std::format_to_n, std::formatted_size_, std::print
 
 ## C++ idioms and techniques
 Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br><br>
-_RAII, swap functions, copy & swap idiom, scope guards, strong types, tag dispatch, hidden friends, ADL + fallback, virtual constructor, virtual friend,
-factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), isimlendirilmiş parametre (named parameter), tür silme (type erasure), IIFE (immediatly invoked lambda expression), referans sayımı (reference counting), positive lambda, exception dispatcher, biased dağılımı (biased distribution), _gather_ algorithm, _slide_ algorithm.
+_RAII_, swap functions, copy & swap idiom, scope guards, strong types, tag dispatch, hidden friends, ADL + fallback, virtual constructor, virtual friend,
+factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), isimlendirilmiş parametre (named parameter), tür silme _(type erasure)_, IIFE (immediatly invoked lambda expression), referans sayımı (reference counting), positive lambda, exception dispatcher, biased dağılımı (biased distribution), _gather_ algorithm, _slide_ algorithm.
 
 ## derleyici optimizasyonları (compiler optimizations)
 Bu bölümde tipik bir C++ derleyicisinin gerçekleştirdiği optimizasyon faaliyetleri üstünde duracağız.<br><br>
 _dead code elimination, loop unrolling, loop inversion, constant folding, constant propagation, function inlining, register allocation, Common Subexpression Elimination (CSE), common subexpression elimination (CSE), loop-invariant dode motion, automatic vectorization, memory to register promotion, procedure integration, interprocedural analysis and optimization_                                                            
- 
+
+## std::regex
+Önce programlama dilinden bağımsız olarak _regex_ notasyonunu ayrıntılı olarak ve örneklerle ele alacağız. Daha sonra _std::regex_ kütüphanesini öğreneceğiz.
+
 ## std::ranges (C++20)
-_C++20_ standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. STL2.0'ı öğreneceğiz.
+_C++20_ standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. STL2.0'ı ayrıntılı olarak ele alacağız.
 
 ## coroutines (C++20)
 _C++20_ Standardı ile dile eklenen ve _C++23_ Standardı ile yapılan eklemeler ile daha güçlü hale gelen _coroutin_'leri detaylı olarak ele alacağız.
