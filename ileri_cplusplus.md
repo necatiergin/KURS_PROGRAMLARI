@@ -166,16 +166,7 @@ _virtual friend_
 ## derleyici optimizasyonları (compiler optimizations)
 Bu bölümde tipik bir C++ derleyicisinin kullandığı optimizasyon teknikleri üstünde duracağız.<br><br>
 _automatic vectorization_, 
-_common subexpression elimination (CSE)_, 
-_constant folding_, 
-_constant propagation_, 
-_dead code elimination_, 
-_function inlining_, 
-_interprocedural analysis and optimization_       
-_loop-invariant dode motion_, 
-_loop inversion_, 
-_loop unrolling_, 
-_memory to register promotion_, _procedure integration_, 
+_common subexpression elimination (CSE)_, _constant folding_, _constant propagation_, _dead code elimination_, _function inlining_, _interprocedural analysis and optimization_, _loop-invariant dode motion_, _loop inversion_, _loop unrolling_, _memory to register promotion_, _procedure integration_, 
 _register allocation_                                                        
 
 ## std::regex
