@@ -29,7 +29,7 @@ _constexpr variables, constexpr functions, constexpr constructors, literal types
 Bu bölümde isim alanlarını ileri düzeyde inceleyeceğiz. İsim alanları konusunda _C++17/20/23_ standartları ile gelen önemli eklentileri ve bunların sağladığı faydaları ele alacağız.
 
 ## türden bağımsız programlama (generic programming)
-Bu bölümde C++ dilinin türden bağımsız programlama _(generic programming)_ araçları kapsamlı bir şekilde ve ileri düzeyde ele alacağız. Önce temel kursta öğrendiğimiz araçları hızlı bir şekilde tekrar edecek sonra ileri düzey araçları, yeni standartlarla gelen eklentileri ve bazı önemli teknikleri ve idiyomları öğreneceğiz. C++20 standartları ile gelen eklemeler de konu başlıklarımız arasında olacak:<br><br>
+Bu bölümde C++ dilinin türden bağımsız programlama _(generic programming)_ araçları kapsamlı bir şekilde ve ileri düzeyde ele alacağız. Önce temel kursta öğrendiğimiz araçları hızlı bir şekilde tekrar edecek sonra ileri düzey araçları, yeni standartlarla gelen eklentileri ve bazı önemli teknikleri ve idiyomları öğreneceğiz. _C++20_ standartları ile gelen eklemeler de konu başlıklarımız arasında olacak:<br><br>
 _template terminology_, 
 _function templates_, 
 _class templates_, 
@@ -78,7 +78,7 @@ _typical mistakes & misconceptions_,
 _guidelines_.
 
 ## concepts (C++20)
-_concept'ler_ _C++20_ standardı ile dile eklenen en önemli araçlardan biri. _Concept_'ler ile türden bağımsız programlama, daha kolay ve daha güvenli olarak gerçekleştirilebiliyor. Bu başlık altında _concept_'lere yönelik özellikleri ve standart kütüphane öğelerini ayrıntılı olarak ele alacağız: <br><br>
+_concept'ler_ _C++20_ standardı ile dile eklenen en önemli araçlardan biri. _concept_'ler ile türden bağımsız programlama, daha kolay ve daha güvenli olarak gerçekleştirilebiliyor. Bu başlık altında _concept_'lere yönelik özellikleri ve standart kütüphane öğelerini ayrıntılı olarak ele alacağız: <br><br>
 _constraints, requires clauses, requires expressions, type requirements, compound requirements, nested requirements, concepts, type constraints and auto, standard concepts_ 
 
 ## olağan dışı durumların işlenmesi (advanced exception handling)
@@ -109,11 +109,8 @@ _lambda call once_,
 _type distinction through lambda_.
 
 ## spaceship operator (C++20) 
-_C++20_ ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay:<br><br><br>
-_comparison categories_, 
-_strong ordering_, 
-_weak ordering_, _partial ordering_, 
-_spaceship operator in STL._
+_C++20_ ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay:<br><br>
+_comparison categories_, _strong ordering_, _weak ordering_, _partial ordering_, _spaceship operator in STL._
 
 ## std::format (C++20)
 _C++20_ Standardı ile dile eklenen _std::format_ kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay: <br><br>
