@@ -50,8 +50,8 @@ _std::format, td::format_to, std::format_to_n, std::formatted_size_, std::print
 
 ## C++ idioms and techniques
 Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br><br>
-_RAII_, swap functions, copy & swap idiom, scope guards, strong types, tag dispatch, hidden friends, ADL + fallback, virtual constructor, virtual friend,
-factories, proxy, memory ownership, pimpl & fast pimpl, attorney - client, local buffer optimization, implementation class, non virtual interface (NVI), isimlendirilmiş parametre (named parameter), tür silme _(type erasure)_, IIFE (immediatly invoked lambda expression), referans sayımı (reference counting), positive lambda, exception dispatcher, biased dağılımı (biased distribution), _gather_ algorithm, _slide_ algorithm.
+_RAII_, _swap functions_, _copy & swap idiom_, _scope guards_, _strong types_, _tag dispatch_, _hidden friends_, _ADL + fallback_, _virtual constructor_, _virtual friend_,
+factories, proxy, memory ownership, _pimpl & fast pimpl_, _attorney - client_, _local buffer optimization_, _implementation class_, _non virtual interface (NVI)_, _isimlendirilmiş parametre (named parameter)_, tür silme _(type erasure)_, _IIFE (immediatly invoked lambda expression)_, _referans sayımı (reference counting)_, _positive lambda_, _exception dispatcher_, _biased dağılım (std::discrete_distribution_), _gather_ algorithm, _slide_ algorithm.
 
 ## derleyici optimizasyonları (compiler optimizations)
 Bu bölümde tipik bir C++ derleyicisinin gerçekleştirdiği optimizasyon faaliyetleri üstünde duracağız.<br><br>
@@ -72,5 +72,4 @@ std::string_view, _std::optional, std::variant, std::any, file_system_library, s
  
 ## concurrency in C++
 Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br><br>
-std::thread, std::this_thread namespace, std::jthread (C++20), thread_local storage, std::async, shared objects & mutex classes, race condition & data race, 
-std::lock_guard, std::unique_lock, std::scoped_lock, deadlocks, std::once_flag & std::call_once, std::future, std::promise, std::shared_future, std::packaged_task, std::condition_variable, std::atomic, thread pools, std::counting_semaphore, paralel STL algorithms, concurrency idioms. 
+_std::thread_, _std::this_thread namespace_, _std::jthread (C++20)_, _std::stop_token_, _thread_local storage_, _std::async_, _shared objects & mutex classes_, _race condition_ & data race, _std::lock_guard_, _std::unique_lock_, _std::scoped_lock_, _deadlocks_, _std::once_flag & std::call_once_, _std::future_, _std::promise_, _std::shared_future_, _std::packaged_task_, _std::condition_variable_, _std::atomic_, _thread pools_, _std::counting_semaphore_ & _std::binary_semaphore_, _paralel STL algorithms_, _concurrency idioms & tecniques_. 
