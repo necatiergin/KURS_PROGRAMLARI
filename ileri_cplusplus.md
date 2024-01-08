@@ -86,7 +86,7 @@ Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığ
 _exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_, _polymorphic_exception_, _exception_dispatcher_
 
 ## lambda ifadeleri (lambda expressions C++11/14/17/20/23)
-Modern _C++'_ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin bilmediğimiz hiçbir şey kalmayacak. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz. Lambda ifadelerine ilişkin kullanılan idiyomları ve teknikleri de ayrıntılı olarak ele alacağız.<br>
+Modern _C++'_ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin bilmediğimiz hiçbir şey kalmayacak. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz. Lambda ifadelerine ilişkin kullanılan idiyomları ve teknikleri de ayrıntılı olarak ele alacağız.<br><br>
 _lambda expressions and type deductions_, 
 _lambda expressions & constexpr_, 
 _generalized lambda expressions_, 
@@ -109,7 +109,7 @@ _lambda call once_,
 _type distinction through lambda_.
 
 ## spaceship operator (C++20) 
-_C++20_ ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay.<br><br>
+_C++20_ ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay.<br><br><br>
 _comparison categories_, 
 _strong ordering_, 
 _weak ordering_, _partial ordering_, 
@@ -165,15 +165,13 @@ _virtual friend_
 
 ## derleyici optimizasyonları (compiler optimizations)
 Bu bölümde tipik bir C++ derleyicisinin kullandığı optimizasyon teknikleri üstünde duracağız.<br><br>
-_automatic vectorization_, 
-_common subexpression elimination (CSE)_, _constant folding_, _constant propagation_, _dead code elimination_, _function inlining_, _interprocedural analysis and optimization_, _loop-invariant dode motion_, _loop inversion_, _loop unrolling_, _memory to register promotion_, _procedure integration_, 
-_register allocation_                                                        
+_automatic vectorization_, _common subexpression elimination (CSE)_, _constant folding_, _constant propagation_, _dead code elimination_, _function inlining_, _interprocedural analysis and optimization_, _loop-invariant dode motion_, _loop inversion_, _loop unrolling_, _memory to register promotion_, _procedure integration_, _register allocation_                                                        
 
 ## std::regex
 Önce programlama dilinden bağımsız olarak _regex_ notasyonunu ayrıntılı olarak ve örneklerle ele alacağız. Daha sonra _std::regex_ kütüphanesini öğreneceğiz.
 
 ## std::ranges (C++20)
-_C++20_ standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. STL2.0'ı ayrıntılı olarak ele alacağız.
+_C++20_ standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. _STL2.0_'ı ayrıntılı olarak ele alacağız.
 
 ## coroutines (C++20)
 _C++20_ Standardı ile dile eklenen ve _C++23_ Standardı ile yapılan eklemeler ile daha güçlü hale gelen _coroutin_'leri detaylı olarak ele alacağız.
