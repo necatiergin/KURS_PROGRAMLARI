@@ -18,8 +18,7 @@ _typical mistakes & misconceptions, guidelines_
 Taşıma semantiği Modern C++'a güç katan en önemli yapılardan biri. Bu bölümde taşıma semantiğini önce temel düzeyde tekrar edecek sonra ileri düzey bilgiler edineceğiz. Bu konuda yapılan tipik hataları ve kullanılan idiyomatik yapıları da ele alacağız. <br><br> 
 _basic features of move semantics_,
 _std::move_, 
-_move semantics & special member functions_,  
-_how to use move semantics_, 
+_move semantics & special member functions_, _how to use move semantics_, 
 _reference qualifiers & move semantics_, 
 _moved-from state_,  
 _move semantics & exception guarantees_, 
