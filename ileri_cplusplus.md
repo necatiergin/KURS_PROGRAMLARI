@@ -79,7 +79,7 @@ _guidelines_.
 
 ## concepts (C++20)
 _concept'ler_ _C++20_ standardı ile dile eklenen en önemli araçlardan biri. _concept_'ler ile türden bağımsız programlama, daha kolay ve daha güvenli olarak gerçekleştirilebiliyor. Bu başlık altında _concept_'lere yönelik özellikleri ve standart kütüphane öğelerini ayrıntılı olarak ele alacağız: <br><br>
-_constraints, requires clauses, requires expressions, type requirements, compound requirements, nested requirements, concepts, type constraints and auto, standard concepts_ 
+_constraints_, _requires clauses_, _requires expressions_, _type requirements_, _compound requirements_, _nested requirements_, _concepts_, _type constraints and auto_, _standard concepts_ 
 
 ## olağan dışı durumların işlenmesi (advanced exception handling)
 Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığımız bazı ileri konuları inceleyecek _(exception handling)_ konusunda daha derin bir bakış açısına sahip olacağız. _Exception handling'e_ ilişkin kullanılan teknikleri ve idiyomları da öğreneceğiz. _exception handling_ konusunda bilmediğimiz hiçbir şey kalmayacak:<br><br>
