@@ -18,15 +18,13 @@ _basic features of move semantics_, _std::move_, _move semantics & special membe
 ## tür çıkarımı (type deduction)
 _auto type deduction_, _decltype specifier_, _decltype(auto)_, _trailing return type_, _auto return type_, _type deduction in lambda expressions_, _type deductions in function & class templates_
 
-## sabit ifadeleri (constant expressions)
-C++ diline güç katan en temel araçlardan biri sabit ifadeleri ve derleme zamanında yapılan hesaplamalar. Bu bölümde bu konuya yönelik bazı araçları ileri düzeyde ele alacağız. _C++20 ve C++23_ standartları ile dile yapılan eklemeleri de inceleyeceğiz:<br><br>
-_constexpr variables, constexpr functions, constexpr constructors, literal types, consteval & immediate functions, constinit, constexpr virtual functions, constexpr lambda functions, user defined literals_
+## constznts & constant expressions
+_constexpr variables_, constexpr functions, constexpr constructors, literal types, consteval & immediate functions, constinit, constexpr virtual functions, constexpr lambda functions, user defined literals_
 
-## (advance) namespaces
-Bu bölümde isim alanlarını ileri düzeyde inceleyeceğiz. İsim alanları konusunda _C++17/20/23_ standartları ile gelen önemli eklentileri ve bunların sağladığı faydaları ele alacağız.
+## namespaces (advance level)
 
-## türden bağımsız programlama (generic programming)
-Bu bölümde C++ dilinin türden bağımsız programlama _(generic programming)_ araçları kapsamlı bir şekilde ve ileri düzeyde ele alacağız. Önce temel kursta öğrendiğimiz araçları hızlı bir şekilde tekrar edecek sonra ileri düzey araçları, yeni standartlarla gelen eklentileri ve bazı önemli teknikleri ve idiyomları öğreneceğiz. _C++20_ standartları ile gelen eklemeler de konu başlıklarımız arasında olacak:<br><br>
+## generic programming
+
 _template terminology_, 
 _function templates_, 
 _class templates_, 
@@ -62,8 +60,7 @@ _std::void_t_,
 _std::declval_, 
 _C++20/23 additions_
 
-## mükemmel gönderim (perfect forwarding)
-Modern _C++_'ın kazandırdığı en önemli araçlardan biri _"perfect forwarding"_. Bu bölümde _"perfect forwarding"_ tüm yönleriyle ele alınacak: <br> <br>
+## perfect forwarding
 _forwarding (universal) references_, 
 _forwarding reference vs R value reference_, 
 _std::forward_, 
