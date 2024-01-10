@@ -152,20 +152,15 @@ _variant_overloader_,
 _virtual constructor_, 
 _virtual friend_
 
-## derleyici optimizasyonları (compiler optimizations)
-Bu bölümde tipik bir C++ derleyicisinin kullandığı optimizasyon teknikleri üstünde duracağız:<br><br>
+## compiler optimizations
 _automatic vectorization_, _common subexpression elimination (CSE)_, _constant folding_, _constant propagation_, _dead code elimination_, _function inlining_, _interprocedural analysis and optimization_, _loop-invariant dode motion_, _loop inversion_, _loop unrolling_, _memory to register promotion_, _procedure integration_, _register allocation_                                                        
-
 ## std::regex
-Önce programlama dilinden bağımsız olarak _regex_ notasyonunu ayrıntılı olarak ve örneklerle ele alacağız. Daha sonra _std::regex_ kütüphanesini öğreneceğiz.
 
 ## std::ranges (C++20)
-_C++20_ standardı ile dile eklenen _std::ranges_ kütüphanesi standart kütüphanemizin en önemli öğelerinden biri haline geldi. STL'de değişti, yenilendi. _STL2.0_'ı ayrıntılı olarak ele alacağız.
 
 ## coroutines (C++20)
-_C++20_ Standardı ile dile eklenen ve _C++23_ Standardı ile yapılan eklemeler ile daha güçlü hale gelen _coroutin_'leri detaylı olarak ele alacağız.
 
-## yeni kütüphane öğeleri (new library components)
+## new library components
 Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız:<br><br>
 _std::string_view_, 
 _std::optional_, 
@@ -180,7 +175,6 @@ _std::flat_set (C++23)_,
 _std::flat_map(C++23)_
  
 ## concurrency in C++
-Bu bölümde Modern C++ ile dile eklenen yeni bellek modeli ve _concurrency_ kütüphanesini detaylı olarak ele alacağız. <br><br>
 _std::thread_, 
 _std::this_thread namespace_, 
 _std::jthread (C++20)_, 
