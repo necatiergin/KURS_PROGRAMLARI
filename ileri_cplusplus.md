@@ -77,8 +77,7 @@ _constraints_, _requires clauses_, _requires expressions_, _type requirements_, 
 ## exception handling (advanced level)
 _exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_, _polymorphic_exception_, _exception_dispatcher_
 
-## lambda ifadeleri (lambda expressions C++11/14/17/20/23)
-Modern C++'ın olmazsa olmaz araçlarından biri de _lambda_ ifadeleri. Bu konu başlığı altında lambda ifadelerine ilişkin her şeyi öğreneceğiz. C++ dilinin her yeni standardıyla lambda ifadelerinin kapsamı genişledi, yeni yeni özellikler, araçlar eklendi. Önce temel düzeyde hızlı bir tekrar yapacak daha sonra ileri düzeyde bilgiler edineceğiz. Lambda ifadelerine ilişkin kullanılan idiyomları ve teknikleri de ayrıntılı olarak ele alacağız: <br><br>
+## lambda expressions C++11/14/17/20/23
 _lambda expressions and type deductions_, 
 _lambda expressions & constexpr_, 
 _generalized lambda expressions_, 
@@ -101,11 +100,9 @@ _lambda call once_,
 _type distinction through lambda_.
 
 ## spaceship operator (C++20) 
-_C++20_ ile eklenen önemli araçlardan biri. Artık bu operatör ile karşılaştrıma işlemleri çok daha kolay:<br><br>
 _comparison categories_, _strong ordering_, _weak ordering_, _partial ordering_, _spaceship operator in STL._
 
 ## std::format (C++20)
-_C++20_ Standardı ile dile eklenen _std::format_ kütüphanesini detaylı olarak öğreneceğiz. Artık formatlı çıkış işlemleri daha hızlı, daha esnek ve daha kolay: <br><br>
 _std::format_, 
 _std::format_to_, 
 _std::format_to_n_, 
@@ -113,7 +110,6 @@ _std::formatted_size_,
 _std::print_
 
 ## C++ idioms and techniques
-Bu bölümde üretimde sık kullanılan C++ idiyomlarını ve tekniklerini mercek altına alacağız. Bazı konu başlıklarımız şunlar olacak: <br><br>
 _ADL + fallback_, 
 _attorney - client_, 
 _biased distribution (std::discrete_distribution_), 
@@ -161,7 +157,6 @@ _automatic vectorization_, _common subexpression elimination (CSE)_, _constant f
 ## coroutines (C++20)
 
 ## new library components
-Bu bölümde _C++17, C++20, C++23_ standartları ile dile eklenen önemli kütüphane öğelerine odaklanacağız:<br><br>
 _std::string_view_, 
 _std::optional_, 
 _std::variant_, 
