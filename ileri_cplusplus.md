@@ -18,8 +18,8 @@ _basic features of move semantics_, _std::move_, _move semantics & special membe
 ## tür çıkarımı (type deduction)
 _auto type deduction_, _decltype specifier_, _decltype(auto)_, _trailing return type_, _auto return type_, _type deduction in lambda expressions_, _type deductions in function & class templates_
 
-## constznts & constant expressions
-_constexpr variables_, constexpr functions, constexpr constructors, literal types, consteval & immediate functions, constinit, constexpr virtual functions, constexpr lambda functions, user defined literals_
+## constants & constant expressions
+_constexpr variables_, _constexpr functions_, _constexpr constructors_, _literal types_, _consteval & immediate functions_, _constinit_, _constexpr virtual functions_, _constexpr lambda functions_, _user defined literals_
 
 ## namespaces (advance level)
 
@@ -72,11 +72,9 @@ _typical mistakes & misconceptions_,
 _guidelines_.
 
 ## concepts (C++20)
-_concept'ler_ _C++20_ standardı ile dile eklenen en önemli araçlardan biri. _concept_'ler ile türden bağımsız programlama, daha kolay ve daha güvenli olarak gerçekleştirilebiliyor. Bu başlık altında _concept_'lere yönelik özellikleri ve standart kütüphane öğelerini ayrıntılı olarak ele alacağız: <br><br>
 _constraints_, _requires clauses_, _requires expressions_, _type requirements_, _compound requirements_, _nested requirements_, _concepts_, _type constraints and auto_, _standard concepts_ 
 
-## olağan dışı durumların işlenmesi (advanced exception handling)
-Bu başlık altında _"exception handling"_ konusunda temel kursta ele almadığımız bazı ileri konuları inceleyecek _(exception handling)_ konusunda daha derin bir bakış açısına sahip olacağız. _Exception handling'e_ ilişkin kullanılan teknikleri ve idiyomları da öğreneceğiz. _exception handling_ konusunda bilmediğimiz hiçbir şey kalmayacak:<br><br>
+## exception handling (advanced level)
 _exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_, _polymorphic_exception_, _exception_dispatcher_
 
 ## lambda ifadeleri (lambda expressions C++11/14/17/20/23)
