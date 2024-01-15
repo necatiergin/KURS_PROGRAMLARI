@@ -21,8 +21,6 @@ _auto type deduction_, _decltype specifier_, _decltype(auto)_, _trailing return 
 ## constants & constant expressions
 _constexpr variables_, _constexpr functions_, _constexpr constructors_, _literal types_, _consteval & immediate functions_, _constinit_, _constexpr virtual functions_, _constexpr lambda functions_, _user defined literals_
 
-## namespaces (advance level)
-
 ## generic programming
 
 _template terminology_, 
