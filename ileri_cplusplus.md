@@ -15,7 +15,7 @@ _typical mistakes & misconceptions, guidelines_
 ## move semantics
 _basic features of move semantics_, _std::move_, _move semantics & special member functions_, _how to use move semantics_, _reference qualifiers & move semantics_, _moved-from state_, _move semantics & exception guarantees_, _move semantics in STL_, _move only types_, _STL moving algorithms_, _typical mistakes & misconceptions_, _guidelines_
 
-## tür çıkarımı (type deduction)
+## type deduction (C++11/14/17/20/23)
 _auto type deduction_, _decltype specifier_, _decltype(auto)_, _trailing return type_, _auto return type_, _type deduction in lambda expressions_, _type deductions in function & class templates_
 
 ## constants & constant expressions
