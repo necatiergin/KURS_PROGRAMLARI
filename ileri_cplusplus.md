@@ -154,6 +154,7 @@ _automatic vectorization_, _common subexpression elimination (CSE)_, _constant f
 _regex grammer_, _std::basic_regex_, _std::sub_match_, _std::match_results_, _regex_match_, _regex_search_, _regex_replace_, _std::regex_iterator_, _std::regex_token_iterator_
 
 ## std::ranges (C++20)
+_basics_, _range access_, _range primitives_, _range concepts_, _range_factories_, _range adaptors_
 
 ## coroutines (C++20)
 
