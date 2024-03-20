@@ -155,7 +155,7 @@ _regex grammer_, _std::basic_regex_, _std::sub_match_, _std::match_results_, _re
 _basics_, _range access_, _range primitives_, _range concepts_, _range_factories_, _range adaptors_
 
 ## coroutines (C++20)
-_basics_, _co_await_, _co_yield_, _co_return_, _promise_, _generators_
+_basics_, promise_type, awaitables and awaiters, _co_await_, _co_yield_, _co_return_, _promise_, _generators_, tasks, cooperative multitasking.
 
 ## new library components
 _std::string_view_, 
