@@ -146,8 +146,10 @@ _variant_overloader_,
 _virtual constructor_, 
 _virtual friend_
 
+<!---
 ## compiler optimizations
-_automatic vectorization_, _common subexpression elimination (CSE)_, _constant folding_, _constant propagation_, _dead code elimination_, _function inlining_, _interprocedural analysis and optimization_, _loop-invariant dode motion_, _loop inversion_, _loop unrolling_, _memory to register promotion_, _procedure integration_, _register allocation_                                                        
+_automatic vectorization_, _common subexpression elimination (CSE)_, _constant folding_, _constant propagation_, _dead code elimination_, _function inlining_, _interprocedural analysis and optimization_, _loop-invariant dode motion_, _loop inversion_, _loop unrolling_, _memory to register promotion_, _procedure integration_, _register allocation_      
+--->                                                  
 ## std::regex
 _regex grammer_, _std::basic_regex_, _std::sub_match_, _std::match_results_, _regex_match_, _regex_search_, _regex_replace_, _std::regex_iterator_, _std::regex_token_iterator_
 
