@@ -318,7 +318,7 @@
 ✅ dinamik dizi veri yapısı _(dynamic array data structure)_<br>
 ✅ dinamik gözterici dizileri _(dynamic pointer arrays)_<br>
 		
-##  __Yer Belirleyiciler (Storage Class Specifiers) ve Tür Niteleyiciler (Type Modifiers)__
+##  __Yer Belirleyiciler (Storage Class Specifiers) ve Tür Niteleyiciler (Type Qualifiees)__
 ✅ yer belirleyiciler _(storage  class specifiers)_ <br>
 &emsp;&emsp;❇️ auto anahtar sözcüğü<br>
 &emsp;&emsp;❇️ register anahtar sözcüğü<br>
