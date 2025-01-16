@@ -298,10 +298,6 @@
 ✅ çok boyutlu dizileri gösteren göstericiler _(pointer to multi-dimensional arrays)_<br>
 ✅ çok boyutlu dizilerin fonksiyonlara gönderilmesi _(passing multi-dimensional arrays to functions)_<br>
 
-##  __Programların Sonlandırılması__
-✅ normal ve anormal sonlanma (normal & abnormal termination)<br>
-✅ standart exit, atexit ve abort işlevleri<br>
-
 ##  __Dinamik Bellek Yönetimi (Dynamic Memory Management)__
 ✅ dinamik bellek ihtiyacı ve dinamik ömür kavramı _(dynamic storage)_<br>
 ✅ heap alanı ve yönetimi _(heap and heap management)_<br>
@@ -313,7 +309,6 @@
 &emsp;&emsp;❇️ free<br>
 ✅ bellek sızıntısı _(memory leak)_<br>
 ✅  _dangling pointers_<br>
-
 ✅ boşa düşen göstericiler _(dangling pointers)_<br>
 ✅ dinamik dizi veri yapısı _(dynamic array data structure)_<br>
 ✅ dinamik gözterici dizileri _(dynamic pointer arrays)_<br>
