@@ -1,14 +1,14 @@
 # Advanced C++
 
 ## copy elision
-_temporary materialization_, 
-_prvalue xvalue conversion_, 
-_unmaterialized object passing_, 
-_return value optimization (rvo)_, 
-_named return value optimization (nrvo)_, 
-_scenarios blocking copy elision_, 
-_throwing by value_, 
-_catching by value_, 
+- temporary materialization 
+- prvalue xvalue conversion, 
+- unmaterialized object passing_, 
+- return value optimization (rvo), 
+- named return value optimization (nrvo), 
+- scenarios blocking copy elision, 
+- throwing by value_, 
+-- catching by value_, 
 _mandatory copy elision_, 
 _typical mistakes & misconceptions, guidelines_
 
