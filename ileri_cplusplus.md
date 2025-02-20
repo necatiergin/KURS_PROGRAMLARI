@@ -38,15 +38,25 @@
 - guidelines
 
 ## type deduction (C++11/14/17/20/23)
-_auto type deduction_, 
-_decltype specifier_, 
-_decltype(auto)_, 
-_trailing return type_,
-_auto return type_, _type deduction in lambda expressions_, 
-_type deductions in function & class templates_
+
+- auto type deduction 
+- decltype specifier 
+- decltype(auto) 
+- trailing return type
+- auto return type _type deduction in lambda expressions 
+- type deductions in function & class templates
 
 ## constants & constant expressions
-_constexpr variables_, _constexpr functions_, _constexpr constructors_, _literal types_, _consteval & immediate functions_, _constinit_, _constexpr virtual functions_, _constexpr lambda functions_, _user defined literals_
+
+- constexpr variables
+- constexpr functions
+- constexpr constructors
+- literal types
+- consteval & immediate functions
+- constinit
+- constexpr virtual functions
+- constexpr lambda functions
+- user defined literals
 
 ## lambda expressions C++11/14/17/20/23
 - lambda expressions and type deductions
