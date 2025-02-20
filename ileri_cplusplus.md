@@ -59,6 +59,7 @@
 - user defined literals
 
 ## lambda expressions C++11/14/17/20/23
+
 - lambda expressions and type deductions
 - lambda expressions & constexpr 
 - generalized lambda expressions
@@ -120,113 +121,149 @@
 
 
 ## concepts (C++20)
-_constraints_, _requires clauses_, _requires expressions_, _type requirements_, _compound requirements_, _nested requirements_, _concepts_, _type constraints and auto_, _standard concepts_ 
+
+- constraints
+- requires clauses
+- requires expressions
+- type requirements
+- compound requirements
+- nested requirements
+- concepts
+- type constraints and auto
+- standard concepts
 
 ## exception handling (advanced level)
-_exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_, _polymorphic_exception_, _exception_dispatcher_
 
-.
+- exception guarantees in details
+- noexcept specifier
+- noexcept operator
+- when to throw when to catch
+- what to throw what to catch
+- std::exception_ptr
+- std::nested_exception
+- std::rethrow_exception
+- polymorphic_exception
+- exception_dispatcher
 
 ## spaceship operator (C++20) 
-_comparison categories_, _strong ordering_, _weak ordering_, _partial ordering_, _spaceship operator in STL._
+
+- comparison categories 
+- strong/weak/partial ordering
+- partial ordering 
+- spaceship operator in STL
 
 ## std::format (C++20)
-_std::format_, 
-_std::format_to_, 
-_std::format_to_n_, 
-_std::formatted_size_, 
-_std::print_
+
+- std::format
+- std::format_to 
+- std::format_to_n
+- std::formatted_size
+- std::print (C++23)
 
 ## C++ idioms and techniques
-_ADL + fallback_, 
-_attorney - client_, 
-_biased distribution (std::discrete_distribution_), 
-_clamp_,
-_construction_tracker_
-_copy & swap idiom_, 
-_container idioms_, 
-_exception dispatcher_, 
-_factories_, 
-_gather algorithm_, 
-_guarded_suspension_, 
-_hidden friends_, 
-_IIFE (immediatly invoked lambda expression)_, 
-_implementation class_, 
-_local buffer optimization_, 
-_memory ownership_, 
-_mixin classes_, 
-_named parameter_, 
-_nifty_counter_,
-_non virtual interface (NVI)_,
-_pimpl & fast pimpl_, 
-_positive lambda_, 
-_propagate_const_, 
-_proxy_, 
-_raii_, 
-_scope guards_, 
-_reference counting_, 
-_return_type_resolver_,
-_scope_guard_
-_slide algorithm_.
-_strong types_, 
-_swap functions_, 
-_tag dispatch_, 
-_thread_safe_interface_,
-_type erasure_, 
-_variant_overloader_,
-_virtual constructor_, 
-_virtual friend_
+- ADL + fallback 
+- attorney - client 
+- biased distribution (std::discrete_distribution)
+- clamp
+- construction_tracker_
+- copy & swap idiom 
+- container idioms 
+- exception dispatcher 
+- factories 
+- gather algorithm 
+- guarded_suspension 
+- hidden friends 
+- IIFE (immediatly invoked lambda expression) 
+- implementation class 
+- local buffer optimization 
+- memory ownership 
+- mixin classes 
+- named parameter 
+- nifty_counter
+- non virtual interface (NVI)
+- pimpl & fast pimpl 
+- positive lambda 
+- propagate_const 
+- proxy 
+- raii 
+- scope guards 
+- reference counting 
+- return_type_resolver
+- scope_guard
+- slide algorithm
+- strong types 
+- swap functions 
+- tag dispatch 
+- thread_safe_interface
+- type erasure 
+- variant_overloader
+- virtual constructor 
+- virtual friend
 
-<!---
-## compiler optimizations
-_automatic vectorization_, _common subexpression elimination (CSE)_, _constant folding_, _constant propagation_, _dead code elimination_, _function inlining_, _interprocedural analysis and optimization_, _loop-invariant dode motion_, _loop inversion_, _loop unrolling_, _memory to register promotion_, _procedure integration_, _register allocation_      
---->                                                  
 ## std::regex
-_regex grammer_, _std::basic_regex_, _std::sub_match_, _std::match_results_, _regex_match_, _regex_search_, _regex_replace_, _std::regex_iterator_, _std::regex_token_iterator_
+- regex grammer
+- std::basic_regex
+- std::sub_match
+- std::match_results
+- regex_match
+- regex_search
+- regex_replace
+- std::regex_iterator
+- std::regex_token_iterator
 
 ## std::ranges (C++20)
 _basics_, _range access_, _range primitives_, _range concepts_, _range_factories_, _range adaptors_
 
 ## coroutines (C++20)
-_basics_, promise_type, awaitables and awaiters, _co_await_, _co_yield_, _co_return_, _promise_, _generators_, tasks, cooperative multitasking.
+- basics
+- promise_type
+- awaitables and awaiters
+- co_await
+- co_yield
+- co_return
+- promise
+- generators
+- tasks
+- cooperative multitasking
 
 ## new library components
-_std::string_view_, 
-_std::optional_, 
-_std::variant_, 
-_std::any_, 
-_file_system_library_, 
-_std::span (C++20)_, 
-_std::expected(C++23)_, 
-_std::mdspan(C++23)_, 
-_std::print(C++23)_, 
-_std::flat_set (C++23)_, 
-_std::flat_map(C++23)_
+- std::string_view 
+- std::optional 
+- std::variant 
+- std::any 
+- file_system_library 
+- std::span (C++20) 
+- std::expected(C++23) 
+- std::mdspan(C++23) 
+- std::print(C++23) 
+- std::flat_set (C++23) 
+- std::flat_map(C++23)
  
 ## concurrency in C++
-_std::thread_, 
-_std::this_thread namespace_, 
-_std::jthread (C++20)_, 
-_std::stop_token_, 
-_thread_local storage_, 
-_std::async_, 
-_mutex classes_, 
-_race condition_ & data race, 
-_std::lock_guard_, 
-_std::unique_lock_, 
-_std::scoped_lock_, 
-_deadlocks_, 
-_std::once_flag & std::call_once_, 
-_std::future_, 
-_std::promise_, 
-_std::shared_future_, 
-_std::packaged_task_, 
-_std::condition_variable_, 
-_std::atomic_, 
-_thread pools_, 
-_sequential consistency_,
-_acquire release semantics_,
-_std::counting_semaphore_,
-_std::binary_semaphore_, 
-_paralel STL algorithms_,
-_concurrency idioms & techniques_. 
+
+- std::thread
+- std::this_thread namespace, 
+- std::jthread
+- std::stop_token
+- thread_local storage
+- race condition & data race
+- standard mutex classes
+- std::lock_guard
+- std::unique_lock
+- std::scoped_lock
+- std::condition_variable
+- deadlocks
+- livelocks 
+- std::once_flag & std::call_once
+- std::promise
+- std::future, std::shared_future
+- std::async
+- std::packaged_task
+- std::atomic
+- thread pools
+- sequential consistency
+- acquire release semantics
+- std::counting_semaphore
+- std::binary_semaphore
+- paralel STL algorithms
+- concurrency idioms & techniques
