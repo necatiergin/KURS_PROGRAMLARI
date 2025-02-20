@@ -2,15 +2,15 @@
 
 ## copy elision
 - temporary materialization 
-- prvalue xvalue conversion, 
-- unmaterialized object passing_, 
-- return value optimization (rvo), 
-- named return value optimization (nrvo), 
-- scenarios blocking copy elision, 
-- throwing by value_, 
--- catching by value_, 
-_mandatory copy elision_, 
-_typical mistakes & misconceptions, guidelines_
+- prvalue xvalue conversion
+- unmaterialized object passing 
+- return value optimization (rvo) 
+- named return value optimization (nrvo)
+- scenarios blocking copy elision 
+- throwing by value 
+- catching by value
+- mandatory copy elision
+- typical mistakes & misconceptions, guidelines
 
 ## move semantics
 _basic features of move semantics_, _std::move_, _move semantics & special member functions_, _how to use move semantics_, _reference qualifiers & move semantics_, _moved-from state_, _move semantics & exception guarantees_, _move semantics in STL_, _move only types_, _STL moving algorithms_, _typical mistakes & misconceptions_, _guidelines_
