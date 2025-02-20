@@ -239,11 +239,11 @@
 - std::variant 
 - std::any 
 - std::span (C++20) 
-- std::expected(C++23) 
-- std::mdspan(C++23) 
+- std::expected (C++23) 
+- std::mdspan (C++23) 
 - std::print(C++23) 
 - std::flat_set (C++23) 
-- std::flat_map(C++23)
+- std::flat_map (C++23)
  
 ## concurrency in C++
 
