@@ -238,7 +238,6 @@
 - std::optional 
 - std::variant 
 - std::any 
-- file_system library 
 - std::span (C++20) 
 - std::expected(C++23) 
 - std::mdspan(C++23) 
