@@ -4,8 +4,7 @@
 - temporary materialization 
 - prvalue xvalue conversion
 - unmaterialized object passing 
-- return value optimization (rvo) 
-- named return value optimization (nrvo)
+- return value optimization (rvo) & named return value optimization (nrvo)
 - scenarios blocking copy elision 
 - throwing by value 
 - catching by value
@@ -13,7 +12,29 @@
 - typical mistakes & misconceptions, guidelines
 
 ## move semantics
-_basic features of move semantics_, _std::move_, _move semantics & special member functions_, _how to use move semantics_, _reference qualifiers & move semantics_, _moved-from state_, _move semantics & exception guarantees_, _move semantics in STL_, _move only types_, _STL moving algorithms_, _typical mistakes & misconceptions_, _guidelines_
+- basic features of move semantics
+- std::move
+- move semantics & special member functions
+- how to use move semantics
+- reference qualifiers & move semantics
+- moved-from state
+- move semantics & exception guarantees
+- move only types
+- move semantics in STL
+- STL moving algorithms
+- typical mistakes & misconceptions
+- guidelines_
+  ## perfect forwarding
+- forwarding (universal) references_, 
+- forwarding reference vs R value reference_, 
+- std::forward_, 
+- auto && for perfect forwarding_, 
+- decltype(auto) and perfect returning_, 
+- deferred perfect_returning_
+- perfect forwarding of return values_, 
+- perfect forwarding in STL_, 
+- typical mistakes & misconceptions_, 
+- guidelines_.
 
 ## type deduction (C++11/14/17/20/23)
 _auto type deduction_, _decltype specifier_, _decltype(auto)_, _trailing return type_, _auto return type_, _type deduction in lambda expressions_, _type deductions in function & class templates_
@@ -58,17 +79,7 @@ _std::void_t_,
 _std::declval_, 
 _C++20/23 additions_
 
-## perfect forwarding
-_forwarding (universal) references_, 
-_forwarding reference vs R value reference_, 
-_std::forward_, 
-_auto && for perfect forwarding_, 
-_decltype(auto) and perfect returning_, 
-_deferred perfect_returning_
-_perfect forwarding of return values_, 
-_perfect forwarding in STL_, 
-_typical mistakes & misconceptions_, 
-_guidelines_.
+
 
 ## concepts (C++20)
 _constraints_, _requires clauses_, _requires expressions_, _type requirements_, _compound requirements_, _nested requirements_, _concepts_, _type constraints and auto_, _standard concepts_ 
