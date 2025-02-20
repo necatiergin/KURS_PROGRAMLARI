@@ -3,7 +3,7 @@
 ## copy elision
 
 - temporary materialization 
-- prvalue xvalue conversion
+- prvalue to xvalue conversion
 - unmaterialized object passing 
 - return value optimization (rvo) & named return value optimization (nrvo)
 - scenarios blocking copy elision 
@@ -268,6 +268,7 @@
 - std::async
 - std::packaged_task
 - std::atomic
+- std::atomic\<shared_ptr>
 - thread pools
 - sequential consistency
 - acquire release semantics
