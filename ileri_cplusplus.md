@@ -24,7 +24,7 @@
 - STL moving algorithms
 - typical mistakes & misconceptions
 - guidelines
-- 
+
   ## perfect forwarding
 - forwarding (universal) references
 - forwarding reference vs R value reference
