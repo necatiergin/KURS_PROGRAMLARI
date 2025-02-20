@@ -254,6 +254,7 @@
  
 ## concurrency in C++
 
+- memory model
 - std::thread
 - std::this_thread namespace 
 - std::jthread
@@ -264,7 +265,7 @@
 - std::lock_guard
 - std::unique_lock
 - std::scoped_lock
-- std::shared_
+- std::shared_lock
 - std::condition_variable
 - deadlocks
 - livelocks 
