@@ -25,7 +25,7 @@
 - typical mistakes & misconceptions
 - guidelines
 
-  ## perfect forwarding
+## perfect forwarding
 - forwarding (universal) references
 - forwarding reference vs R value reference
 - std::forward
@@ -38,11 +38,37 @@
 - guidelines
 
 ## type deduction (C++11/14/17/20/23)
-_auto type deduction_, _decltype specifier_, _decltype(auto)_, _trailing return type_, _auto return type_, _type deduction in lambda expressions_, _type deductions in function & class templates_
+_auto type deduction_, 
+_decltype specifier_, 
+_decltype(auto)_, 
+_trailing return type_,
+_auto return type_, _type deduction in lambda expressions_, 
+_type deductions in function & class templates_
 
 ## constants & constant expressions
 _constexpr variables_, _constexpr functions_, _constexpr constructors_, _literal types_, _consteval & immediate functions_, _constinit_, _constexpr virtual functions_, _constexpr lambda functions_, _user defined literals_
 
+## lambda expressions C++11/14/17/20/23
+- lambda expressions and type deductions
+- lambda expressions & constexpr 
+- generalized lambda expressions
+- lambda init capture 
+- lambda expressions & perfect forwarding
+- pack expansions in lambda expressions 
+- lambda expressions & STL algorithms 
+- recursive lambda
+- lambda expressions in member functions 
+- lambda expressions for functional programming
+- lambda expressions in C++20/23
+- template parameter lists on lambdas (C++20)
+- new lambda captures (C++20)
+- lambda expressions in unevaluated context - C++20 
+- lambda init capture pack expansions (C++20, 
+- default constructible and assignable stateless lambdas (C++20) 
+- multiple lambda 
+- IIFE
+- lambda call once 
+- type distinction through lambda
 ## generic programming
 
 _template terminology_, 
@@ -88,27 +114,7 @@ _constraints_, _requires clauses_, _requires expressions_, _type requirements_, 
 ## exception handling (advanced level)
 _exception guarantees in details, noexcept specifier, noexcept operator, when to throw when to catch, what to throw what to catch, std::exception_ptr, std::nested_exception, std::rethrow_exception_, _polymorphic_exception_, _exception_dispatcher_
 
-## lambda expressions C++11/14/17/20/23
-_lambda expressions and type deductions_, 
-_lambda expressions & constexpr_, 
-_generalized lambda expressions_, 
-_lambda init capture_, 
-_lambda expressions & perfect forwarding_, 
-_pack expansions in lambda expressions_, 
-_lambda expressions & STL algorithms_, 
-_recursive lambda_, 
-_lambda expressions in member functions_, 
-_lambda expressions for functional programming_, 
-_lambda expressions in C++20/23_, 
-_template parameter lists on lambdas (C++20)_, 
-_new lambda captures (C++20)_, 
-_lambda expressions in unevaluated context - C++20_, 
-_lambda init capture pack expansions (C++20, 
-_default constructible and assignable stateless lambdas (C++20)_, 
-_multiple lambda_, 
-_IIFE_, 
-_lambda call once_, 
-_type distinction through lambda_.
+.
 
 ## spaceship operator (C++20) 
 _comparison categories_, _strong ordering_, _weak ordering_, _partial ordering_, _spaceship operator in STL._
