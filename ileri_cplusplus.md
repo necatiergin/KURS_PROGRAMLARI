@@ -89,7 +89,8 @@ _constexpr variables_, _constexpr functions_, _constexpr constructors_, _literal
 - template instantiation 
 - template arguments 
 - template argument deduction 
-- dependent & non-dependent names templates & friendship, ctad , 
+- dependent & non-dependent names templates & friendship
+- ctad
 - meta functions and standard type_traits library 
 - static_assert declarations
 - std::type_identity 
@@ -98,9 +99,9 @@ _constexpr variables_, _constexpr functions_, _constexpr constructors_, _literal
 - variadic templates 
 - sizeof... operator 
 - pack expansion patterns 
-- fold expressions_
+- fold expressions
 - unary_fold
-- binary_fold_
+- binary_fold
 - sfinae 
 - std::enable_if 
 - std::void_t 
