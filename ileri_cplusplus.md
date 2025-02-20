@@ -23,18 +23,19 @@
 - move semantics in STL
 - STL moving algorithms
 - typical mistakes & misconceptions
-- guidelines_
+- guidelines
+- 
   ## perfect forwarding
-- forwarding (universal) references_, 
-- forwarding reference vs R value reference_, 
-- std::forward_, 
-- auto && for perfect forwarding_, 
-- decltype(auto) and perfect returning_, 
-- deferred perfect_returning_
-- perfect forwarding of return values_, 
-- perfect forwarding in STL_, 
-- typical mistakes & misconceptions_, 
-- guidelines_.
+- forwarding (universal) references
+- forwarding reference vs R value reference
+- std::forward
+- auto && for perfect forwarding
+- decltype(auto) and perfect returning
+- deferred perfect_returning
+- perfect forwarding of return values
+- perfect forwarding in STL
+- typical mistakes & misconceptions
+- guidelines
 
 ## type deduction (C++11/14/17/20/23)
 _auto type deduction_, _decltype specifier_, _decltype(auto)_, _trailing return type_, _auto return type_, _type deduction in lambda expressions_, _type deductions in function & class templates_
