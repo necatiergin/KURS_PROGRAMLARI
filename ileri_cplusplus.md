@@ -74,11 +74,11 @@
 - recursive lambda
 - lambda expressions in member functions 
 - lambda expressions for functional programming
-- lambda expressions in C++20/23
+- lambda expressions in (C++20/23)
 - template parameter lists on lambdas (C++20)
 - new lambda captures (C++20)
-- lambda expressions in unevaluated context - C++20 
-- lambda init capture pack expansions (C++20, 
+- lambda expressions in unevaluated context (C++20)
+- lambda init capture pack expansions (C++20)
 - default constructible and assignable stateless lambdas (C++20) 
 - multiple lambda 
 - IIFE
@@ -105,7 +105,7 @@
 - template arguments 
 - template argument deduction 
 - dependent & non-dependent names templates & friendship
-- ctad
+- CTAD
 - meta functions and standard type_traits library 
 - static_assert declarations
 - std::type_identity 
@@ -114,15 +114,10 @@
 - variadic templates 
 - sizeof... operator 
 - pack expansion patterns 
-- fold expressions
-- unary_fold
-- binary_fold
-- sfinae 
-- std::enable_if 
-- std::void_t 
+- fold expressions / unary_fold / binary_fold
+- sfinae / std::enable_if / std::void_t 
 - std::declval 
 - C++20/23 additions
-
 
 ## concepts (C++20)
 
@@ -138,14 +133,13 @@
 
 ## exception handling (advanced level)
 
-- exception guarantees in details
-- noexcept specifier
+- exception guarantees (basic / strong / noexcept)
+- noexcept specifier  
 - noexcept operator
 - when to throw when to catch
 - what to throw what to catch
-- std::exception_ptr
+- std::exception_ptr / std::current_exception / std::rethrow_exception
 - std::nested_exception
-- std::rethrow_exception
 - polymorphic_exception
 - exception_dispatcher
 
@@ -169,13 +163,13 @@
 - attorney - client 
 - biased distribution (std::discrete_distribution)
 - clamp
-- construction_tracker_
+- construction tracker
 - copy & swap idiom 
 - container idioms 
 - exception dispatcher 
 - factories 
 - gather algorithm 
-- guarded_suspension 
+- guarded suspension 
 - hidden friends 
 - IIFE (immediatly invoked lambda expression) 
 - implementation class 
@@ -183,24 +177,24 @@
 - memory ownership 
 - mixin classes 
 - named parameter 
-- nifty_counter
+- nifty counter
 - non virtual interface (NVI)
 - pimpl & fast pimpl 
 - positive lambda 
-- propagate_const 
+- propagate const 
 - proxy 
 - raii 
 - scope guards 
 - reference counting 
-- return_type_resolver
-- scope_guard
+- return type resolver
+- scope guard
 - slide algorithm
 - strong types 
 - swap functions 
 - tag dispatch 
-- thread_safe_interface
+- threadsafe interface
 - type erasure 
-- variant_overloader
+- variant overloader
 - virtual constructor 
 - virtual friend
 
@@ -244,7 +238,7 @@
 - std::optional 
 - std::variant 
 - std::any 
-- file_system_library 
+- file_system library 
 - std::span (C++20) 
 - std::expected(C++23) 
 - std::mdspan(C++23) 
