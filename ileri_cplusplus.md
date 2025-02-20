@@ -10,7 +10,8 @@
 - throwing by value 
 - catching by value
 - mandatory copy elision
-- typical mistakes & misconceptions, guidelines
+- typical mistakes & misconceptions
+- guidelines
 
 ## move semantics
 
@@ -254,7 +255,7 @@
 ## concurrency in C++
 
 - std::thread
-- std::this_thread namespace, 
+- std::this_thread namespace 
 - std::jthread
 - std::stop_token
 - thread_local storage
@@ -263,6 +264,7 @@
 - std::lock_guard
 - std::unique_lock
 - std::scoped_lock
+- std::shared_
 - std::condition_variable
 - deadlocks
 - livelocks 
