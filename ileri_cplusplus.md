@@ -69,43 +69,43 @@ _constexpr variables_, _constexpr functions_, _constexpr constructors_, _literal
 - IIFE
 - lambda call once 
 - type distinction through lambda
+
 ## generic programming
 
-_template terminology_, 
-_function templates_, 
-_class templates_, 
-_variable templates_, 
-_alias templates_, 
-_member templates_, 
-_template parameters_, 
-_type parameters_, 
-_non-type parameters_, 
-_auto non-type parameters_, 
-_template template parameters_, 
-_function templates & overloading_, 
-_explicit specialization_, 
-_partial specialization_, 
-_template instantiation_, 
-_template arguments_, 
-_template argument deduction_, 
-_dependent & non-dependent names_, templates & friendship, ctad , 
-_meta functions and standard type_traits library_, 
-_static_assert declarations_,
-_std::type_identity_, 
-_tag dispatch_, 
-_if constexpr (static if)_, 
-_variadic templates_, 
-_sizeof... operator_, 
-_pack expansion patterns_, 
-_fold expressions_
-_unary_fold_,
-_binary_fold_
-_sfinae_, 
-_std::enable_if_, 
-_std::void_t_, 
-_std::declval_, 
-_C++20/23 additions_
-
+- template terminology 
+- function templates 
+- class templates 
+- variable templates 
+- alias templates 
+- member templates 
+- template parameters 
+- type parameters 
+- non-type parameters 
+- auto non-type parameters 
+- template template parameters 
+- function templates & overloading 
+- explicit specialization 
+- partial specialization 
+- template instantiation 
+- template arguments 
+- template argument deduction 
+- dependent & non-dependent names templates & friendship, ctad , 
+- meta functions and standard type_traits library 
+- static_assert declarations
+- std::type_identity 
+- tag dispatch 
+- if constexpr (static if) 
+- variadic templates 
+- sizeof... operator 
+- pack expansion patterns 
+- fold expressions_
+- unary_fold
+- binary_fold_
+- sfinae 
+- std::enable_if 
+- std::void_t 
+- std::declval 
+- C++20/23 additions
 
 
 ## concepts (C++20)
