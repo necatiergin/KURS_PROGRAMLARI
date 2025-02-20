@@ -1,6 +1,7 @@
 # Advanced C++
 
 ## copy elision
+
 - temporary materialization 
 - prvalue xvalue conversion
 - unmaterialized object passing 
@@ -12,6 +13,7 @@
 - typical mistakes & misconceptions, guidelines
 
 ## move semantics
+
 - basic features of move semantics
 - std::move
 - move semantics & special member functions
@@ -26,6 +28,7 @@
 - guidelines
 
 ## perfect forwarding
+
 - forwarding (universal) references
 - forwarding reference vs R value reference
 - std::forward
@@ -201,6 +204,7 @@
 - virtual friend
 
 ## std::regex
+
 - regex grammer
 - std::basic_regex
 - std::sub_match
@@ -212,9 +216,16 @@
 - std::regex_token_iterator
 
 ## std::ranges (C++20)
-_basics_, _range access_, _range primitives_, _range concepts_, _range_factories_, _range adaptors_
+
+- basics
+- range access
+- range primitives
+- range concepts
+- range_factories
+- range adaptors
 
 ## coroutines (C++20)
+
 - basics
 - promise_type
 - awaitables and awaiters
@@ -227,6 +238,7 @@ _basics_, _range access_, _range primitives_, _range concepts_, _range_factories
 - cooperative multitasking
 
 ## new library components
+
 - std::string_view 
 - std::optional 
 - std::variant 
