@@ -47,7 +47,7 @@
 - decltype specifier 
 - decltype(auto) 
 - trailing return type
-- auto return type _type deduction in lambda expressions 
+- auto return type type deduction in lambda expressions 
 - type deductions in function & class templates
 
 ## constants & constant expressions
