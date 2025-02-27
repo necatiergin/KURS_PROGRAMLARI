@@ -49,6 +49,7 @@
 - trailing return type
 - auto return type type deduction in lambda expressions 
 - type deductions in function & class templates
+- deduction guides
 
 ## constants & constant expressions
 
@@ -61,6 +62,7 @@
 - constexpr virtual functions
 - constexpr lambda functions
 - user defined literals
+- C++20/23 additions
 
 ## lambda expressions C++11/14/17/20/23
 
@@ -234,10 +236,10 @@
 
 ## new library components
 
-- std::string_view 
-- std::optional 
-- std::variant 
-- std::any 
+- std::string_view (C++17)
+- std::optional (C++ 17)
+- std::variant (C++ 17)
+- std::any (C++ 17)
 - std::span (C++20) 
 - std::expected (C++23) 
 - std::mdspan (C++23) 
@@ -268,6 +270,7 @@
 - std::async
 - std::packaged_task
 - std::atomic
+- atomic operations
 - std::atomic\<shared_ptr>
 - thread pools
 - sequential consistency
