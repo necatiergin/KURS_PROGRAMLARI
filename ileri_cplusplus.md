@@ -271,6 +271,7 @@
 - std::packaged_task
 - std::atomic
 - atomic operations
+- sequenced before / happens before / syncronised with
 - std::atomic\<shared_ptr>
 - thread pools
 - sequential consistency
