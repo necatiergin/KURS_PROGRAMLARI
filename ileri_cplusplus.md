@@ -1,5 +1,12 @@
 # Advanced C++
 
+## array type
+- addresses of arrays
+- auto type deuction & arrays
+- arrays as template arguments
+- arrays and explicit specialization
+- arrays and partial specialization
+
 ## copy elision
 
 - temporary materialization 
