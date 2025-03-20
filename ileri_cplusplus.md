@@ -1,11 +1,14 @@
 # Advanced C++
 
 ## array type
-- addresses of arrays
+- pointer to arrays
+- array references
 - auto type deduction & arrays
 - arrays as template arguments
 - arrays and explicit specialization
 - arrays and partial specialization
+- array decay / no array decay
+- arrays and type alias declarations
 
 ## copy elision
 
