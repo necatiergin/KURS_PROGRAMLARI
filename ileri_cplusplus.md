@@ -2,7 +2,7 @@
 
 ## array type
 - addresses of arrays
-- auto type deuction & arrays
+- auto type deduction & arrays
 - arrays as template arguments
 - arrays and explicit specialization
 - arrays and partial specialization
