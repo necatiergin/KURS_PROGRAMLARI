@@ -106,14 +106,15 @@
 - alias templates 
 - member templates 
 - template parameters 
-- type parameters 
-- non-type parameters 
-- auto non-type parameters 
-- template template parameters 
+   - type parameters 
+   - non-type parameters 
+   - auto non-type parameters 
+   - template template parameters 
 - function templates & overloading 
 - explicit specialization 
 - partial specialization 
-- template instantiation 
+- template instantiation
+   - explicit instantiation
 - template arguments 
 - template argument deduction 
 - dependent & non-dependent names templates & friendship
@@ -124,7 +125,8 @@
 - tag dispatch 
 - if constexpr (static if) 
 - variadic templates 
-   - sizeof... operator 
+   - sizeof... operator
+   - parameter packs
    - pack expansion patterns 
    - fold expressions / unary_fold / binary_fold
 - sfinae / std::enable_if / std::void_t 
