@@ -1,28 +1,5 @@
 # Advanced C++
 
-## array type
-- pointer to arrays
-- array references
-- auto type deduction & arrays
-- arrays as template arguments
-- arrays and explicit specialization
-- arrays and partial specialization
-- array decay / no array decay
-- arrays and type alias declarations
-
-## copy elision
-
-- temporary materialization 
-- prvalue to xvalue conversion
-- unmaterialized object passing 
-- return value optimization (rvo) & named return value optimization (nrvo)
-- scenarios blocking copy elision 
-- throwing by value 
-- catching by value
-- mandatory copy elision
-- typical mistakes & misconceptions
-- guidelines
-
 ## move semantics
 
 - basic features of move semantics
@@ -33,6 +10,17 @@
 - moved-from state
 - move semantics & exception guarantees
 - move only types
+- copy elision
+   - temporary materialization 
+   - mandatory copy elision
+   - prvalue to xvalue conversion
+   - unmaterialized object passing 
+   - return value optimization (rvo)
+   - named return value optimization (nrvo)
+   - throwing by value 
+   - catching by value
+   - scenarios blocking copy elision 
+- typical mistakes & misconceptions
 - move semantics in STL
 - STL moving algorithms
 - typical mistakes & misconceptions
@@ -60,6 +48,16 @@
 - auto return type type deduction in lambda expressions 
 - type deductions in function & class templates
 - deduction guides
+
+## array type
+- pointer to arrays
+- array references
+- auto type deduction & arrays
+- arrays as template arguments
+- arrays and explicit specialization
+- arrays and partial specialization
+- array decay / no array decay
+- arrays and type alias declarations
 
 ## constants & constant expressions
 
