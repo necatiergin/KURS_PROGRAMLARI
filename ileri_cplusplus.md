@@ -124,9 +124,9 @@
 - tag dispatch 
 - if constexpr (static if) 
 - variadic templates 
-- sizeof... operator 
-- pack expansion patterns 
-- fold expressions / unary_fold / binary_fold
+   - sizeof... operator 
+   - pack expansion patterns 
+   - fold expressions / unary_fold / binary_fold
 - sfinae / std::enable_if / std::void_t 
 - std::declval 
 - C++20/23 additions
