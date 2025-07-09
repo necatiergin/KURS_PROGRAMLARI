@@ -135,8 +135,8 @@
 &emsp;&emsp;❇️ move constructor _(taşıyan kurucu işlev)_<br>
 &emsp;&emsp;❇️ copy assignment _(kopyalayan atama işlevi)_<br>
 &emsp;&emsp;❇️ move assignment _(taşıyan atama işlevi)_<br>
-✅ özel işlevlerin default edilmesi<br>
-✅ özel işlevlerin delete edilmesi<br>
+✅ sınıfların özel üye fonksiyonları için default bildirimi<br>
+✅ sınıfların özel üye fonksiyonları için delete bildirimi<br>
 ✅ sınıflar ve taşıma semantiği _(move semantics)_<br>
 ✅ _rule of zero_<br>
 ✅ _rule of five_<br>
@@ -159,7 +159,7 @@
 ✅ [] operatörünün yüklenmesi _(overloading of subscript operator)_<br>
 ✅ fonksiyon çağrı operatörünün yüklenmesi  _(overloading of function call operator)_<br>
 ✅ tür dönüştürme operatör fonksiyonları _(type-cast operator functions)_<br>
-✅ programcının tanımladığı sabitler _(user-defined literals)_<br>
+✅ programcının tanımladığı sabitler ve literal operatör fonksiyonları _(user-defined literals / literal operators)_<br>
 
 ## Dinamik Ömürlü Nesneler _(Dynamic Objects)_
 ✅ new ve delete ifadeleri _(new & delete expressions)_ <br>
@@ -447,6 +447,7 @@
 ✅ static_assert <br>
 ✅ decltype(auto) tür çıkarımı<br>
 ✅ std::declval<br>
+✅ veri elemanı göstericileri _(data member pointers)_<br>
 ✅ üye fonksiyon göstericileri _(member function pointers)_<br>
 ✅ ham string sabitleri _(raw string literals)_<br>
 ✅ ikilik sayı sisteminde yazılan sabitler _(binary literals)_<br>
