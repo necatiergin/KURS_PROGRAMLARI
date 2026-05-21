@@ -16,7 +16,7 @@ Participants are expected to have:
 - Classes and inheritance
 - Lambdas
 - Basic familiarity with the standard library
-
+---
 
 # Course Goals
 
