@@ -16,6 +16,7 @@ Participants are expected to have:
 - Classes and inheritance
 - Lambdas
 - Basic familiarity with the standard library
+- 
 ---
 
 # Course Goals
@@ -156,17 +157,9 @@ After completing this course participants will:
 - Name lookup rules
 - Two-phase lookup
 
-Example:
-
-```cpp
-T::value
-```
-
 ---
 
 # Module 9 — Friendship and Templates
-
-**Duration:** 1 Hour
 
 - Friend function templates
 - Friend class templates
@@ -177,8 +170,6 @@ T::value
 ---
 
 # Module 10 — Variadic Templates
-
-**Duration:** 4 Hours
 
 - Variadic templates
 - Parameter packs
@@ -195,7 +186,7 @@ T::value
 - Binary fold
 - Left fold
 - Right fold
-
+- Fold idioms
 
 
 # Module 12 — Compile-Time Programming Fundamentals
@@ -237,8 +228,6 @@ T::value
 
 # Module 14 — SFINAE
 
-**Duration:** 5 Hours
-
 - SFINAE fundamentals
 - substitution failure
 - immediate context
@@ -247,17 +236,9 @@ T::value
 - detection idiom
 - std::declval
 
-Example:
-
-```cpp
-has_begin<T>
-```
-
 ---
 
 # Module 15 — Compile-Time Dispatch Techniques
-
-**Duration:** 3 Hours
 
 - Tag dispatch
 - Priority tag
@@ -269,8 +250,6 @@ has_begin<T>
 
 # Module 16 — Class Template Argument Deduction (CTAD)
 
-**Duration:** 2 Hours
-
 - CTAD
 - implicit deduction guides
 - user-defined deduction guides
@@ -279,8 +258,6 @@ has_begin<T>
 ---
 
 # Module 17 — Concepts
-
-**Duration:** 6 Hours
 
 ## Concept Fundamentals
 
@@ -317,8 +294,6 @@ has_begin<T>
 
 # Module 18 — Concepts vs SFINAE
 
-**Duration:** 2 Hours
-
 - Historical evolution
 - SFINAE to concepts migration
 - Equivalent examples
@@ -328,8 +303,6 @@ has_begin<T>
 ---
 
 # Module 19 — Generic Library Design
-
-**Duration:** 3 Hours
 
 - Generic interface design
 - Traits-based design
@@ -343,8 +316,6 @@ has_begin<T>
 ---
 
 # Module 20 — Modern Generic Programming Ecosystem
-
-**Duration:** 5 Hours
 
 ## Generic Callable Infrastructure
 
@@ -379,10 +350,6 @@ has_begin<T>
 ## Customization Point Objects
 
 - CPO design philosophy
-
-## Formatter Customization
-
-- std::formatter specialization
 
 ---
 
