@@ -31,7 +31,7 @@ After completing this course participants will:
 - Understand advanced metaprogramming techniques
 - Learn real-world generic design patterns
 
-
+---
 
 # Module 1 — Generic Programming Fundamentals
 
@@ -46,13 +46,7 @@ After completing this course participants will:
 - Generic libraries
 - Compile-time vs runtime design decisions
 - STL philosophy and design goals
-
-## Historical Perspective
-
-- Alexander Stepanov
-- STL origins
-- Andrei Alexandrescu
-- Evolution of generic programming in C++
+- Historical Perspective
 
 ---
 
