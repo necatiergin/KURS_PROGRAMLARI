@@ -3,7 +3,6 @@
 **Duration:** 60 Hours  
 **Level:** Advanced  
 
----
 
 # Prerequisites
 
@@ -17,13 +16,11 @@ Participants are expected to have:
 - Classes and inheritance
 - Lambdas
 - Basic familiarity with the standard library
-
 ---
 
 # Course Goals
 
 After completing this course participants will:
-
 - Understand generic programming philosophy
 - Master template mechanics and language rules
 - Understand template instantiation and specialization mechanisms
@@ -34,11 +31,9 @@ After completing this course participants will:
 - Understand advanced metaprogramming techniques
 - Learn real-world generic design patterns
 
----
+
 
 # Module 1 — Generic Programming Fundamentals
-
-**Duration:** 2 Hours
 
 ## Generic Programming
 
@@ -62,8 +57,6 @@ After completing this course participants will:
 ---
 
 # Module 2 — Template Terminology and Mechanics
-
-**Duration:** 3 Hours
 
 ## Terminology
 
@@ -92,8 +85,6 @@ After completing this course participants will:
 
 # Module 3 — Function Templates
 
-**Duration:** 3 Hours
-
 - Function templates
 - Function template overloading
 - Explicit template arguments
@@ -110,16 +101,8 @@ After completing this course participants will:
 
 Example:
 
-```cpp
-template<typename T>
-void foo(T&& x);
-```
-
----
 
 # Module 4 — Class Templates
-
-**Duration:** 3 Hours
 
 - Class templates
 - Member templates
@@ -147,25 +130,11 @@ void foo(T&& x);
 
 ## Auto Non-Type Parameters
 
-```cpp
-template<auto N>
-```
-
 ## Structural Types (C++20)
 
 ## Template Template Parameters
 
-```cpp
-template<
-    typename T,
-    template<typename> typename Container>
-```
-
----
-
 # Module 6 — Template Instantiation Model
-
-**Duration:** 2 Hours
 
 - Implicit instantiation
 - Explicit instantiation
@@ -178,32 +147,12 @@ template<
 
 # Module 7 — Template Specialization
 
-**Duration:** 3 Hours
-
 ## Explicit Specialization
-
 ## Partial Specialization
-
 ## Variable Template Specialization
-
 ## Alias Template Limitations
 
-Example:
-
-```cpp
-template<typename T>
-using ptr_t = T*;
-```
-
-Discussion:
-
-Why alias templates cannot be partially specialized
-
----
-
 # Module 8 — Dependent Names and Two-Phase Lookup
-
-**Duration:** 4 Hours
 
 - Dependent names
 - Non-dependent names
@@ -249,25 +198,14 @@ T::value
 ---
 
 # Module 11 — Fold Expressions
-
-**Duration:** 2 Hours
-
 - Unary fold
 - Binary fold
 - Left fold
 - Right fold
 
-Example:
 
-```cpp
-(sum + ...)
-```
-
----
 
 # Module 12 — Compile-Time Programming Fundamentals
-
-**Duration:** 3 Hours
 
 - compile-time programming philosophy
 - constexpr
@@ -280,8 +218,6 @@ Example:
 ---
 
 # Module 13 — Type Traits and Metafunctions
-
-**Duration:** 4 Hours
 
 ## Metafunction Design
 
@@ -472,29 +408,3 @@ Mini projects integrated throughout the course:
 
 ---
 
-# Final Project
-
-**Duration:** Last 4 Hours
-
-Implementation of a mini generic utility library:
-
-```cpp
-namespace nec
-{
-    // traits
-    // concepts
-    // invoke
-    // tuple
-    // algorithms
-    // optional
-}
-```
-
-Project Goals:
-
-- Apply generic design principles
-- Apply compile-time techniques
-- Apply concepts and constraints
-- Build reusable components
-
----
