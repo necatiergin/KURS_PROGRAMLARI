@@ -93,8 +93,7 @@ After completing this course participants will:
 - reference collapsing rules
 - perfect forwarding
 
-Example:
-
+---
 
 # Module 4 — Class Templates
 
@@ -109,16 +108,12 @@ Example:
 
 # Module 5 — Template Parameters
 
-**Duration:** 3 Hours
-
 ## Type Parameters
-
-- typename
-- class
 
 ## Non-Type Parameters
 
 - integral parameters
+- floating parameters
 - pointer parameters
 - reference parameters
 
@@ -127,6 +122,8 @@ Example:
 ## Structural Types (C++20)
 
 ## Template Template Parameters
+
+---
 
 # Module 6 — Template Instantiation Model
 
@@ -145,6 +142,8 @@ Example:
 ## Partial Specialization
 ## Variable Template Specialization
 ## Alias Template Limitations
+
+--- 
 
 # Module 8 — Dependent Names and Two-Phase Lookup
 
