@@ -136,7 +136,7 @@ After completing this course participants will:
 
 --- 
 
-# Module 8 — Dependent Names and Two-Phase Lookup
+## Dependent Names and Two-Phase Lookup
 
 - Dependent names / Non-dependent names
 - Current instantiation
@@ -148,7 +148,7 @@ After completing this course participants will:
 
 ---
 
-# Module 9 — Friendship and Templates
+## Friendship and Templates
 
 - Friend function templates
 - Friend class templates
@@ -158,7 +158,7 @@ After completing this course participants will:
 
 ---
 
-# Module 10 — Variadic Templates
+## Variadic Templates
 
 - Variadic templates
 - Parameter packs
@@ -170,12 +170,12 @@ After completing this course participants will:
 
 ---
 
-# Module 11 — Fold Expressions
+## Fold Expressions
 - Unary left fold / unary right fold
 - Binary left fold / binary right fold
 - Fold idioms
 
-# Module 12 — Compile-Time Programming Fundamentals
+## Compile-Time Programming Fundamentals
 
 - compile-time programming philosophy
 - constexpr
@@ -187,7 +187,7 @@ After completing this course participants will:
 
 ---
 
-# Module 13 — Type Traits and Metafunctions
+## Type Traits and Metafunctions
 
 ## Metafunction Design
 
@@ -234,7 +234,7 @@ After completing this course participants will:
 
 ---
 
-# Module 16 — Class Template Argument Deduction (CTAD)
+## Class Template Argument Deduction (CTAD)
 
 - CTAD
 - implicit deduction guides
