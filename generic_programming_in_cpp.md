@@ -95,9 +95,12 @@ After completing this course participants will:
 
 ## Forwarding
 
-- forwarding references
+- forwarding (universal) references
 - reference collapsing rules
 - perfect forwarding
+- use cases for universal references
+- perfect passing / deferred perfect passing
+- perfect returning / deferred perfect returning
 
 ---
 
