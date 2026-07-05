@@ -116,7 +116,7 @@ After completing this course participants will:
 
 ---
 
-# Module 6 — Template Instantiation Model
+## Template Instantiation Model
 
 - Implicit instantiation
 - Explicit instantiation
@@ -127,7 +127,7 @@ After completing this course participants will:
 
 ---
 
-# Module 7 — Template Specialization
+## Template Specialization
 
 - Explicit Specialization
 - Partial Specialization
