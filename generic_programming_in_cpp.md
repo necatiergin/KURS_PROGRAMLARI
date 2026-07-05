@@ -138,17 +138,16 @@ After completing this course participants will:
 
 # Module 7 — Template Specialization
 
-## Explicit Specialization
-## Partial Specialization
-## Variable Template Specialization
-## Alias Template Limitations
+- Explicit Specialization
+- Partial Specialization
+- Variable Template Specialization
+- Alias Template Limitations
 
 --- 
 
 # Module 8 — Dependent Names and Two-Phase Lookup
 
-- Dependent names
-- Non-dependent names
+- Dependent names / Non-dependent names
 - Current instantiation
 - Injected-class-name
 - typename keyword
@@ -174,9 +173,9 @@ After completing this course participants will:
 - Parameter packs
 - Pack expansion
 - Expansion patterns
-- sizeof...
+- sizeof... operator
 - Nested expansions
-- Empty packs
+- handling empty packs
 
 ---
 
@@ -331,21 +330,12 @@ After completing this course participants will:
 - std::apply
 - make_from_tuple
 - tuple-like interfaces
+- tuple-like interface for structured bindings
 
 ## Variant Utilities
 
 - std::variant
 - visitation
-
-## Ranges Overview
-
-- ranges
-- views
-- projections
-
-## Customization Point Objects
-
-- CPO design philosophy
 
 ---
 
