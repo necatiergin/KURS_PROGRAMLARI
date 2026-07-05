@@ -116,7 +116,11 @@ After completing this course participants will:
 
 ---
 
+## Variable Templates
 
+--- 
+
+## Alias Templates
 
 ---
 
@@ -124,7 +128,7 @@ After completing this course participants will:
 
 - Implicit instantiation
 - Explicit instantiation
-- extern template
+- template instatiation declaration
 - Code bloat
 - ODR implications
 - Point of instantiation
@@ -133,10 +137,10 @@ After completing this course participants will:
 
 ## Template Specialization
 
-- Explicit Specialization
-- Partial Specialization
-- Variable Template Specialization
-- Alias Template Limitations
+- explicit specialization
+- partial specialization
+- variable template specialization
+- alias template limitations
 
 --- 
 
