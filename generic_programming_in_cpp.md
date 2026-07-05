@@ -52,15 +52,14 @@ After completing this course participants will:
 - specialization
 - explicit (full) specialization
 - partial specialization
-- instantiation
-- substitution
+- instantiation / explicit instantiation / implicit instantiation 
+- substitution / substitution failure
 - dependent context
 - deduction
 - overload set
-- template-id
-- template-name
+- template-name / template id
 - template parameter
-- template argument
+- template argument / explicit template arguments
 - point of instantiation
 
 ## Template Parameters
@@ -229,7 +228,7 @@ After completing this course participants will:
 
 ---
 
-# Compile-Time Dispatch Techniques
+## Compile-Time Dispatch Techniques
 
 - Tag dispatching
 - Priority tag
@@ -238,6 +237,8 @@ After completing this course participants will:
 - Overload ranking techniques
 
 ---
+
+## CRTP
 
 ## Class Template Argument Deduction (CTAD)
 
