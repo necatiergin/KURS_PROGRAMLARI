@@ -16,7 +16,6 @@ Participants are expected to have:
 - Classes and inheritance
 - Lambdas
 - Basic familiarity with the standard library
-- 
 ---
 
 # Course Goals
@@ -57,7 +56,7 @@ After completing this course participants will:
 
 - primary template
 - specialization
-- explicit specialization
+- explicit (full) specialization
 - partial specialization
 - instantiation
 - substitution
@@ -182,12 +181,9 @@ After completing this course participants will:
 ---
 
 # Module 11 — Fold Expressions
-- Unary fold
-- Binary fold
-- Left fold
-- Right fold
+- Unary left fold / unary right fold
+- Binary left fold / binary right fold
 - Fold idioms
-
 
 # Module 12 — Compile-Time Programming Fundamentals
 
@@ -353,18 +349,5 @@ After completing this course participants will:
 
 ---
 
-# Workshop Projects
 
-Mini projects integrated throughout the course:
-
-- Generic printer
-- Tuple algorithms
-- Compile-time parser
-- Generic serialization library
-- Type-safe factory
-- Variant visitor framework
-- Compile-time units library
-- Mini ranges implementation
-
----
 
