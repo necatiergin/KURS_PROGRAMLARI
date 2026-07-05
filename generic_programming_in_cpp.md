@@ -87,6 +87,7 @@ After completing this course participants will:
 
 - Function templates
 - Function template overloading
+- Partial ordering rules
 - Explicit template arguments
 - Template argument deduction
 - Non-deduced contexts
@@ -100,6 +101,7 @@ After completing this course participants will:
 - perfect forwarding
 - use cases for universal references
 - perfect passing / deferred perfect passing
+- decltype(auto) 
 - perfect returning / deferred perfect returning
 
 ---
