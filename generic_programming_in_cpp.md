@@ -33,8 +33,6 @@ After completing this course participants will:
 
 ---
 
-# Module 1 — Generic Programming Fundamentals
-
 ## Generic Programming
 
 - What is Generic Programming?
@@ -47,10 +45,6 @@ After completing this course participants will:
 - Compile-time vs runtime design decisions
 - STL philosophy and design goals
 - Historical Perspective
-
----
-
-# Module 2 — Template Terminology and Mechanics
 
 ## Terminology
 
@@ -69,15 +63,27 @@ After completing this course participants will:
 - template argument
 - point of instantiation
 
-## Translation Model
+## Template Parameters
 
+- Type Parameters
+- Non-Type Parameters
+  - integral parameters
+  - floating parameters
+  - object pointer parameters
+  - function pointer parameters
+  - reference parameters
+  - auto non-type parameters
+- Structural Types (C++20)
+- Template Template Parameters
+
+## Translation Model
 - template compilation model
 - point of instantiation
 - two-phase translation
 
 ---
 
-# Module 3 — Function Templates
+## Function Templates
 
 - Function templates
 - Function template overloading
@@ -95,7 +101,7 @@ After completing this course participants will:
 
 ---
 
-# Module 4 — Class Templates
+## Class Templates
 
 - Class templates
 - Member templates
@@ -106,22 +112,7 @@ After completing this course participants will:
 
 ---
 
-# Module 5 — Template Parameters
 
-## Type Parameters
-
-## Non-Type Parameters
-
-- integral parameters
-- floating parameters
-- pointer parameters
-- reference parameters
-
-## Auto Non-Type Parameters
-
-## Structural Types (C++20)
-
-## Template Template Parameters
 
 ---
 
@@ -221,7 +212,7 @@ After completing this course participants will:
 
 ---
 
-# Module 14 — SFINAE
+# SFINAE
 
 - SFINAE fundamentals
 - substitution failure
@@ -233,9 +224,9 @@ After completing this course participants will:
 
 ---
 
-# Module 15 — Compile-Time Dispatch Techniques
+# Compile-Time Dispatch Techniques
 
-- Tag dispatch
+- Tag dispatching
 - Priority tag
 - Expression SFINAE
 - if constexpr
@@ -252,7 +243,7 @@ After completing this course participants will:
 
 ---
 
-# Module 17 — Concepts
+## Concepts
 
 ## Concept Fundamentals
 
@@ -287,7 +278,7 @@ After completing this course participants will:
 
 ---
 
-# Module 18 — Concepts vs SFINAE
+# Concepts vs SFINAE
 
 - Historical evolution
 - SFINAE to concepts migration
@@ -297,7 +288,7 @@ After completing this course participants will:
 
 ---
 
-# Module 19 — Generic Library Design
+# Generic Library Design
 
 - Generic interface design
 - Traits-based design
@@ -310,7 +301,7 @@ After completing this course participants will:
 
 ---
 
-# Module 20 — Modern Generic Programming Ecosystem
+## Modern Generic Programming Ecosystem
 
 ## Generic Callable Infrastructure
 
