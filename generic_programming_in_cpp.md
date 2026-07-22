@@ -9,7 +9,7 @@
 Participants are expected to have:
 
 - Strong C knowledge
-- Intermediate / Advanced Modern C++
+- Intermediate / advanced Modern C++
 - References and value categories
 - Move semantics
 - Function overloading
@@ -48,19 +48,19 @@ After completing this course participants will:
 
 ## Terminology
 
-- primary template
-- specialization
-- explicit (full) specialization
-- partial specialization
-- instantiation / explicit instantiation / implicit instantiation 
-- substitution / substitution failure
-- dependent context
-- deduction
-- overload set
-- template-name / template id
-- template parameter
-- template argument / explicit template arguments
-- point of instantiation
+- Primary template
+- Specialization
+- Explicit (full) specialization
+- Partial specialization
+- Instantiation / explicit instantiation / implicit instantiation 
+- Substitution / substitution failure
+- Dependent context
+- Deduction
+- Overload set
+- Template-name / template id
+- Template parameter
+- Template argument / explicit template arguments
+- Point of instantiation
 
 ## Template Parameters
 
@@ -201,13 +201,7 @@ After completing this course participants will:
 
 ## Standard Type Traits
 
-- remove_cv
-- remove_reference
-- conditional
-- common_type
-- invoke_result
-- type_identity
-- decay
+- remove_cv, remove_reference, conditional, common_type, invoke_result, type_identity, decay
 
 ## Detection Traits
 
@@ -252,18 +246,14 @@ After completing this course participants will:
 ## Concepts
 
 ## Concept Fundamentals
-
 - Concept syntax
 - Constraint system
-
-## Requires Clauses
-
-## Requires Expressions
-
-- simple requirements
-- type requirements
-- compound requirements
-- nested requirements
+- Requires clauses
+- Requires expressions
+  - simple requirements
+  - type requirements
+  - compound requirements
+  - nested requirements
 
 ## Constrained Templates
 
@@ -306,8 +296,6 @@ After completing this course participants will:
 - Design tradeoffs
 
 ---
-
-## Modern Generic Programming Ecosystem
 
 ## Generic Callable Infrastructure
 
