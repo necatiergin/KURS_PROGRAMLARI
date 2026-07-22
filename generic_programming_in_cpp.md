@@ -111,8 +111,6 @@ After completing this course participants will:
 - Member templates
 - Nested templates
 - Templated constructors
-- Variable templates
-- Alias templates
 
 ---
 
@@ -129,6 +127,7 @@ After completing this course participants will:
 - Implicit instantiation
 - Explicit instantiation
 - template instatiation declaration
+- template instatiation definition
 - Code bloat
 - ODR implications
 - Point of instantiation
@@ -174,14 +173,11 @@ After completing this course participants will:
 - Expansion patterns
 - sizeof... operator
 - Nested expansions
-- handling empty packs
-
----
-
-## Fold Expressions
-- Unary left fold / unary right fold
-- Binary left fold / binary right fold
-- Fold idioms
+- Handling empty packs
+- Fold Expressions
+  - Unary left fold / unary right fold
+  - Binary left fold / binary right fold
+  - Fold idioms
 
 ## Compile-Time Programming Fundamentals
 
