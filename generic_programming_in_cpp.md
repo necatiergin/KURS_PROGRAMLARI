@@ -136,10 +136,10 @@ After completing this course participants will:
 
 ## Template Specialization
 
-- explicit specialization
-- partial specialization
-- variable template specialization
-- alias template limitations
+- Explicit specialization
+- Partial specialization
+- Variable template specialization
+- Alias template limitations
 
 --- 
 
@@ -185,9 +185,7 @@ After completing this course participants will:
 - constexpr
 - consteval
 - constinit
-- std::integral_constant
-- std::bool_constant
-- std::type_identity
+- std::integral_constant, std::bool_constant, std::type_identity
 
 ---
 
