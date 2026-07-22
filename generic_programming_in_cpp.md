@@ -263,13 +263,7 @@ After completing this course participants will:
 
 ## Standard Concepts
 
-- same_as
-- derived_from
-- integral
-- regular
-- invocable
-- predicate
-- sortable
+- std::same_as, std::derived_from, std::integral, std::regular, std::invocable, std::predicate, std::sortable, 
 - ranges concepts
 
 ---
@@ -300,7 +294,7 @@ After completing this course participants will:
 ## Generic Callable Infrastructure
 
 - std::invoke
-- invoke_result
+- std::invoke_result
 - Callable entities
 
 ## Generic Lambdas
@@ -320,7 +314,7 @@ After completing this course participants will:
 ## Variant Utilities
 
 - std::variant
-- visitation
+- std::visit
 
 ---
 
