@@ -89,3 +89,15 @@
 - enum design
 - X macros ile enum-string mapping
 - variant objects
+
+#### Advanced Preprocessor
+
+- stringification
+- token pasting
+- variadic macros
+- X macros
+- do { } while (0)
+- macro pitfalls
+- _Pragma
+- conditional compilation
+- compile-time assertions
