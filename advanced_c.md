@@ -101,3 +101,85 @@
 - _Pragma
 - conditional compilation
 - compile-time assertions
+
+#### Design Techniques
+
+opaque pointers
+information hiding
+encapsulation in C
+object-oriented C
+interfaces
+polymorphism using function pointers
+plugin architecture
+handle-based APIs
+
+#### Undefined Behavior
+
+- unspecified behavior
+- implementation-defined behavior
+- sequence points / sequencing
+- effective type
+- strict aliasing
+- signed overflow
+- object lifetime
+- dangling pointers
+
+
+#### C Idioms - tecniques
+
+- container_of
+- swap idioms
+- goto cleanup
+- single exit
+- error handling
+- sentinel values
+- flexible array idiom
+- opaque handles
+- ownership conventions
+
+#### Library Design
+
+- public/private headers
+- opaque structures
+- API design
+- ABI compatibility
+- binary compatibility
+- namespace conventions
+- header organization
+- header-only vs source-based libraries
+
+
+#### Compile-Time Techniques
+
+- static_assert (C11)
+- _Generic
+- sizeof tricks
+- offsetof
+- compile-time validation
+- designated initializers
+- compound literals
+
+#### Optimization-Oriented C
+
+- alignment
+- cache-friendly layout
+- false assumptions
+- alias analysis
+- restrict
+- branch prediction
+- lookup tables
+- avoiding unnecessary copies
+
+#### Modern C (C11/C17/C23)
+
+- _Static_assert
+- _Generic
+- anonymous struct/union
+- alignas
+- alignof
+- _Noreturn
+- nullptr (C23)
+- typeof (C23)
+- attributes (C23)
+- constexpr (C23)
+- bool ve diğer standart gelişmeleri 
