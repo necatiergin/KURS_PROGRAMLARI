@@ -26,3 +26,14 @@
 - row-major memory layout
 - array parameter adjustments
 - passing multidimensional arrays to functions
+
+#### Pointer Techniques
+
+- pointer to pointer
+- generic pointers (void *)
+- intrusive techniques
+- generic swap
+- generic algorithms
+- dynamic multidimensional arrays
+- pointer arithmetic tricks
+- sentinel techniques
