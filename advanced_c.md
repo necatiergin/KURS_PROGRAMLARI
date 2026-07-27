@@ -136,6 +136,8 @@
 - flexible array idiom
 - opaque handles
 - ownership conventions
+- assignment operator idioms
+- comma operator idioms
 
 #### Library Design
 
