@@ -71,3 +71,13 @@
 - strict aliasing
 - type punning
 - memcpy vs casts
+
+#### Bit Manipulation
+
+- bitwise operators
+- masks
+- bit fields
+- bit hacks
+- population count
+- power-of-two tricks
+- branchless programming examples
