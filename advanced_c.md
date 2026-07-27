@@ -37,3 +37,13 @@
 - dynamic multidimensional arrays
 - pointer arithmetic tricks
 - sentinel techniques
+
+#### Function Pointers
+
+- function pointers
+- callback mechanism
+- dispatch tables
+- arrays of function pointers
+- jump tables
+- state machines using function pointers
+- strategy pattern in C
