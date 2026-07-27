@@ -15,3 +15,14 @@
 - complete types - incomplete types
 - flexible array members (C99)
 - anonymous structs/unions (C11)
+
+#### Arrays and Memory Layout
+
+- multidimensional arrays
+- VLA (Variable Length Arrays)
+- pointer arithmetic
+- array decay
+- sizeof pitfalls
+- row-major memory layout
+- array parameter adjustments
+- passing multidimensional arrays to functions
