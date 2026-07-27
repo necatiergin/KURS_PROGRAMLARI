@@ -125,7 +125,7 @@
 - dangling pointers
 
 
-#### C Idioms - tecniques
+#### C Idioms - Tecniques
 
 - container_of
 - swap idioms
