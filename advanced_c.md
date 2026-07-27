@@ -104,14 +104,14 @@
 
 #### Design Techniques
 
-opaque pointers
-information hiding
-encapsulation in C
-object-oriented C
-interfaces
-polymorphism using function pointers
-plugin architecture
-handle-based APIs
+- opaque pointers
+- information hiding
+- encapsulation in C
+- object-oriented C
+- interfaces
+- polymorphism using function pointers
+- plugin architecture
+- handle-based APIs
 
 #### Undefined Behavior
 
