@@ -48,7 +48,7 @@
 - state machines using function pointers
 - strategy pattern in C
 
-5. Generic Programming in C
+#### Generic Programming in C
 
 - void *
 - qsort
@@ -58,3 +58,16 @@
 - container_of idiom
 - _Generic (C11)
 - type-safe macros
+
+#### Memory Representation
+
+- object representation
+- endianess
+- alignment
+- padding
+- object lifetime
+- trap representations
+- effective type
+- strict aliasing
+- type punning
+- memcpy vs casts
