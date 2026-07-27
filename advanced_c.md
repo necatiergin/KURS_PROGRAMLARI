@@ -81,3 +81,11 @@
 - population count
 - power-of-two tricks
 - branchless programming examples
+
+#### unions and enums
+
+- tagged unions
+- discriminated unions
+- enum design
+- X macros ile enum-string mapping
+- variant objects
