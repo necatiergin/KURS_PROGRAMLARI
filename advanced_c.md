@@ -47,3 +47,14 @@
 - jump tables
 - state machines using function pointers
 - strategy pattern in C
+
+5. Generic Programming in C
+
+- void *
+- qsort
+- bsearch
+- generic containers
+- offsetof
+- container_of idiom
+- _Generic (C11)
+- type-safe macros
