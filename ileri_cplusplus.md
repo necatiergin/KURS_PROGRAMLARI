@@ -22,7 +22,8 @@
    - scenarios blocking copy elision 
 - typical mistakes & misconceptions
 - move semantics in STL
-- STL moving algorithms
+   - std::move_iterator
+   - STL moving algorithms
 - typical mistakes & misconceptions
 - guidelines
 
@@ -51,6 +52,7 @@
 
 ## array type
 - pointer to arrays
+- incomplete array types
 - array references
 - auto type deduction & arrays
 - arrays as template arguments
@@ -63,6 +65,7 @@
 
 - constexpr variables
 - constexpr functions
+- constexpr functions & undefined behaviors
 - constexpr constructors
 - literal types
 - consteval & immediate functions
@@ -132,7 +135,6 @@
 - C++20/23 additions
 
 ## concepts (C++20)
-
 - constraints
 - requires clauses
 - requires expressions
