@@ -172,6 +172,15 @@
 - std::formatted_size
 - std::print (C++23)
 
+## Selected C++23 Language and Library Additions
+- std::expected
+- C++23 ranges adaptors & ranges::to
+- explicit object parameter / deducing this
+- std::print / std::format
+- std::mdspan
+- std::generator ve coroutine connection
+- std::stacktrace, if consteval, multidimensional operator[]
+
 ## C++ idioms and techniques
 - ADL + fallback 
 - attorney - client 
