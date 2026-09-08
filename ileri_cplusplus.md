@@ -178,6 +178,7 @@
 - explicit object parameter / deducing this
 - std::print / std::format
 - std::mdspan
+- std::flat_set, std::flat_map
 - std::generator ve coroutine connection
 - std::stacktrace, if consteval, multidimensional operator[]
 
